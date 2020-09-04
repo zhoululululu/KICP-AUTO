@@ -1,0 +1,15 @@
+[Email]
+port = 465
+login_email = 609200751@qq.com
+login_password = aypbshupgalqbbjd
+smtp = smtp.qq.com
+subject = AUTO-API Test Result
+mailbody = 接口自动化测试报告
+Recipient = zl@kuaishang.cn
+
+[Mysql]
+db_host = 192.168.26.241
+db_port = 3306
+user_name = root
+user_pwd = mysqlcenter
+db_name = ks_robot
