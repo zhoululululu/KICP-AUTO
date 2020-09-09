@@ -42,7 +42,6 @@ class Config:
         获取xpath的各种参数配置值
         """
         self.conf['db_host'] = self.config.get("Mysql", "db_host")
-        self.conf['db_name'] = self.config.get("Mysql", "db_name")
         self.conf['db_port'] = self.config.get("Mysql", "db_port")
         self.conf['user_name'] = self.config.get("Mysql", "user_name")
         self.conf['user_pwd'] = self.config.get("Mysql", "user_pwd")

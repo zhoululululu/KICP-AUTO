@@ -40,3 +40,13 @@ class ChangeDataType:
         except Exception as e:
             print(e)
         return test_data
+
+    def get_test_data(file, sheet_name=None):
+        all_data = ChangeDataType.file_to_dict(rootPath + "\\testdata\\" + file, sheet_name=sheet_name)
+        description = all_data.description.tolist()
+        params = all_data.data.tolist()
+        assert_value = all_data.assert_value.tolist()
+        result = []
+        for i in range(len(params)):
+            result.append((description[i], params[i], assert_value[i]))
+        return result

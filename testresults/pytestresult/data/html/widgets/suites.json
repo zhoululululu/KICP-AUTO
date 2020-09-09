@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "4750a13bf6bb1d72e7cb09dd56890581",
+    "name" : "test_robot_config",
+    "statistic" : {
+      "failed" : 23,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 46
+    }
+  } ]
+}

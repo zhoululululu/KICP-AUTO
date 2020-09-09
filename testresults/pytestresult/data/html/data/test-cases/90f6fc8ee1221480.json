@@ -1,0 +1,102 @@
+{
+  "uid" : "90f6fc8ee1221480",
+  "name" : "正常查询-暖场语非空查询",
+  "fullName" : "test_robot_config.TestRobotConfig#test_robot_warm_word_query",
+  "historyId" : "ce1518180ef6f7e506367f20842d38c9",
+  "time" : {
+    "start" : 1599642122474,
+    "stop" : 1599642122524,
+    "duration" : 50
+  },
+  "description" : "\n        机器人暖场语查询\n        ",
+  "descriptionHtml" : "<pre><code>    机器人暖场语查询\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1599642120139,
+      "stop" : 1599642120139,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1599642123402,
+      "stop" : 1599642123402,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "机器人暖场语查询"
+  }, {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "10424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'sql-select ww.robotId,ww.warmResponseEnable,ww.getContactDontSendEnable,ww.warmResponseEnable,ww.warmSendLimitNums,wwl.recordId,wwl.robotId,wwl.intervalSeconds,wwl.responseContent,wwl.indexNo,ww.userId from robot_warm_word ww,robot_warm_word_list wwl where ww.robotId =709 and ww.userId = 11 and ww.userId = wwl.userId and wwl.robotId = ww.robotId'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常查询-暖场语非空查询'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"709\",\"userId\":\"11\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "90f6fc8ee1221480.json",
+  "parameterValues" : [ "'sql-select ww.robotId,ww.warmResponseEnable,ww.getContactDontSendEnable,ww.warmResponseEnable,ww.warmSendLimitNums,wwl.recordId,wwl.robotId,wwl.intervalSeconds,wwl.responseContent,wwl.indexNo,ww.userId from robot_warm_word ww,robot_warm_word_list wwl where ww.robotId =709 and ww.userId = 11 and ww.userId = wwl.userId and wwl.robotId = ww.robotId'", "'正常查询-暖场语非空查询'", "'{\"robotId\":\"709\",\"userId\":\"11\"}'" ]
+}

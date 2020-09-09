@@ -1,0 +1,139 @@
+"Status","Name","Duration in ms","Description"
+"failed","test_robot_config.TestRobotConfig#test_robot_threshold_save","58","
+        机器人阈值范围保存
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_un_problem_query","83","
+        机器人未知问题回复查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_guide_query","45","
+        机器人引导语查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_threshold_query","42","
+        机器人阈值范围查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_threshold_save","92","
+        机器人阈值范围保存
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_guide_query","48","
+        机器人引导语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_threshold_save","49","
+        机器人阈值范围保存
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_threshold_save","47","
+        机器人阈值范围保存
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_threshold_query","39","
+        机器人阈值范围查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_guide_query","43","
+        机器人引导语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_warm_word_query","50","
+        机器人暖场语查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_threshold_save","45","
+        机器人阈值范围保存
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_warm_word_query","46","
+        机器人暖场语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_warm_word_query","79","
+        机器人暖场语查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_warm_word_query","69","
+        机器人暖场语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_greeting_query","73","
+        机器人问候语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_threshold_save","39","
+        机器人阈值范围保存
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_greeting_query","50","
+        机器人问候语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_guide_query","65","
+        机器人引导语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_greeting_query","34","
+        机器人问候语查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_threshold_query","44","
+        机器人阈值范围查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_greeting_query","47","
+        机器人问候语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_threshold_query","42","
+        机器人阈值范围查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_greeting_query","63","
+        机器人问候语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_warm_word_query","69","
+        机器人暖场语查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_guide_query","42","
+        机器人引导语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_guide_query","67","
+        机器人引导语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_un_problem_query","43","
+        机器人未知问题回复查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_un_problem_query","44","
+        机器人未知问题回复查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_un_problem_query","62","
+        机器人未知问题回复查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_threshold_save","52","
+        机器人阈值范围保存
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_greeting_query","52","
+        机器人问候语查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_threshold_query","42","
+        机器人阈值范围查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_un_problem_query","39","
+        机器人未知问题回复查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_un_problem_query","54","
+        机器人未知问题回复查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_un_problem_query","67","
+        机器人未知问题回复查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_threshold_save","49","
+        机器人阈值范围保存
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_threshold_save","46","
+        机器人阈值范围保存
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_threshold_query","59","
+        机器人阈值范围查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_threshold_save","55","
+        机器人阈值范围保存
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_threshold_save","105","
+        机器人阈值范围保存
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_threshold_save","51","
+        机器人阈值范围保存
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_greeting_query","70","
+        机器人问候语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_guide_query","53","
+        机器人引导语查询
+        "
+"failed","test_robot_config.TestRobotConfig#test_robot_warm_word_query","49","
+        机器人暖场语查询
+        "
+"passed","test_robot_config.TestRobotConfig#test_robot_warm_word_query","49","
+        机器人暖场语查询
+        "

@@ -1,0 +1,102 @@
+{
+  "uid" : "73f537aef00950f1",
+  "name" : "正常查询-引导语非空查询",
+  "fullName" : "test_robot_config.TestRobotConfig#test_robot_guide_query",
+  "historyId" : "b816e9ef4e8b1561867598e18e4d56f0",
+  "time" : {
+    "start" : 1599642122036,
+    "stop" : 1599642122089,
+    "duration" : 53
+  },
+  "description" : "\n        机器人引导语查询\n        ",
+  "descriptionHtml" : "<pre><code>    机器人引导语查询\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1599642120139,
+      "stop" : 1599642120139,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1599642123402,
+      "stop" : 1599642123402,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "机器人引导语查询"
+  }, {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "10424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'sql-select gw.robotId,gw.guideResponseEnable,gwl.recordId,gw.robotId,gwl.intervalSeconds,gwl.responseContent,gwl.indexNo,gw.userId from robot_guide_word gw,robot_guide_word_list gwl where gw.robotId =709 and gw.userId = 11 and gw.userId = gwl.userId and gwl.robotId = gw.robotId'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常查询-引导语非空查询'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"709\",\"userId\":\"11\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "73f537aef00950f1.json",
+  "parameterValues" : [ "'sql-select gw.robotId,gw.guideResponseEnable,gwl.recordId,gw.robotId,gwl.intervalSeconds,gwl.responseContent,gwl.indexNo,gw.userId from robot_guide_word gw,robot_guide_word_list gwl where gw.robotId =709 and gw.userId = 11 and gw.userId = gwl.userId and gwl.robotId = gw.robotId'", "'正常查询-引导语非空查询'", "'{\"robotId\":\"709\",\"userId\":\"11\"}'" ]
+}

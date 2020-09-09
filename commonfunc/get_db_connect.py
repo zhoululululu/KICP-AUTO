@@ -10,14 +10,14 @@ import pymysql
 
 
 class SqlConnect:
-    def __init__(self, ):
+    def __init__(self, db_name):
         self.config = Config()
         self.c = self.config.get_sql_info()
         self.db_host = self.c["db_host"]
         self.db_port = int(self.c["db_port"])
         self.db_user = self.c["user_name"]
         self.db_password = self.c["user_pwd"]
-        self.db_name = self.c["db_name"]
+        self.db_name = db_name
 
     def open(self):
         try:
@@ -34,25 +34,25 @@ class SqlConnect:
         self.currentConn = conn  # 数据库连接完成
         self.cursor = self.currentConn.cursor()  # 游标，用来执行数据库
 
-    def exec_sql(self, sql, numbers=True):
+    def spliteSql(self, sql):
+        sqllist = sql.split(';')
+        return sqllist[0:-1]
+        # 最后面会多一条空值
+
+    def exec_sql(self, sql):
         '''执行sql,支持执行多条sql语句。'''
         self.open()
-        sqllist = self.spliteSql(sql)  # 先处理传入的sql语句
         with self.cursor as my_cursor:
-            for i in sqllist:
-                try:
-                    my_cursor.execute(i)  # 执行sql语句
-                    if numbers == False:
-                        self.resultlist = my_cursor.fetchone()  # 获取一行数据
-                    if numbers == True:
-                        self.resultlist = my_cursor.fetchall()  # 获取多行数据
-                    self.currentConn.commit()  # 提交
-                except pymysql.err.ProgrammingError as e:
-                    print("SQL语句不合法!")
-        if self.currentConn:
-            self.close()
-        return self.resultlist
+            my_cursor.execute(sql)  # 执行sql语句
+            self.resultlist = my_cursor.fetchall()
+            return self.resultlist
 
+    def delete_data(self, sql):
+        self.open()
+        with self.cursor as my_cursor:
+            my_cursor.execute(sql)  # 执行删除
+            # 提交
+            self.currentConn.commit()
 
     def close(self):  # 关闭连接
         if self.cursor:
@@ -60,5 +60,8 @@ class SqlConnect:
         self.currentConn.close()
 
 
-if __name__ == '__main__':
-    SqlConnect().exec_sql("select * from cc_robotcfg")
+#
+# if __name__ == '__main__':
+#     result = SqlConnect("kicp_robot_config").exec_sql(
+#         "select gw.robotId,gw.guideResponseEnable,gwl.recordId,gw.robotId,gwl.intervalSeconds,gwl.indexNo,gw.userId from robot_guide_word gw,robot_guide_word_list gwl where gw.robotId =709 and gw.userId = 11 and gw.userId = gwl.userId and gwl.robotId = gw.robotId")
+#     print(result)

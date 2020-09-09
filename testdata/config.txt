@@ -8,8 +8,7 @@ mailbody = 接口自动化测试报告
 Recipient = zl@kuaishang.cn
 
 [Mysql]
-db_host = 192.168.26.241
+db_host = 192.168.26.210
 db_port = 3306
 user_name = root
-user_pwd = mysqlcenter
-db_name = ks_robot
+user_pwd = kicp

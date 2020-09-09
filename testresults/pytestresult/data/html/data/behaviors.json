@@ -1,0 +1,585 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "机器人配置",
+    "children" : [ {
+      "name" : "机器人阈值范围查询",
+      "children" : [ {
+        "name" : "正常查询",
+        "uid" : "8475956347020624",
+        "parentUid" : "408887e7140d9db3d6166b2e631b19b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642120140,
+          "stop" : 1599642120199,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-8'", "'正常查询'", "'{\"robotId\":\"709\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-userId与robotId不匹配",
+        "uid" : "4cba19712979ebb9",
+        "parentUid" : "408887e7140d9db3d6166b2e631b19b9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642120204,
+          "stop" : 1599642120246,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-userId与robotId不匹配'", "'{\"robotId\":\"112\",\"userId\":\"11\",\"faqThresholdFrom\":0.75,\"faqThresholdTo\":-0.75}'" ]
+      }, {
+        "name" : "错参-robotId为空",
+        "uid" : "44f73fad8cb52449",
+        "parentUid" : "408887e7140d9db3d6166b2e631b19b9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642120386,
+          "stop" : 1599642120430,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-robotId为空'", "'{\"robotId\":\"\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-userId为空",
+        "uid" : "c5c93356f3961fe4",
+        "parentUid" : "408887e7140d9db3d6166b2e631b19b9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642120441,
+          "stop" : 1599642120483,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-userId为空'", "'{\"robotId\":\"358\",\"userId\":\"\"}'" ]
+      }, {
+        "name" : "缺参-robotId缺少",
+        "uid" : "25c6ec6cddb00868",
+        "parentUid" : "408887e7140d9db3d6166b2e631b19b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642120494,
+          "stop" : 1599642120533,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "parameters" : [ "'message-Required Long parameter 'robotId' is not present'", "'缺参-robotId缺少'", "'{\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "缺参-userId缺少",
+        "uid" : "217c6e1e401a7b3d",
+        "parentUid" : "408887e7140d9db3d6166b2e631b19b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642120538,
+          "stop" : 1599642120580,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "parameters" : [ "'message-Required Long parameter 'userId' is not present'", "'缺参-userId缺少'", "'{\"robotId\":\"358\"}'" ]
+      } ],
+      "uid" : "408887e7140d9db3d6166b2e631b19b9"
+    }, {
+      "name" : "机器人阈值范围保存",
+      "children" : [ {
+        "name" : "正常修改阈值",
+        "uid" : "315e3907eae8ee7d",
+        "parentUid" : "fbd66bf8823d832a124dad1ddfa89abd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642120585,
+          "stop" : 1599642120677,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-8'", "'正常修改阈值'", "'{\"robotId\":\"709\",\"userId\":\"11\",\"faqThresholdFrom\":0.75,\"faqThresholdTo\":1}'" ]
+      }, {
+        "name" : "错参-修改前阈值为负数",
+        "uid" : "f69d044e010470fd",
+        "parentUid" : "fbd66bf8823d832a124dad1ddfa89abd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642120682,
+          "stop" : 1599642120734,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-修改前阈值为负数'", "'{\"robotId\":\"709\",\"userId\":\"11\",\"faqThresholdFrom\":-0.75,\"faqThresholdTo\":1}'" ]
+      }, {
+        "name" : "错参-修改前阈值大于1",
+        "uid" : "8c3bcfec77533568",
+        "parentUid" : "fbd66bf8823d832a124dad1ddfa89abd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642120744,
+          "stop" : 1599642120793,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-修改前阈值大于1'", "'{\"robotId\":\"709\",\"userId\":\"11\",\"faqThresholdFrom\":75,\"faqThresholdTo\":1}'" ]
+      }, {
+        "name" : "错参-修改后阈值为负数",
+        "uid" : "91a8db03f08eb182",
+        "parentUid" : "fbd66bf8823d832a124dad1ddfa89abd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642120803,
+          "stop" : 1599642120848,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-修改后阈值为负数'", "'{\"robotId\":\"709\",\"userId\":\"11\",\"faqThresholdFrom\":0.75,\"faqThresholdTo\":-0.75}'" ]
+      }, {
+        "name" : "错参-修改后阈值大于1",
+        "uid" : "7cd05492421d64ce",
+        "parentUid" : "fbd66bf8823d832a124dad1ddfa89abd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642120859,
+          "stop" : 1599642120906,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-修改后阈值大于1'", "'{\"robotId\":\"709\",\"userId\":\"11\",\"faqThresholdFrom\":0.75,\"faqThresholdTo\":75}'" ]
+      }, {
+        "name" : "错参-userId与robotId不匹配",
+        "uid" : "b810f6069c5c047f",
+        "parentUid" : "fbd66bf8823d832a124dad1ddfa89abd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642120917,
+          "stop" : 1599642121022,
+          "duration" : 105
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-userId与robotId不匹配'", "'{\"robotId\":\"112\",\"userId\":\"11\",\"faqThresholdFrom\":0.75,\"faqThresholdTo\":1}'" ]
+      }, {
+        "name" : "错参-robotId为空",
+        "uid" : "138b5a2c69d85165",
+        "parentUid" : "fbd66bf8823d832a124dad1ddfa89abd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642121035,
+          "stop" : 1599642121084,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-robotId为空'", "'{\"robotId\":\"\",\"userId\":\"11\",\"faqThresholdFrom\":-0.75,\"faqThresholdTo\":1}'" ]
+      }, {
+        "name" : "错参-userId为空",
+        "uid" : "dd18f458db4d4c44",
+        "parentUid" : "fbd66bf8823d832a124dad1ddfa89abd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642121112,
+          "stop" : 1599642121167,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-userId为空'", "'{\"robotId\":\"709\",\"userId\":\"\",\"faqThresholdFrom\":75,\"faqThresholdTo\":1}'" ]
+      }, {
+        "name" : "错参-faqThresholdFrom为空",
+        "uid" : "8994ee76a91f3746",
+        "parentUid" : "fbd66bf8823d832a124dad1ddfa89abd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642121176,
+          "stop" : 1599642121227,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-faqThresholdFrom为空'", "'{\"robotId\":\"709\",\"userId\":\"11\",\"faqThresholdFrom\":\"\",\"faqThresholdTo\":1}'" ]
+      }, {
+        "name" : "错参-faqThresholdTo为空",
+        "uid" : "ee54ac47cd7434d6",
+        "parentUid" : "fbd66bf8823d832a124dad1ddfa89abd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642121241,
+          "stop" : 1599642121299,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-faqThresholdTo为空'", "'{\"robotId\":\"709\",\"userId\":\"11\",\"faqThresholdFrom\":0.75,\"faqThresholdTo\":\"\"}'" ]
+      }, {
+        "name" : "缺参-robotId缺少",
+        "uid" : "addf821d7e149d5",
+        "parentUid" : "fbd66bf8823d832a124dad1ddfa89abd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642121344,
+          "stop" : 1599642121390,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'缺参-robotId缺少'", "'{\"userId\":\"11\",\"faqThresholdFrom\":0.75,\"faqThresholdTo\":1}'" ]
+      }, {
+        "name" : "缺参-robotId缺少",
+        "uid" : "90ea6d6c4e3159e",
+        "parentUid" : "fbd66bf8823d832a124dad1ddfa89abd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642121396,
+          "stop" : 1599642121435,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'缺参-robotId缺少'", "'{\"robotId\":\"11\",\"faqThresholdFrom\":0.75,\"faqThresholdTo\":1}'" ]
+      } ],
+      "uid" : "fbd66bf8823d832a124dad1ddfa89abd"
+    }, {
+      "name" : "机器人问候语查询",
+      "children" : [ {
+        "name" : "正常查询-问候语为空查询",
+        "uid" : "91e45b32067bfc17",
+        "parentUid" : "f65ec5fcc4f854dff00a40fc417eac85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642121442,
+          "stop" : 1599642121494,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-8'", "'正常查询-问候语为空查询'", "'{\"robotId\":\"358\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "正常查询-问候语非空查询",
+        "uid" : "742d3c103bc99034",
+        "parentUid" : "f65ec5fcc4f854dff00a40fc417eac85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642121524,
+          "stop" : 1599642121594,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "parameters" : [ "'sql-select robotId,normalGreetingEnable,normalGreetingContent,keywordGreetingEnable,keywordGreetingContent,userId from robot_greeting_word where robotId=709'", "'正常查询-问候语非空查询'", "'{\"robotId\":\"709\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-robotId与userId不匹配",
+        "uid" : "dc2043ede3b4c6ae",
+        "parentUid" : "f65ec5fcc4f854dff00a40fc417eac85",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642121613,
+          "stop" : 1599642121663,
+          "duration" : 50
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-robotId与userId不匹配'", "'{\"robotId\":\"112\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-robotId为空",
+        "uid" : "909556f1ab82e84d",
+        "parentUid" : "f65ec5fcc4f854dff00a40fc417eac85",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642121676,
+          "stop" : 1599642121723,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-robotId为空'", "'{\"robotId\":\"\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-userId为空",
+        "uid" : "ca6552e0e903f055",
+        "parentUid" : "f65ec5fcc4f854dff00a40fc417eac85",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642121770,
+          "stop" : 1599642121833,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-userId为空'", "'{\"robotId\":\"709\",\"userId\":\"\"}'" ]
+      }, {
+        "name" : "缺参-robotId为空",
+        "uid" : "5fb1de0508251231",
+        "parentUid" : "f65ec5fcc4f854dff00a40fc417eac85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642121844,
+          "stop" : 1599642121878,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "parameters" : [ "'message-Required Long parameter 'robotId' is not present'", "'缺参-robotId为空'", "'{\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "缺参-userId为空",
+        "uid" : "3ab7cefaf7eca737",
+        "parentUid" : "f65ec5fcc4f854dff00a40fc417eac85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642121885,
+          "stop" : 1599642121958,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "parameters" : [ "'message-Required Long parameter 'userId' is not present'", "'缺参-userId为空'", "'{\"robotId\":\"709\"}'" ]
+      } ],
+      "uid" : "f65ec5fcc4f854dff00a40fc417eac85"
+    }, {
+      "name" : "机器人引导语查询",
+      "children" : [ {
+        "name" : "正常查询-引导语为空查询",
+        "uid" : "4e163ad9637d28a6",
+        "parentUid" : "c5d908b2cab2e210b7c71d16dd9833b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642121965,
+          "stop" : 1599642122030,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-8'", "'正常查询-引导语为空查询'", "'{\"robotId\":\"358\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "正常查询-引导语非空查询",
+        "uid" : "73f537aef00950f1",
+        "parentUid" : "c5d908b2cab2e210b7c71d16dd9833b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642122036,
+          "stop" : 1599642122089,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "parameters" : [ "'sql-select gw.robotId,gw.guideResponseEnable,gwl.recordId,gw.robotId,gwl.intervalSeconds,gwl.responseContent,gwl.indexNo,gw.userId from robot_guide_word gw,robot_guide_word_list gwl where gw.robotId =709 and gw.userId = 11 and gw.userId = gwl.userId and gwl.robotId = gw.robotId'", "'正常查询-引导语非空查询'", "'{\"robotId\":\"709\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-robotId与userId不匹配",
+        "uid" : "f936926b6cbe306e",
+        "parentUid" : "c5d908b2cab2e210b7c71d16dd9833b6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642122097,
+          "stop" : 1599642122139,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-robotId与userId不匹配'", "'{\"robotId\":\"112\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-robotId为空",
+        "uid" : "8366255908419f18",
+        "parentUid" : "c5d908b2cab2e210b7c71d16dd9833b6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642122153,
+          "stop" : 1599642122201,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-robotId为空'", "'{\"robotId\":\"\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-userId为空",
+        "uid" : "8f07a77c30db8d43",
+        "parentUid" : "c5d908b2cab2e210b7c71d16dd9833b6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642122217,
+          "stop" : 1599642122262,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-userId为空'", "'{\"robotId\":\"709\",\"userId\":\"\"}'" ]
+      }, {
+        "name" : "缺参-robotId为空",
+        "uid" : "eeca010936020e30",
+        "parentUid" : "c5d908b2cab2e210b7c71d16dd9833b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642122276,
+          "stop" : 1599642122319,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ "'message-Required Long parameter 'robotId' is not present'", "'缺参-robotId为空'", "'{\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "缺参-userId为空",
+        "uid" : "3350cd59ebf9a51e",
+        "parentUid" : "c5d908b2cab2e210b7c71d16dd9833b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642122326,
+          "stop" : 1599642122393,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "parameters" : [ "'message-Required Long parameter 'userId' is not present'", "'缺参-userId为空'", "'{\"robotId\":\"709\"}'" ]
+      } ],
+      "uid" : "c5d908b2cab2e210b7c71d16dd9833b6"
+    }, {
+      "name" : "机器人暖场语查询",
+      "children" : [ {
+        "name" : "正常查询-暖场语为空查询",
+        "uid" : "1c77e795b563442d",
+        "parentUid" : "88130a93b6f6071913d0ddb691e042ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642122398,
+          "stop" : 1599642122467,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-8'", "'正常查询-暖场语为空查询'", "'{\"robotId\":\"358\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "正常查询-暖场语非空查询",
+        "uid" : "90f6fc8ee1221480",
+        "parentUid" : "88130a93b6f6071913d0ddb691e042ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642122474,
+          "stop" : 1599642122524,
+          "duration" : 50
+        },
+        "flaky" : false,
+        "parameters" : [ "'sql-select ww.robotId,ww.warmResponseEnable,ww.getContactDontSendEnable,ww.warmResponseEnable,ww.warmSendLimitNums,wwl.recordId,wwl.robotId,wwl.intervalSeconds,wwl.responseContent,wwl.indexNo,ww.userId from robot_warm_word ww,robot_warm_word_list wwl where ww.robotId =709 and ww.userId = 11 and ww.userId = wwl.userId and wwl.robotId = ww.robotId'", "'正常查询-暖场语非空查询'", "'{\"robotId\":\"709\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-robotId与userId不匹配",
+        "uid" : "595a0c3951472bd6",
+        "parentUid" : "88130a93b6f6071913d0ddb691e042ab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642122530,
+          "stop" : 1599642122576,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-robotId与userId不匹配'", "'{\"robotId\":\"112\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-robotId为空",
+        "uid" : "d96907c625b4406d",
+        "parentUid" : "88130a93b6f6071913d0ddb691e042ab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642122597,
+          "stop" : 1599642122646,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-robotId为空'", "'{\"robotId\":\"\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-userId为空",
+        "uid" : "6fa3434f80c07f0",
+        "parentUid" : "88130a93b6f6071913d0ddb691e042ab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642122667,
+          "stop" : 1599642122736,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-userId为空'", "'{\"robotId\":\"709\",\"userId\":\"\"}'" ]
+      }, {
+        "name" : "缺参-robotId为空",
+        "uid" : "f6a4258e332723cb",
+        "parentUid" : "88130a93b6f6071913d0ddb691e042ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642122768,
+          "stop" : 1599642122817,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "parameters" : [ "'message-Required Long parameter 'robotId' is not present'", "'缺参-robotId为空'", "'{\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "缺参-userId为空",
+        "uid" : "5ee80bddeab3af16",
+        "parentUid" : "88130a93b6f6071913d0ddb691e042ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642122840,
+          "stop" : 1599642122919,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "parameters" : [ "'message-Required Long parameter 'userId' is not present'", "'缺参-userId为空'", "'{\"robotId\":\"709\"}'" ]
+      } ],
+      "uid" : "88130a93b6f6071913d0ddb691e042ab"
+    }, {
+      "name" : "机器人未知问题回复查询",
+      "children" : [ {
+        "name" : "正常查询-未知问题回复为空查询",
+        "uid" : "6eeae4d10c947c6a",
+        "parentUid" : "fb8cde35e52cf70ed3cb7701022dd1a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642122926,
+          "stop" : 1599642122993,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-8'", "'正常查询-未知问题回复为空查询'", "'{\"robotId\":\"358\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "正常查询-未知问题回复非空查询",
+        "uid" : "60dbdcc9fc453270",
+        "parentUid" : "fb8cde35e52cf70ed3cb7701022dd1a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642123011,
+          "stop" : 1599642123094,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "parameters" : [ "'sql-select ww.robotId,ww.warmResponseEnable,ww.getContactDontSendEnable,ww.warmResponseEnable,ww.warmSendLimitNums,wwl.recordId,wwl.robotId,wwl.intervalSeconds,wwl.responseContent,wwl.indexNo,ww.userId from robot_warm_word ww,robot_warm_word_list wwl where ww.robotId =709 and ww.userId = 11 and ww.userId = wwl.userId and wwl.robotId = ww.robotId'", "'正常查询-未知问题回复非空查询'", "'{\"robotId\":\"709\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-robotId与userId不匹配",
+        "uid" : "1fbfdc36c21e51e1",
+        "parentUid" : "fb8cde35e52cf70ed3cb7701022dd1a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642123105,
+          "stop" : 1599642123159,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-robotId与userId不匹配'", "'{\"robotId\":\"112\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-robotId为空",
+        "uid" : "22fcec7e331044a",
+        "parentUid" : "fb8cde35e52cf70ed3cb7701022dd1a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642123181,
+          "stop" : 1599642123220,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-robotId为空'", "'{\"robotId\":\"\",\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "错参-userId为空",
+        "uid" : "4d97b92abfbcca6d",
+        "parentUid" : "fb8cde35e52cf70ed3cb7701022dd1a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599642123234,
+          "stop" : 1599642123278,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1213'", "'错参-userId为空'", "'{\"robotId\":\"709\",\"userId\":\"\"}'" ]
+      }, {
+        "name" : "缺参-robotId为空",
+        "uid" : "631bf22cebaec460",
+        "parentUid" : "fb8cde35e52cf70ed3cb7701022dd1a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642123290,
+          "stop" : 1599642123333,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ "'message-Required Long parameter 'robotId' is not present'", "'缺参-robotId为空'", "'{\"userId\":\"11\"}'" ]
+      }, {
+        "name" : "缺参-userId为空",
+        "uid" : "4e5ff895faad53ee",
+        "parentUid" : "fb8cde35e52cf70ed3cb7701022dd1a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599642123338,
+          "stop" : 1599642123400,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "parameters" : [ "'message-Required Long parameter 'userId' is not present'", "'缺参-userId为空'", "'{\"robotId\":\"709\"}'" ]
+      } ],
+      "uid" : "fb8cde35e52cf70ed3cb7701022dd1a8"
+    } ],
+    "uid" : "d89f4d0ae4665d5b617417ea9d5a5b51"
+  } ]
+}
