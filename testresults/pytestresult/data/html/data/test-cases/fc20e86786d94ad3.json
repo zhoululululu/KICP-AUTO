@@ -1,0 +1,75 @@
+{
+  "uid" : "fc20e86786d94ad3",
+  "name" : "正常保存-配置信息（不包含相似问题）,状态为开启",
+  "fullName" : "pytest.test_robot_faq.TestRobotFaq#test_save_faq[正常保存-配置信息（不包含相似问题）,状态为开启-{\"data\":{\"question\": \"ZL-接口测试111\", \"categoryId\": \"0\",\"similarQuestionforms\": [],\"answerForms\": ",
+  "historyId" : "a2405e6968a719c93fa492006dc641c0",
+  "time" : {
+    "start" : 1600424590534,
+    "stop" : 1600424590716,
+    "duration" : 182
+  },
+  "description" : "\n        常规问答问答对配置信息--保存\n        ",
+  "descriptionHtml" : "<pre><code>    常规问答问答对配置信息--保存\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "常规问答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "常规问答问答对配置信息--保存"
+  }, {
+    "name" : "tag",
+    "value" : "robot_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常保存-配置信息（不包含相似问题）,状态为开启'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"data\":{\"question\": \"ZL-接口测试111\", \"categoryId\": \"0\",\"similarQuestionforms\": [],\"answerForms\": [{\"content\": \"<div>ZL-接口测试111</div>\"}], \"effectiveType\": 0,\"sourceType\": 0, \"enable\": True, \"userId\": \"11\", \"robotId\": \"877\"}}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_faq" ]
+  },
+  "source" : "fc20e86786d94ad3.json",
+  "parameterValues" : [ "'code-8'", "'正常保存-配置信息（不包含相似问题）,状态为开启'", "'{\"data\":{\"question\": \"ZL-接口测试111\", \"categoryId\": \"0\",\"similarQuestionforms\": [],\"answerForms\": [{\"content\": \"<div>ZL-接口测试111</div>\"}], \"effectiveType\": 0,\"sourceType\": 0, \"enable\": True, \"userId\": \"11\", \"robotId\": \"877\"}}'" ]
+}

@@ -1,0 +1,105 @@
+{
+  "uid" : "cdb8bcb99f9e6cc5",
+  "name" : "错参-userId为空",
+  "fullName" : "pytest.test_robot_faq.TestRobotFaq#test_search_page",
+  "historyId" : "57f8112e63388659e4549e0696382f1b",
+  "time" : {
+    "start" : 1600424594100,
+    "stop" : 1600424594138,
+    "duration" : 38
+  },
+  "description" : "\n        常规问答问答对配置信息--模糊查询分页数据\n        ",
+  "descriptionHtml" : "<pre><code>    常规问答问答对配置信息--模糊查询分页数据\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600424588759,
+      "stop" : 1600424588759,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600424594369,
+      "stop" : 1600424594369,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "常规问答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "常规问答问答对配置信息--模糊查询分页数据"
+  }, {
+    "name" : "tag",
+    "value" : "robot_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1214'"
+  }, {
+    "name" : "desc",
+    "value" : "'错参-userId为空'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"userId\": \"\", \"robotId\": \"877\",\"keyName\": \"answer\",\"curPage\": \"1\",\"pageSize\": \"10\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_faq" ]
+  },
+  "source" : "cdb8bcb99f9e6cc5.json",
+  "parameterValues" : [ "'code-1214'", "'错参-userId为空'", "'{\"userId\": \"\", \"robotId\": \"877\",\"keyName\": \"answer\",\"curPage\": \"1\",\"pageSize\": \"10\"}'" ]
+}

@@ -1,0 +1,81 @@
+{
+  "uid" : "5351451e4d4f09c",
+  "name" : "正常添加-仅添加问题及答案",
+  "fullName" : "pytest.test_robot_template_category.TestRobotTemplateCategory#test_save_faq[正常添加-仅添加问题及答案-{\"data\":{\"question\":\"zl-test分类测试问题1\",\"categoryId\":\"904\",\"similarQuestionforms\":[{\"question\":\"\"}],\"answerForms\":",
+  "historyId" : "7684a5a3f5a8a90e599dfe67760983b0",
+  "time" : {
+    "start" : 1600424602842,
+    "stop" : 1600424602884,
+    "duration" : 42
+  },
+  "description" : "\n        预置问答问答对分类信息--保存\n        ",
+  "descriptionHtml" : "<pre><code>    预置问答问答对分类信息--保存\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert None\n +  where None = <function Assert.get_result at 0x0000018B4AF03510>('1101', '8')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
+  "statusTrace" : "self = <test_robot_template_category.TestRobotTemplateCategory object at 0x0000018B4BCDBF28>\ndesc = '正常添加-仅添加问题及答案'\nparams = '{\"data\":{\"question\":\"zl-test分类测试问题1\",\"categoryId\":\"904\",\"similarQuestionforms\":[{\"question\":\"\"}],\"answerForms\":[{\"content\":\"<div>zl-test分类测试回答1</div>\"}],\"effectiveType\":0,\"sourceType\":0,\"enable\":true,\"userId\":\"11\",\"robotId\":\"877\"}}'\nassert_value = 'code-8'\n\n    @pytest.mark.parametrize('desc,params,assert_value', save_faq)  # 用例参数化\n    @allure.feature(\"预置回答问答对配置信息\")\n    @allure.story('预置问答问答对分类信息--保存')  # 描述\n    @allure.title('{desc}')  # title\n    @pytest.mark.flaky(returns=0)  # 标记失败后重新运行次数\n    @pytest.mark.faq_template\n    def test_save_faq(self, desc, params, assert_value):\n        \"\"\"\n        预置问答问答对分类信息--保存\n        \"\"\"\n        actual_result, expect_result = FaqSaveTemplate.save_template_faq(self.url, params, assert_value)\n>       assert Assert.get_result(actual_result, expect_result)\nE       AssertionError: assert None\nE        +  where None = <function Assert.get_result at 0x0000018B4AF03510>('1101', '8')\nE        +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result\n\ntest_robot_template_category.py:98: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "预置问答问答对分类信息--保存"
+  }, {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "tag",
+    "value" : "faq_template"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_template_category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotTemplateCategory"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_template_category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常添加-仅添加问题及答案'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"data\":{\"question\":\"zl-test分类测试问题1\",\"categoryId\":\"904\",\"similarQuestionforms\":[{\"question\":\"\"}],\"answerForms\":[{\"content\":\"<div>zl-test分类测试回答1</div>\"}],\"effectiveType\":0,\"sourceType\":0,\"enable\":true,\"userId\":\"11\",\"robotId\":\"877\"}}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "faq_template" ]
+  },
+  "source" : "5351451e4d4f09c.json",
+  "parameterValues" : [ "'code-8'", "'正常添加-仅添加问题及答案'", "'{\"data\":{\"question\":\"zl-test分类测试问题1\",\"categoryId\":\"904\",\"similarQuestionforms\":[{\"question\":\"\"}],\"answerForms\":[{\"content\":\"<div>zl-test分类测试回答1</div>\"}],\"effectiveType\":0,\"sourceType\":0,\"enable\":true,\"userId\":\"11\",\"robotId\":\"877\"}}'" ]
+}

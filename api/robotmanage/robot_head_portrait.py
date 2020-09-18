@@ -43,8 +43,8 @@ class RobotHeadPortrait:
         except Exception:
             raise Exception
 
-# if __name__ == '__main__':
-#     actual_result, except_result = RobotHeadPortrait().head_portrait("https://tkf-kicp.kuaishang.cn",
-#                                                                      json.dumps({"userId": "11", "robotId": "358",
-#                                                                                  "head_portrait": "head_portrait.jpg"}),
-#                                                                      "code-8")
+if __name__ == '__main__':
+    actual_result, except_result = RobotHeadPortrait().head_portrait("https://tkf-kicp.kuaishang.cn",
+                                                                     json.dumps({"userId": "11", "robotId": "358",
+                                                                                 "head_portrait": "head_portrait.jpg"}),
+                                                                     "code-8")

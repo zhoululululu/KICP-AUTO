@@ -54,12 +54,12 @@ class RobotDetail:
             raise Exception
 
 
-# if __name__ == '__main__':
-#     message, except_data = actual_result, except_result = RobotDetail().detail_robot("https://tkf-kicp.kuaishang.cn",
-#                                                                                      json.dumps(
-#                                                                                          {"userId": 11,
-#                                                                                           "robotId": 358}),
-#                                                                                      "sql-select robotId,robotName,nickNameInsite,robotType,robotPackage,robotTemplate,robotStatus,addTime,userId from robot_basic_info where userId=11 and robotId=358")
+if __name__ == '__main__':
+    message, except_data = actual_result, except_result = RobotDetail().detail_robot("https://tkf-kicp.kuaishang.cn",
+                                                                                     json.dumps(
+                                                                                         {"userId": 11,
+                                                                                          "robotId": 358}),
+                                                                                     "sql-select robotId,robotName,nickNameInsite,robotType,robotPackage,robotTemplate,robotStatus,addTime,userId from robot_basic_info where userId=11 and robotId=358")
 #     print(message, except_data)
 #     actual_result, except_result = RobotAdd().add_robot("https://tkf-kicp.kuaishang.cn", json.dumps(
 #         { "robotTemplate": "3", "robotPackage": "1", "nickNameOutsite": "zltestrobot1",

@@ -1,0 +1,81 @@
+{
+  "uid" : "7cc5e9c31073dc52",
+  "name" : "重复添加",
+  "fullName" : "pytest.test_robot_template_category.TestRobotTemplateCategory#test_save_faq[重复添加-{\"data\":{\"question\": \"zl-test分类测试问题2\", \"categoryId\": \"904\",\"similarQuestionforms\": [{\"question\": \"zl-test分类测试问题2-1\"}],\"answerForms\": [{\"content\": \"<div>zl-test分类测试回答2</div>\",\"condition\": \"",
+  "historyId" : "5e7fc5b5b5d31e36652a31c814f2abcc",
+  "time" : {
+    "start" : 1600424603011,
+    "stop" : 1600424603054,
+    "duration" : 43
+  },
+  "description" : "\n        预置问答问答对分类信息--保存\n        ",
+  "descriptionHtml" : "<pre><code>    预置问答问答对分类信息--保存\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('1101', '1253')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
+  "statusTrace" : "self = <test_robot_template_category.TestRobotTemplateCategory object at 0x0000018B4BCD6940>\ndesc = '重复添加'\nparams = '{\"data\":{\"question\": \"zl-test分类测试问题2\", \"categoryId\": \"904\",\"similarQuestionforms\": [{\"question\": \"zl-test分类测试问题2-1\"}]...\\\"content\\\\\":\\\\\"分类测试\\\\\"}]\"}], \"effectiveType\": 0, \"sourceType\": 0, \"enable\": \"true\", \"userId\": \"11\",\"robotId\": \"877\"}}'\nassert_value = 'code-1253'\n\n    @pytest.mark.parametrize('desc,params,assert_value', save_faq)  # 用例参数化\n    @allure.feature(\"预置回答问答对配置信息\")\n    @allure.story('预置问答问答对分类信息--保存')  # 描述\n    @allure.title('{desc}')  # title\n    @pytest.mark.flaky(returns=0)  # 标记失败后重新运行次数\n    @pytest.mark.faq_template\n    def test_save_faq(self, desc, params, assert_value):\n        \"\"\"\n        预置问答问答对分类信息--保存\n        \"\"\"\n        actual_result, expect_result = FaqSaveTemplate.save_template_faq(self.url, params, assert_value)\n>       assert Assert.get_result(actual_result, expect_result)\nE       AssertionError: assert False\nE        +  where False = <function Assert.get_result at 0x0000018B4AF03510>('1101', '1253')\nE        +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result\n\ntest_robot_template_category.py:98: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "预置问答问答对分类信息--保存"
+  }, {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "tag",
+    "value" : "faq_template"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_template_category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotTemplateCategory"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_template_category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1253'"
+  }, {
+    "name" : "desc",
+    "value" : "'重复添加'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"data\":{\"question\": \"zl-test分类测试问题2\", \"categoryId\": \"904\",\"similarQuestionforms\": [{\"question\": \"zl-test分类测试问题2-1\"}],\"answerForms\": [{\"content\": \"<div>zl-test分类测试回答2</div>\",\"condition\": \"[{\\\"action\\\":\\\"include\\\",\\\"type\\\":\\\"input\\\",\\\"content\\\":\\\"分类测试\\\"}]\"}], \"effectiveType\": 0, \"sourceType\": 0, \"enable\": \"true\", \"userId\": \"11\",\"robotId\": \"877\"}}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "faq_template" ]
+  },
+  "source" : "7cc5e9c31073dc52.json",
+  "parameterValues" : [ "'code-1253'", "'重复添加'", "'{\"data\":{\"question\": \"zl-test分类测试问题2\", \"categoryId\": \"904\",\"similarQuestionforms\": [{\"question\": \"zl-test分类测试问题2-1\"}],\"answerForms\": [{\"content\": \"<div>zl-test分类测试回答2</div>\",\"condition\": \"[{\\\"action\\\":\\\"include\\\",\\\"type\\\":\\\"input\\\",\\\"content\\\":\\\"分类测试\\\"}]\"}], \"effectiveType\": 0, \"sourceType\": 0, \"enable\": \"true\", \"userId\": \"11\",\"robotId\": \"877\"}}'" ]
+}

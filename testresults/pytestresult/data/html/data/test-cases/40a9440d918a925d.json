@@ -1,0 +1,105 @@
+{
+  "uid" : "40a9440d918a925d",
+  "name" : "缺参-userId缺失",
+  "fullName" : "pytest.test_robot_template_category.TestRobotTemplateCategory#test_check_question",
+  "historyId" : "b178bcdf9c70a26b1d91fd0a8796a411",
+  "time" : {
+    "start" : 1600424604505,
+    "stop" : 1600424604549,
+    "duration" : 44
+  },
+  "description" : "\n        预置问答问答对配置信息--验证标准问题\n        ",
+  "descriptionHtml" : "<pre><code>    预置问答问答对配置信息--验证标准问题\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600424599718,
+      "stop" : 1600424599718,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600424604601,
+      "stop" : 1600424604601,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "预置问答问答对配置信息--验证标准问题"
+  }, {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "tag",
+    "value" : "faq_template"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_template_category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotTemplateCategory"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_template_category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1100'"
+  }, {
+    "name" : "desc",
+    "value" : "'缺参-userId缺失'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\": \"8771\",\"question\": \"瘦脸针111\",\"size\": 11110}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "faq_template" ]
+  },
+  "source" : "40a9440d918a925d.json",
+  "parameterValues" : [ "'code-1100'", "'缺参-userId缺失'", "'{\"robotId\": \"8771\",\"question\": \"瘦脸针111\",\"size\": 11110}'" ]
+}

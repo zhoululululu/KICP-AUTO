@@ -1,460 +1,4290 @@
 [ {
-  "uid" : "ee54ac47cd7434d6",
-  "name" : "错参-faqThresholdTo为空",
+  "uid" : "ef57ba48c61a4ab9",
+  "name" : "正常保存-编辑通用问候语为空，关闭通用问候语",
   "time" : {
-    "start" : 1599642121241,
-    "stop" : 1599642121299,
-    "duration" : 58
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "60dbdcc9fc453270",
-  "name" : "正常查询-未知问题回复非空查询",
-  "time" : {
-    "start" : 1599642123011,
-    "stop" : 1599642123094,
-    "duration" : 83
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8f07a77c30db8d43",
-  "name" : "错参-userId为空",
-  "time" : {
-    "start" : 1599642122217,
-    "stop" : 1599642122262,
+    "start" : 1600424573259,
+    "stop" : 1600424573304,
     "duration" : 45
   },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a766ce474a43aa4",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424576786,
+    "stop" : 1600424576827,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62aa98d61e825d38",
+  "name" : "缺参-nickNameOutsite",
+  "time" : {
+    "start" : 1600424597209,
+    "stop" : 1600424597247,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "684f6534f7414775",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424583591,
+    "stop" : 1600424583630,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdf55a1d332dfe10",
+  "name" : "错参-responseContent为空",
+  "time" : {
+    "start" : 1600424576350,
+    "stop" : 1600424576403,
+    "duration" : 53
+  },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "4cba19712979ebb9",
+  "uid" : "c2da743bf36a749b",
   "name" : "错参-userId与robotId不匹配",
   "time" : {
-    "start" : 1599642120204,
-    "stop" : 1599642120246,
+    "start" : 1600424598746,
+    "stop" : 1600424598787,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e594389cab6052",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424589406,
+    "stop" : 1600424589448,
     "duration" : 42
   },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "315e3907eae8ee7d",
-  "name" : "正常修改阈值",
-  "time" : {
-    "start" : 1599642120585,
-    "stop" : 1599642120677,
-    "duration" : 92
-  },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8366255908419f18",
-  "name" : "错参-robotId为空",
+  "uid" : "43d7ddc0fe0ebf87",
+  "name" : "正常查询-question查询",
   "time" : {
-    "start" : 1599642122153,
-    "stop" : 1599642122201,
-    "duration" : 48
+    "start" : 1600424594607,
+    "stop" : 1600424594775,
+    "duration" : 168
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "138b5a2c69d85165",
-  "name" : "错参-robotId为空",
+  "uid" : "e5e0f5d4ea10b3ec",
+  "name" : "正常查询-仅templateId",
   "time" : {
-    "start" : 1599642121035,
-    "stop" : 1599642121084,
-    "duration" : 49
+    "start" : 1600424599719,
+    "stop" : 1600424599787,
+    "duration" : 68
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7cd05492421d64ce",
-  "name" : "错参-修改后阈值大于1",
-  "time" : {
-    "start" : 1599642120859,
-    "stop" : 1599642120906,
-    "duration" : 47
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "25c6ec6cddb00868",
-  "name" : "缺参-robotId缺少",
-  "time" : {
-    "start" : 1599642120494,
-    "stop" : 1599642120533,
-    "duration" : 39
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eeca010936020e30",
-  "name" : "缺参-robotId为空",
-  "time" : {
-    "start" : 1599642122276,
-    "stop" : 1599642122319,
-    "duration" : 43
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "90f6fc8ee1221480",
-  "name" : "正常查询-暖场语非空查询",
-  "time" : {
-    "start" : 1599642122474,
-    "stop" : 1599642122524,
-    "duration" : 50
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "91a8db03f08eb182",
-  "name" : "错参-修改后阈值为负数",
-  "time" : {
-    "start" : 1599642120803,
-    "stop" : 1599642120848,
-    "duration" : 45
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "595a0c3951472bd6",
-  "name" : "错参-robotId与userId不匹配",
-  "time" : {
-    "start" : 1599642122530,
-    "stop" : 1599642122576,
-    "duration" : 46
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ee80bddeab3af16",
-  "name" : "缺参-userId为空",
-  "time" : {
-    "start" : 1599642122840,
-    "stop" : 1599642122919,
-    "duration" : 79
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6fa3434f80c07f0",
+  "uid" : "9a44903cb572d30d",
   "name" : "错参-userId为空",
   "time" : {
-    "start" : 1599642122667,
-    "stop" : 1599642122736,
-    "duration" : 69
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3ab7cefaf7eca737",
-  "name" : "缺参-userId为空",
-  "time" : {
-    "start" : 1599642121885,
-    "stop" : 1599642121958,
-    "duration" : 73
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "90ea6d6c4e3159e",
-  "name" : "缺参-robotId缺少",
-  "time" : {
-    "start" : 1599642121396,
-    "stop" : 1599642121435,
-    "duration" : 39
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc2043ede3b4c6ae",
-  "name" : "错参-robotId与userId不匹配",
-  "time" : {
-    "start" : 1599642121613,
-    "stop" : 1599642121663,
-    "duration" : 50
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4e163ad9637d28a6",
-  "name" : "正常查询-引导语为空查询",
-  "time" : {
-    "start" : 1599642121965,
-    "stop" : 1599642122030,
-    "duration" : 65
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5fb1de0508251231",
-  "name" : "缺参-robotId为空",
-  "time" : {
-    "start" : 1599642121844,
-    "stop" : 1599642121878,
-    "duration" : 34
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "44f73fad8cb52449",
-  "name" : "错参-robotId为空",
-  "time" : {
-    "start" : 1599642120386,
-    "stop" : 1599642120430,
+    "start" : 1600424572485,
+    "stop" : 1600424572529,
     "duration" : 44
   },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "909556f1ab82e84d",
-  "name" : "错参-robotId为空",
-  "time" : {
-    "start" : 1599642121676,
-    "stop" : 1599642121723,
-    "duration" : 47
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "217c6e1e401a7b3d",
-  "name" : "缺参-userId缺少",
-  "time" : {
-    "start" : 1599642120538,
-    "stop" : 1599642120580,
-    "duration" : 42
-  },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ca6552e0e903f055",
-  "name" : "错参-userId为空",
+  "uid" : "51b6399d2e583e5d",
+  "name" : "正常保存-保存随机时长回复",
   "time" : {
-    "start" : 1599642121770,
-    "stop" : 1599642121833,
-    "duration" : 63
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c77e795b563442d",
-  "name" : "正常查询-暖场语为空查询",
-  "time" : {
-    "start" : 1599642122398,
-    "stop" : 1599642122467,
-    "duration" : 69
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f936926b6cbe306e",
-  "name" : "错参-robotId与userId不匹配",
-  "time" : {
-    "start" : 1599642122097,
-    "stop" : 1599642122139,
-    "duration" : 42
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3350cd59ebf9a51e",
-  "name" : "缺参-userId为空",
-  "time" : {
-    "start" : 1599642122326,
-    "stop" : 1599642122393,
-    "duration" : 67
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "631bf22cebaec460",
-  "name" : "缺参-robotId为空",
-  "time" : {
-    "start" : 1599642123290,
-    "stop" : 1599642123333,
-    "duration" : 43
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4d97b92abfbcca6d",
-  "name" : "错参-userId为空",
-  "time" : {
-    "start" : 1599642123234,
-    "stop" : 1599642123278,
-    "duration" : 44
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4e5ff895faad53ee",
-  "name" : "缺参-userId为空",
-  "time" : {
-    "start" : 1599642123338,
-    "stop" : 1599642123400,
-    "duration" : 62
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f69d044e010470fd",
-  "name" : "错参-修改前阈值为负数",
-  "time" : {
-    "start" : 1599642120682,
-    "stop" : 1599642120734,
-    "duration" : 52
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "91e45b32067bfc17",
-  "name" : "正常查询-问候语为空查询",
-  "time" : {
-    "start" : 1599642121442,
-    "stop" : 1599642121494,
-    "duration" : 52
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c5c93356f3961fe4",
-  "name" : "错参-userId为空",
-  "time" : {
-    "start" : 1599642120441,
-    "stop" : 1599642120483,
-    "duration" : 42
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "22fcec7e331044a",
-  "name" : "错参-robotId为空",
-  "time" : {
-    "start" : 1599642123181,
-    "stop" : 1599642123220,
-    "duration" : 39
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1fbfdc36c21e51e1",
-  "name" : "错参-robotId与userId不匹配",
-  "time" : {
-    "start" : 1599642123105,
-    "stop" : 1599642123159,
-    "duration" : 54
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "6eeae4d10c947c6a",
-  "name" : "正常查询-未知问题回复为空查询",
-  "time" : {
-    "start" : 1599642122926,
-    "stop" : 1599642122993,
-    "duration" : 67
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8c3bcfec77533568",
-  "name" : "错参-修改前阈值大于1",
-  "time" : {
-    "start" : 1599642120744,
-    "stop" : 1599642120793,
-    "duration" : 49
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "addf821d7e149d5",
-  "name" : "缺参-robotId缺少",
-  "time" : {
-    "start" : 1599642121344,
-    "stop" : 1599642121390,
-    "duration" : 46
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8475956347020624",
-  "name" : "正常查询",
-  "time" : {
-    "start" : 1599642120140,
-    "stop" : 1599642120199,
+    "start" : 1600424584726,
+    "stop" : 1600424584785,
     "duration" : 59
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dd18f458db4d4c44",
-  "name" : "错参-userId为空",
+  "uid" : "907758b5aba7081e",
+  "name" : "异常保存-保存随机时长回复，设置randomSecondsTo时间为负数",
   "time" : {
-    "start" : 1599642121112,
-    "stop" : 1599642121167,
+    "start" : 1600424585312,
+    "stop" : 1600424585365,
+    "duration" : 53
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "86f310468cf7c748",
+  "name" : "缺参-userId为空",
+  "time" : {
+    "start" : 1600424574198,
+    "stop" : 1600424574261,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "699c50dac40d511d",
+  "name" : "缺参-robotId为空",
+  "time" : {
+    "start" : 1600424574152,
+    "stop" : 1600424574193,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da9838210caf63e7",
+  "name" : "正常查询-均未开启设置查询",
+  "time" : {
+    "start" : 1600424584284,
+    "stop" : 1600424584326,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55f67e12729a0d13",
+  "name" : "缺参-userId为空",
+  "time" : {
+    "start" : 1600424572959,
+    "stop" : 1600424573020,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa3980d578de59ea",
+  "name" : "缺参-ids缺少",
+  "time" : {
+    "start" : 1600424590472,
+    "stop" : 1600424590527,
     "duration" : 55
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b810f6069c5c047f",
-  "name" : "错参-userId与robotId不匹配",
+  "uid" : "7896d81738a864ae",
+  "name" : "错参-guideResponseEnable为空",
   "time" : {
-    "start" : 1599642120917,
-    "stop" : 1599642121022,
-    "duration" : 105
+    "start" : 1600424574818,
+    "stop" : 1600424574861,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abdd7ae62206ab8c",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424598653,
+    "stop" : 1600424598695,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f07ffde3dd200954",
+  "name" : "错参-sourceId为空",
+  "time" : {
+    "start" : 1600424596188,
+    "stop" : 1600424596232,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29d47dfa13a67f77",
+  "name" : "单个设置-停用",
+  "time" : {
+    "start" : 1600424592607,
+    "stop" : 1600424592658,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e853778954f931e",
+  "name" : "正常查询-搜索问题+无分类+分页（设置每页2行）+翻页第二页",
+  "time" : {
+    "start" : 1600424593570,
+    "stop" : 1600424593635,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e0ec939b1d72c0d",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424585391,
+    "stop" : 1600424585430,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77c24d8c30587757",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424586443,
+    "stop" : 1600424586481,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a044fba6738be64",
+  "name" : "缺参查询-robotId缺少",
+  "time" : {
+    "start" : 1600424595131,
+    "stop" : 1600424595171,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca77fd139803b027",
+  "name" : "错参-修改后阈值大于1",
+  "time" : {
+    "start" : 1600424571450,
+    "stop" : 1600424571491,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bfb3e1331446a75",
+  "name" : "正常查询-搜索问题+分类",
+  "time" : {
+    "start" : 1600424593416,
+    "stop" : 1600424593484,
+    "duration" : 68
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "8994ee76a91f3746",
-  "name" : "错参-faqThresholdFrom为空",
+  "uid" : "a180f77bddee432f",
+  "name" : "正常添加",
   "time" : {
-    "start" : 1599642121176,
-    "stop" : 1599642121227,
+    "start" : 1600424596655,
+    "stop" : 1600424596745,
+    "duration" : 90
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bdd2c9a8b100093",
+  "name" : "错参-robotId缺失",
+  "time" : {
+    "start" : 1600424575560,
+    "stop" : 1600424575596,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e68561f4584a771",
+  "name" : "异常保存-保存随机时长回复，设置randomSecondsFrom时间为负数",
+  "time" : {
+    "start" : 1600424585239,
+    "stop" : 1600424585290,
     "duration" : 51
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "742d3c103bc99034",
-  "name" : "正常查询-问候语非空查询",
+  "uid" : "18c54ace587f6e04",
+  "name" : "查询-有相似度问题，无关联问题",
   "time" : {
-    "start" : 1599642121524,
-    "stop" : 1599642121594,
-    "duration" : 70
+    "start" : 1600424603611,
+    "stop" : 1600424603726,
+    "duration" : 115
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "73f537aef00950f1",
-  "name" : "正常查询-引导语非空查询",
+  "uid" : "624037634e967f7a",
+  "name" : "错参-修改前阈值为负数",
   "time" : {
-    "start" : 1599642122036,
-    "stop" : 1599642122089,
+    "start" : 1600424571304,
+    "stop" : 1600424571348,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b1b0667b14fa1ad",
+  "name" : "错参-DISABLE为空",
+  "time" : {
+    "start" : 1600424598417,
+    "stop" : 1600424598463,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ba7ff35346ddd3",
+  "name" : "错参-password为空",
+  "time" : {
+    "start" : 1600424599368,
+    "stop" : 1600424599408,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa6c3924fcc163a4",
+  "name" : "缺参-userId缺失",
+  "time" : {
+    "start" : 1600424597917,
+    "stop" : 1600424597957,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24aec9d5e12b96ae",
+  "name" : "正常保存-保存随机时长回复+保存访客反馈入口+未设置反馈消息设置",
+  "time" : {
+    "start" : 1600424584790,
+    "stop" : 1600424584844,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdb8a866f44ece8e",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424596812,
+    "stop" : 1600424596853,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fb0ccecec6c3808",
+  "name" : "批量设置-启用",
+  "time" : {
+    "start" : 1600424592434,
+    "stop" : 1600424592488,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "501cdf69a6f55f9",
+  "name" : "缺参-guideWord缺少",
+  "time" : {
+    "start" : 1600424586617,
+    "stop" : 1600424586658,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a416609db6dc8e8",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424586813,
+    "stop" : 1600424586853,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da3136eea8759a8",
+  "name" : "异常保存-relatedQuestionEnable为空",
+  "time" : {
+    "start" : 1600424587356,
+    "stop" : 1600424587392,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "860b8c60ac5f962",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424574734,
+    "stop" : 1600424574773,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0e6abc31d8cd30f",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424596405,
+    "stop" : 1600424596446,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ca0fea309ec12ea",
+  "name" : "正常查询-仅userId，robotId",
+  "time" : {
+    "start" : 1600424594373,
+    "stop" : 1600424594595,
+    "duration" : 222
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b2eb22a41b3d72b",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424576738,
+    "stop" : 1600424576780,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf2df2e382ee678c",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424584489,
+    "stop" : 1600424584533,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7cea810c7a0ec23",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424585932,
+    "stop" : 1600424585973,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcfa2f9c617ba263",
+  "name" : "正常查询-暖场语为空查询",
+  "time" : {
+    "start" : 1600424572262,
+    "stop" : 1600424572330,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17405b1047b95aa6",
+  "name" : "正常查询-常规问答库中有相似问题，设置size为1",
+  "time" : {
+    "start" : 1600424591685,
+    "stop" : 1600424591829,
+    "duration" : 144
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cf8689cb2d2fa77",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424585978,
+    "stop" : 1600424586041,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b043fc214a03637",
+  "name" : "缺参-缺少robotId",
+  "time" : {
+    "start" : 1600424595590,
+    "stop" : 1600424595632,
+    "duration" : 42
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d87d1758b75fd14",
+  "name" : "单个设置-启用",
+  "time" : {
+    "start" : 1600424592551,
+    "stop" : 1600424592601,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b093444adeb8448b",
+  "name" : "错参-hotQuestionEnable为空",
+  "time" : {
+    "start" : 1600424577178,
+    "stop" : 1600424577215,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "daf2ba36b91092b",
+  "name" : "正常保存-开启热点问题，关联问题，猜你想问均开启",
+  "time" : {
+    "start" : 1600424577791,
+    "stop" : 1600424577862,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cb5dcb9c8b63f38",
+  "name" : "缺参-hotQuestionEnable缺少",
+  "time" : {
+    "start" : 1600424588709,
+    "stop" : 1600424588750,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60fec674e08171b0",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424604408,
+    "stop" : 1600424604448,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdbcfbd9865668",
+  "name" : "单个转移",
+  "time" : {
+    "start" : 1600424592967,
+    "stop" : 1600424593020,
     "duration" : 53
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d96907c625b4406d",
-  "name" : "错参-robotId为空",
+  "uid" : "1d6cefec7848d444",
+  "name" : "错参-keywordDisplayEnable为空",
   "time" : {
-    "start" : 1599642122597,
-    "stop" : 1599642122646,
-    "duration" : 49
+    "start" : 1600424583816,
+    "stop" : 1600424583854,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "603ac23b107b87e9",
+  "name" : "批量转移",
+  "time" : {
+    "start" : 1600424592906,
+    "stop" : 1600424592962,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41cdd93a9b8c958b",
+  "name" : "缺参-guideWord缺少",
+  "time" : {
+    "start" : 1600424587639,
+    "stop" : 1600424587685,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49a1761ebe4950ec",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424587487,
+    "stop" : 1600424587527,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd38e48598a1999a",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424578066,
+    "stop" : 1600424578105,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be8545caa76293c6",
+  "name" : "缺参-data缺少",
+  "time" : {
+    "start" : 1600424603394,
+    "stop" : 1600424603462,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "685c9a799301fc05",
+  "name" : "正常修改排序-回退",
+  "time" : {
+    "start" : 1600424596081,
+    "stop" : 1600424596128,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c9d232f97ac9f77",
+  "name" : "错参问题缺少",
+  "time" : {
+    "start" : 1600424591478,
+    "stop" : 1600424591520,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5351451e4d4f09c",
+  "name" : "正常添加-仅添加问题及答案",
+  "time" : {
+    "start" : 1600424602842,
+    "stop" : 1600424602884,
+    "duration" : 42
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "f6a4258e332723cb",
+  "uid" : "18b54d665d6c1942",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424587993,
+    "stop" : 1600424588056,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f29892cba3b7d9ed",
+  "name" : "正常查询-仅必参userId和robotId，搜索全部分类的全部信息",
+  "time" : {
+    "start" : 1600424588760,
+    "stop" : 1600424588912,
+    "duration" : 152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19e2516a3289522a",
+  "name" : "缺参-relatedQuestionEnable为空",
+  "time" : {
+    "start" : 1600424577438,
+    "stop" : 1600424577478,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "818c4d789818953a",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424587949,
+    "stop" : 1600424587988,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a996a546f2e21d5b",
+  "name" : "正常查询答案",
+  "time" : {
+    "start" : 1600424593842,
+    "stop" : 1600424594094,
+    "duration" : 252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29ef520c27f8dfd",
+  "name" : "错参-keyName非question或answer",
+  "time" : {
+    "start" : 1600424600116,
+    "stop" : 1600424600168,
+    "duration" : 52
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b921f5ceacdd049",
+  "name" : "缺参-robotId缺失",
+  "time" : {
+    "start" : 1600424574882,
+    "stop" : 1600424574935,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb0bf118d7a4df3f",
+  "name" : "缺参-keyName缺少",
+  "time" : {
+    "start" : 1600424594326,
+    "stop" : 1600424594366,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd2c22d281bf0ced",
+  "name" : "缺参-userId缺失",
+  "time" : {
+    "start" : 1600424573868,
+    "stop" : 1600424573908,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a7111869d2351eb",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424589359,
+    "stop" : 1600424589400,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d85640e5eba84ae",
+  "name" : "缺参-userId缺失",
+  "time" : {
+    "start" : 1600424604555,
+    "stop" : 1600424604598,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88253ce2768959f2",
+  "name" : "错参-ids为空",
+  "time" : {
+    "start" : 1600424590407,
+    "stop" : 1600424590459,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57b7c8771d641959",
+  "name" : "异常保存-intervalSeconds缺失",
+  "time" : {
+    "start" : 1600424575316,
+    "stop" : 1600424575355,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b363d73c15378ec5",
+  "name" : "正常保存-保存随机时长回复+保存访客反馈入口+设置反馈消息设置-解决",
+  "time" : {
+    "start" : 1600424584849,
+    "stop" : 1600424584907,
+    "duration" : 58
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "313284aa2d1de6b4",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424584537,
+    "stop" : 1600424584609,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9157b7f4f85f6e4",
+  "name" : "正常保存-开启通用问候语",
+  "time" : {
+    "start" : 1600424573159,
+    "stop" : 1600424573204,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d17f330dcfeaa16e",
+  "name" : "缺参-robotId缺失",
+  "time" : {
+    "start" : 1600424598195,
+    "stop" : 1600424598264,
+    "duration" : 69
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eeab3b47d000c22b",
+  "name" : "查询-无相似度问题，无关联问题",
+  "time" : {
+    "start" : 1600424603469,
+    "stop" : 1600424603603,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77b798c9275b0bbf",
+  "name" : "错参-data为空",
+  "time" : {
+    "start" : 1600424603066,
+    "stop" : 1600424603107,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23243e9bdd154cf3",
+  "name" : "正常查询相似问题",
+  "time" : {
+    "start" : 1600424593643,
+    "stop" : 1600424593836,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf7b714a5e582c91",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424594144,
+    "stop" : 1600424594184,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2e324e7fb957cce",
+  "name" : "正常保存-开启关键词问候语",
+  "time" : {
+    "start" : 1600424573104,
+    "stop" : 1600424573153,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3c5327c5ee27eea",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424574778,
+    "stop" : 1600424574812,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aedd725d32ae79df",
+  "name" : "正常查询-answer查询",
+  "time" : {
+    "start" : 1600424594786,
+    "stop" : 1600424594985,
+    "duration" : 199
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a06307691a7d19a0",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424584392,
+    "stop" : 1600424584433,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7777cb5aa79b68f6",
+  "name" : "正常查询-仅userId和robotId+categoryId+curPage+pageSize+effectiveType，搜索某个分类下的信息，分页，永久有效",
+  "time" : {
+    "start" : 1600424589085,
+    "stop" : 1600424589167,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68247cdbeb2c940e",
+  "name" : "正常保存-关闭关键词问候语",
+  "time" : {
+    "start" : 1600424573026,
+    "stop" : 1600424573099,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e5b23f5b91985cb",
+  "name" : "错参-robotPackage不存在",
+  "time" : {
+    "start" : 1600424597030,
+    "stop" : 1600424597070,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "771e11a4f31b0377",
+  "name" : "缺参-id缺失",
+  "time" : {
+    "start" : 1600424604102,
+    "stop" : 1600424604145,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6996ab7300b15066",
+  "name" : "缺参-nickNameInsite缺失",
+  "time" : {
+    "start" : 1600424598008,
+    "stop" : 1600424598046,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d471d0f0a1e35ad",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424572004,
+    "stop" : 1600424572050,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49cdb80367d8e130",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424576260,
+    "stop" : 1600424576299,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d4b41fe6e97861a",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424573552,
+    "stop" : 1600424573592,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f8d4ba17a4e3636",
+  "name" : "错参-答案缺少",
+  "time" : {
+    "start" : 1600424591527,
+    "stop" : 1600424591573,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4c5c27cef9b2079",
+  "name" : "错参查询-userId为空",
+  "time" : {
+    "start" : 1600424594997,
+    "stop" : 1600424595038,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74fbf4ae717f1dee",
+  "name" : "缺参-id缺少",
+  "time" : {
+    "start" : 1600424595984,
+    "stop" : 1600424596024,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33f952f2f02f3956",
+  "name" : "错参-userId不存在",
+  "time" : {
+    "start" : 1600424596756,
+    "stop" : 1600424596806,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a137806a44f42a61",
+  "name" : "错参-id为string",
+  "time" : {
+    "start" : 1600424593026,
+    "stop" : 1600424593067,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ea7c19bab15c75a",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424604356,
+    "stop" : 1600424604402,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56d4ea6d98b7df44",
+  "name" : "正常保存-开启暖场语(增加一条暖场语）",
+  "time" : {
+    "start" : 1600424575197,
+    "stop" : 1600424575250,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5ba45ce33b6a891",
+  "name" : "错参-id为空",
+  "time" : {
+    "start" : 1600424593073,
+    "stop" : 1600424593116,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42ab7787b6f91c31",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424588481,
+    "stop" : 1600424588528,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c49ee58d8bff693c",
+  "name" : "错参-未配置问题",
+  "time" : {
+    "start" : 1600424591263,
+    "stop" : 1600424591307,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dad478bda7d398a2",
+  "name" : "重复删除",
+  "time" : {
+    "start" : 1600424595805,
+    "stop" : 1600424595925,
+    "duration" : 120
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "64e8cf05ce334ebe",
+  "name" : "为空查询",
+  "time" : {
+    "start" : 1600424604215,
+    "stop" : 1600424604274,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70096d9e8ff61382",
+  "name" : "正常查询",
+  "time" : {
+    "start" : 1600424570798,
+    "stop" : 1600424570888,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75ffbde2e4347922",
+  "name" : "错参-id为空",
+  "time" : {
+    "start" : 1600424592715,
+    "stop" : 1600424592759,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b3458eab397c0ff",
+  "name" : "正常添加分类-（准备数据）",
+  "time" : {
+    "start" : 1600424595284,
+    "stop" : 1600424595330,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c440b3e443abff4a",
+  "name" : "正常保存-开启引导语(问候语为空）",
+  "time" : {
+    "start" : 1600424574266,
+    "stop" : 1600424574340,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c8d05953d12bcc1",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424587855,
+    "stop" : 1600424587897,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23925b62a59d40fd",
+  "name" : "正常查询-查询答案",
+  "time" : {
+    "start" : 1600424602506,
+    "stop" : 1600424602692,
+    "duration" : 186
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "69b97c8a79a68aa9",
+  "name" : "错参查询-pageSize为负数",
+  "time" : {
+    "start" : 1600424601406,
+    "stop" : 1600424601449,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a40f197e12bae22d",
+  "name" : "正常保存-仅开启累积未解决问题转人工",
+  "time" : {
+    "start" : 1600424583317,
+    "stop" : 1600424583364,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d2e1636a05bd601",
+  "name" : "正常保存-开启暖场语(暖场语为空）",
+  "time" : {
+    "start" : 1600424575092,
+    "stop" : 1600424575139,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d0fc06024c8bf19",
+  "name" : "正常保存-开启保存热点问题，新增一条",
+  "time" : {
+    "start" : 1600424588163,
+    "stop" : 1600424588229,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "819a40a02f3e1b25",
+  "name" : "异常保存-保存设置发送速度回复，设置非文本类回复时间为负数",
+  "time" : {
+    "start" : 1600424585085,
+    "stop" : 1600424585141,
+    "duration" : 56
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f92b2f3530517cd8",
+  "name" : "缺参-showNumberLimit缺少",
+  "time" : {
+    "start" : 1600424586663,
+    "stop" : 1600424586701,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f16e72bcc94281ec",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424585884,
+    "stop" : 1600424585927,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2a5529db67632f4",
+  "name" : "重复添加分类",
+  "time" : {
+    "start" : 1600424595389,
+    "stop" : 1600424595434,
+    "duration" : 45
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5096993b51cc9e7b",
+  "name" : "缺参-keywordDisplayEnable缺失",
+  "time" : {
+    "start" : 1600424584141,
+    "stop" : 1600424584184,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40ba9310117c0e58",
+  "name" : "错参-robotId与userId不匹配",
+  "time" : {
+    "start" : 1600424572775,
+    "stop" : 1600424572816,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2bc0838b4a4d480",
+  "name" : "缺参-nickNameInsite",
+  "time" : {
+    "start" : 1600424597075,
+    "stop" : 1600424597113,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0dc39d974f40b20",
+  "name" : "正常添加-添加相似问题及答案，且答案不设置触发条件",
+  "time" : {
+    "start" : 1600424602954,
+    "stop" : 1600424602998,
+    "duration" : 44
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "952098e0caa32ea8",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424572867,
+    "stop" : 1600424572908,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24917526e259992",
+  "name" : "缺参-robotId缺失",
+  "time" : {
+    "start" : 1600424596587,
+    "stop" : 1600424596650,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7431051cfb0f4dc",
+  "name" : "正常登陆",
+  "time" : {
+    "start" : 1600424599082,
+    "stop" : 1600424599168,
+    "duration" : 86
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "40dfa1b2c1663b1e",
+  "name" : "重复保存-配置信息",
+  "time" : {
+    "start" : 1600424590976,
+    "stop" : 1600424591037,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cda175281e2db99",
+  "name" : "缺参-username",
+  "time" : {
+    "start" : 1600424599181,
+    "stop" : 1600424599220,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "216fad6cb1251912",
+  "name" : "编辑引用",
+  "time" : {
+    "start" : 1600424603221,
+    "stop" : 1600424603267,
+    "duration" : 46
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b51ccdd2685f6e90",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424592338,
+    "stop" : 1600424592380,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d55b98490701962f",
+  "name" : "缺参-responseContent为空",
+  "time" : {
+    "start" : 1600424576508,
+    "stop" : 1600424576556,
+    "duration" : 48
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2634173787273d41",
+  "name" : "正常查询-更改modify时间",
+  "time" : {
+    "start" : 1600424599934,
+    "stop" : 1600424599989,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a608d72ee298a53",
+  "name" : "缺参-userId为空",
+  "time" : {
+    "start" : 1600424576460,
+    "stop" : 1600424576502,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b36c7fec06ff2e9",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424585838,
+    "stop" : 1600424585879,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88b51b0d1c22282e",
+  "name" : "缺参查询-仅templateId",
+  "time" : {
+    "start" : 1600424602704,
+    "stop" : 1600424602745,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c67ef6e69c2e8f19",
+  "name" : "错参-timeResponseType为空",
+  "time" : {
+    "start" : 1600424585433,
+    "stop" : 1600424585481,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94a7da80c7773aa7",
+  "name" : "正常查询-暖场语非空查询",
+  "time" : {
+    "start" : 1600424572335,
+    "stop" : 1600424572387,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "597f6859f3edc6e5",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424598700,
+    "stop" : 1600424598740,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da10aa80d01e06e8",
+  "name" : "正常查询-非空查询",
+  "time" : {
+    "start" : 1600424586749,
+    "stop" : 1600424586808,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "126a43493f2f01f3",
+  "name" : "批量设置-停用",
+  "time" : {
+    "start" : 1600424592494,
+    "stop" : 1600424592546,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92bb1b45cbcdd09e",
+  "name" : "缺参-userId为空",
+  "time" : {
+    "start" : 1600424572161,
+    "stop" : 1600424572255,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d06107731b65a68",
+  "name" : "错参-userId与robotId不匹配",
+  "time" : {
+    "start" : 1600424596497,
+    "stop" : 1600424596536,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba460dff7f894e30",
+  "name" : "正常查询-查询问题",
+  "time" : {
+    "start" : 1600424602196,
+    "stop" : 1600424602493,
+    "duration" : 297
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c89c16bb95fc9a",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424578110,
+    "stop" : 1600424583181,
+    "duration" : 5071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6607bc512324bf1f",
+  "name" : "正常保存-仅开启猜你想问",
+  "time" : {
+    "start" : 1600424577677,
+    "stop" : 1600424577727,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f4f2739cb15254a",
+  "name" : "错参-id为空",
+  "time" : {
+    "start" : 1600424604043,
+    "stop" : 1600424604091,
+    "duration" : 48
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bcd2c29e82298fb",
+  "name" : "查询-有相似度问题，有关联问题",
+  "time" : {
+    "start" : 1600424603884,
+    "stop" : 1600424604036,
+    "duration" : 152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24d702d9094b07e",
   "name" : "缺参-robotId为空",
   "time" : {
-    "start" : 1599642122768,
-    "stop" : 1599642122817,
+    "start" : 1600424583904,
+    "stop" : 1600424583950,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f7ddc05a4338690",
+  "name" : "正常删除",
+  "time" : {
+    "start" : 1600424589454,
+    "stop" : 1600424590146,
+    "duration" : 692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97c112949ed098a2",
+  "name" : "缺参-timeResponseType缺失",
+  "time" : {
+    "start" : 1600424585629,
+    "stop" : 1600424585677,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "865889a7443459cf",
+  "name" : "错参-userId与robotId不匹配",
+  "time" : {
+    "start" : 1600424597611,
+    "stop" : 1600424597657,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77dc183a8778490d",
+  "name" : "错参-warmResponseEnable为空",
+  "time" : {
+    "start" : 1600424575513,
+    "stop" : 1600424575554,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0ada56c2734dec9",
+  "name" : "错参-robotPackage不存在",
+  "time" : {
+    "start" : 1600424596966,
+    "stop" : 1600424597017,
+    "duration" : 51
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bf4785edb280b7c",
+  "name" : "正常查询-为空查询",
+  "time" : {
+    "start" : 1600424587730,
+    "stop" : 1600424587771,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "974ae2cd07d0e459",
+  "name" : "缺参-userId缺失",
+  "time" : {
+    "start" : 1600424598151,
+    "stop" : 1600424598189,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "363190bb96a7dd06",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424586531,
+    "stop" : 1600424586569,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64dc21f4601ff30c",
+  "name" : "异常保存-delaySecondsTo为负数",
+  "time" : {
+    "start" : 1600424576117,
+    "stop" : 1600424576245,
+    "duration" : 128
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8324e2652d2a7403",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424594234,
+    "stop" : 1600424594274,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ab3b3c71606a435",
+  "name" : "正常查询-查询第二页",
+  "time" : {
+    "start" : 1600424600837,
+    "stop" : 1600424601080,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcaed639d8887488",
+  "name" : "错参-userId缺少",
+  "time" : {
+    "start" : 1600424591590,
+    "stop" : 1600424591632,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "786127024499a00d",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424587902,
+    "stop" : 1600424587942,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f55f08bfe43dfd3",
+  "name" : "错参-timeResponseType不存在（非1/2）",
+  "time" : {
+    "start" : 1600424585487,
+    "stop" : 1600424585527,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89e638411e8c20ff",
+  "name" : "正常查询-引导语非空查询",
+  "time" : {
+    "start" : 1600424571901,
+    "stop" : 1600424571951,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7434e37677ab5e0b",
+  "name" : "正常添加-添加相似问题及答案，且答案设置触发条件",
+  "time" : {
+    "start" : 1600424602896,
+    "stop" : 1600424602942,
+    "duration" : 46
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e54b31ea149236c",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424587398,
+    "stop" : 1600424587435,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86b02a3868a0272",
+  "name" : "正常保存-关闭保存",
+  "time" : {
+    "start" : 1600424586127,
+    "stop" : 1600424586176,
     "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d919dfab9ce65d64",
+  "name" : "异常保存-编辑通用问候语为空，且开启通用问候语",
+  "time" : {
+    "start" : 1600424573463,
+    "stop" : 1600424573502,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbef5f5004986979",
+  "name" : "机器人模板列表-无参数直接校验",
+  "time" : {
+    "start" : 1600424599515,
+    "stop" : 1600424599651,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8e271ef08cb8dc6",
+  "name" : "缺参-userId缺失",
+  "time" : {
+    "start" : 1600424596542,
+    "stop" : 1600424596581,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4f2656258ad459b",
+  "name" : "正常保存-开启保存",
+  "time" : {
+    "start" : 1600424587037,
+    "stop" : 1600424587109,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdb8bcb99f9e6cc5",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424594100,
+    "stop" : 1600424594138,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c75f9b77744f939a",
+  "name" : "异常保存-设置显示条数限制为负数",
+  "time" : {
+    "start" : 1600424586182,
+    "stop" : 1600424586228,
+    "duration" : 46
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b12c437509c90f5",
+  "name" : "错参-question为空",
+  "time" : {
+    "start" : 1600424604281,
+    "stop" : 1600424604343,
+    "duration" : 62
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aeca6bcacd63294b",
+  "name" : "正常查询",
+  "time" : {
+    "start" : 1600424597299,
+    "stop" : 1600424597354,
+    "duration" : 55
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2acbe58d621d0b5c",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424574106,
+    "stop" : 1600424574147,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e89d98acc51ac87",
+  "name" : "正常设置-ENABLE",
+  "time" : {
+    "start" : 1600424598604,
+    "stop" : 1600424598647,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28258d0e4d3781e5",
+  "name" : "缺参-ids为空",
+  "time" : {
+    "start" : 1600424593297,
+    "stop" : 1600424593338,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f609bb3a66e105eb",
+  "name" : "缺参-缺少userId",
+  "time" : {
+    "start" : 1600424595642,
+    "stop" : 1600424595679,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc2bd172dd7678a6",
+  "name" : "缺参-relatedQuestionEnable缺少",
+  "time" : {
+    "start" : 1600424587578,
+    "stop" : 1600424587628,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cdc325fe2b654d4",
+  "name" : "错参-wantToAskEnable为空",
+  "time" : {
+    "start" : 1600424577131,
+    "stop" : 1600424577172,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74c816aade680552",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424592287,
+    "stop" : 1600424592332,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "755cf679bf582f57",
+  "name" : "错参-修改后阈值为负数",
+  "time" : {
+    "start" : 1600424571403,
+    "stop" : 1600424571443,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50d011f0e62b21f3",
+  "name" : "错参-faqThresholdTo为空",
+  "time" : {
+    "start" : 1600424571699,
+    "stop" : 1600424571744,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47095faeb8025fad",
+  "name" : "错参-faqThresholdFrom为空",
+  "time" : {
+    "start" : 1600424571645,
+    "stop" : 1600424571693,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5be66280cfb2e144",
+  "name" : "异常保存-仅开启累积未解决问题转人工，设置unsolveQuestionCountTimes时间为负数",
+  "time" : {
+    "start" : 1600424583472,
+    "stop" : 1600424583516,
+    "duration" : 44
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "59d2b51f5197bf61",
+  "name" : "异常保存-保存设置发送速度回复，设置文本类回复时间为负数",
+  "time" : {
+    "start" : 1600424585155,
+    "stop" : 1600424585220,
+    "duration" : 65
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f42e27a8c9ea98cd",
+  "name" : "错参查询-templateId为空",
+  "time" : {
+    "start" : 1600424602795,
+    "stop" : 1600424602836,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "802f58bc7754e1d0",
+  "name" : "正常保存-关闭保存",
+  "time" : {
+    "start" : 1600424588062,
+    "stop" : 1600424588157,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ead4061ce606313f",
+  "name" : "错参-robotTemplate为空",
+  "time" : {
+    "start" : 1600424596920,
+    "stop" : 1600424596960,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "801eb937aa3ac2ab",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424585533,
+    "stop" : 1600424585580,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d33e03ecfb05d0f9",
+  "name" : "错参-未配置答案",
+  "time" : {
+    "start" : 1600424591315,
+    "stop" : 1600424591364,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c7895eaeda0c6fa",
+  "name" : "正常编辑",
+  "time" : {
+    "start" : 1600424597663,
+    "stop" : 1600424597712,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7d8a2b3af96200e",
+  "name" : "正常设置-DISABLE",
+  "time" : {
+    "start" : 1600424598552,
+    "stop" : 1600424598598,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf7f293d6d431b06",
+  "name" : "正常查询-查询keyName = question",
+  "time" : {
+    "start" : 1600424601518,
+    "stop" : 1600424601812,
+    "duration" : 294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "562bce0935dc0c7a",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424575448,
+    "stop" : 1600424575492,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69244d866716bdf6",
+  "name" : "异常保存-编辑关键词问候语为空，且开启关键词问候语",
+  "time" : {
+    "start" : 1600424573507,
+    "stop" : 1600424573547,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbd3fd97cc7c7353",
+  "name" : "异常保存-faqId为空",
+  "time" : {
+    "start" : 1600424588234,
+    "stop" : 1600424588287,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11506beb7ab4b747",
+  "name" : "正常查询-未知问题回复非空查询",
+  "time" : {
+    "start" : 1600424572721,
+    "stop" : 1600424572770,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b83bc41bae1bc74a",
+  "name" : "缺参-enable",
+  "time" : {
+    "start" : 1600424592815,
+    "stop" : 1600424592855,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87d05287f1b0fa3b",
+  "name" : "错参-unsolveQuestionDisplayEnable为空",
+  "time" : {
+    "start" : 1600424583769,
+    "stop" : 1600424583811,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cd7440a46075e13",
+  "name" : "缺参-robotId缺失",
+  "time" : {
+    "start" : 1600424573732,
+    "stop" : 1600424573771,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2640b0a3d49a39d9",
+  "name" : "正常查询-未知问题回复为空查询",
+  "time" : {
+    "start" : 1600424572645,
+    "stop" : 1600424572715,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf882fa68d3d98fd",
+  "name" : "错参-userId与robotId不匹配",
+  "time" : {
+    "start" : 1600424571497,
+    "stop" : 1600424571541,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3dd445708f6dff2",
+  "name" : "缺参-robotId为空",
+  "time" : {
+    "start" : 1600424572534,
+    "stop" : 1600424572576,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e90c232c8846833",
+  "name" : "正常修改排序",
+  "time" : {
+    "start" : 1600424596029,
+    "stop" : 1600424596075,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2679628c55460945",
+  "name" : "正常查询-常规问答库中有相似问题，设置size为2",
+  "time" : {
+    "start" : 1600424591841,
+    "stop" : 1600424591980,
+    "duration" : 139
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "73ae8ac524757413",
+  "name" : "正常保存-编辑关键词问候语为空，关闭关键词问候语",
+  "time" : {
+    "start" : 1600424573412,
+    "stop" : 1600424573457,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3954dee762f4c5a7",
+  "name" : "正常保存-编辑通用问候语非空",
+  "time" : {
+    "start" : 1600424573309,
+    "stop" : 1600424573355,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbfb28b7d5e76ab4",
+  "name" : "错参-robotTemplate不存在",
+  "time" : {
+    "start" : 1600424596860,
+    "stop" : 1600424596908,
+    "duration" : 48
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d68d97eeb7f775fb",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424588392,
+    "stop" : 1600424588432,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11dc4b1061712fa5",
+  "name" : "错参-keywordExactEnable为空",
+  "time" : {
+    "start" : 1600424583860,
+    "stop" : 1600424583899,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "514b9cf1195a4a8",
+  "name" : "错参-robotId与userId不匹配",
+  "time" : {
+    "start" : 1600424572393,
+    "stop" : 1600424572434,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abb6c36c20e38d91",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424595445,
+    "stop" : 1600424595487,
+    "duration" : 42
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3b8b76ae0ed6113",
+  "name" : "异常保存-hotQuestionEnable为空",
+  "time" : {
+    "start" : 1600424588344,
+    "stop" : 1600424588387,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee78003db8107ac",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424586956,
+    "stop" : 1600424587033,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db7bd8b9eb97acab",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424570941,
+    "stop" : 1600424571032,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "552ad1a8caa77700",
+  "name" : "错参-userId，robotId均为空",
+  "time" : {
+    "start" : 1600424595543,
+    "stop" : 1600424595585,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "899c23a52de00282",
+  "name" : "正常保存-开启引导语(问候语非空）",
+  "time" : {
+    "start" : 1600424574539,
+    "stop" : 1600424574593,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d0641019bff5fa5",
+  "name" : "异常保存-intervalSeconds为负数",
+  "time" : {
+    "start" : 1600424575360,
+    "stop" : 1600424575399,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9028a36dfc0daff8",
+  "name" : "正常保存-热点问题，关联问题，猜你想问均关闭",
+  "time" : {
+    "start" : 1600424577483,
+    "stop" : 1600424577535,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f91949195fcffed",
+  "name" : "正常修改阈值",
+  "time" : {
+    "start" : 1600424571227,
+    "stop" : 1600424571297,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f333783cc1501e5",
+  "name" : "正常查询-均开启查询",
+  "time" : {
+    "start" : 1600424576627,
+    "stop" : 1600424576733,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92ada1b05c10c0e",
+  "name" : "缺参-guestDisplayEnable缺失",
+  "time" : {
+    "start" : 1600424584003,
+    "stop" : 1600424584042,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "791c5d20dd9f1adf",
+  "name" : "错参-userId缺失",
+  "time" : {
+    "start" : 1600424575601,
+    "stop" : 1600424575640,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b67765f93cfef452",
+  "name" : "重复引用",
+  "time" : {
+    "start" : 1600424603280,
+    "stop" : 1600424603326,
+    "duration" : 46
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a526407c6b6f2ac",
+  "name" : "正常添加分类-（准备数据）",
+  "time" : {
+    "start" : 1600424595231,
+    "stop" : 1600424595278,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cf9246ca37cc2b7",
+  "name" : "缺参-keywordExactEnable缺失",
+  "time" : {
+    "start" : 1600424584188,
+    "stop" : 1600424584227,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "251fbabb4c10add8",
+  "name" : "错参查询-robotId为空",
+  "time" : {
+    "start" : 1600424595043,
+    "stop" : 1600424595080,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71cada9a5d7b3d3d",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424586909,
+    "stop" : 1600424586951,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b1a22dfa59db333",
+  "name" : "缺参-wantToAskEnable缺少",
+  "time" : {
+    "start" : 1600424586574,
+    "stop" : 1600424586612,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f40ab1a8ec940280",
+  "name" : "异常保存-responseContent缺失",
+  "time" : {
+    "start" : 1600424574688,
+    "stop" : 1600424574728,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f7d6cde99aab13a",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424571095,
+    "stop" : 1600424571151,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcab8f3565b079d4",
+  "name" : "缺参-showNumberLimit缺少",
+  "time" : {
+    "start" : 1600424587690,
+    "stop" : 1600424587725,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6423f51c23949094",
+  "name" : "正常查询-仅userId和robotId+categoryId，搜索某个分类下的信息",
+  "time" : {
+    "start" : 1600424588924,
+    "stop" : 1600424588996,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec8ffe3505f9db1e",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424577963,
+    "stop" : 1600424578010,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87f4006a59d92cac",
+  "name" : "正常查询-均关闭查询",
+  "time" : {
+    "start" : 1600424576571,
+    "stop" : 1600424576622,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2dfa797d24c10d8",
+  "name" : "登陆错误-用户名错误",
+  "time" : {
+    "start" : 1600424599414,
+    "stop" : 1600424599460,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fcc77a36817a47e",
+  "name" : "缺参-userId缺失",
+  "time" : {
+    "start" : 1600424597369,
+    "stop" : 1600424597413,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6613e7398decba3e",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424571800,
+    "stop" : 1600424571841,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "401974cbf292dfec",
+  "name" : "缺参-userId缺失",
+  "time" : {
+    "start" : 1600424598794,
+    "stop" : 1600424598834,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46ae5695a93f35a4",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424571749,
+    "stop" : 1600424571793,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffa2f73ae5561cb2",
+  "name" : "查询-无相似度问题，有关联问题",
+  "time" : {
+    "start" : 1600424603733,
+    "stop" : 1600424603878,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4d5d1af85fd6af8",
+  "name" : "缺参-category",
+  "time" : {
+    "start" : 1600424593248,
+    "stop" : 1600424593291,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ec3f81199bec549",
+  "name" : "错参-data为空",
+  "time" : {
+    "start" : 1600424603342,
+    "stop" : 1600424603387,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64b4487f22d4de4b",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424589263,
+    "stop" : 1600424589307,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d728afcc954301d",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424572057,
+    "stop" : 1600424572103,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "745ba56d68906e62",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424598503,
+    "stop" : 1600424598546,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cea953d197051ff",
+  "name" : "错参-warmResponseEnable缺失",
+  "time" : {
+    "start" : 1600424575646,
+    "stop" : 1600424575687,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65f0e39ee7e6a87e",
+  "name" : "错参-userId不存在",
+  "time" : {
+    "start" : 1600424597817,
+    "stop" : 1600424597864,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb361294a5a392cb",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424577041,
+    "stop" : 1600424577083,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6dc8da27afe9e02",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424594280,
+    "stop" : 1600424594320,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bffba4e9e2e84a7",
+  "name" : "正常查询-搜索问题+无分类",
+  "time" : {
+    "start" : 1600424593343,
+    "stop" : 1600424593411,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e80749ba2042c1e",
+  "name" : "正常保存-编辑关键词问候语非空",
+  "time" : {
+    "start" : 1600424573361,
+    "stop" : 1600424573406,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b231c3aa0f5d110d",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424583635,
+    "stop" : 1600424583675,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e345bfd34e90606c",
+  "name" : "缺参-question缺少",
+  "time" : {
+    "start" : 1600424592386,
+    "stop" : 1600424592428,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8e5f85cc7a9e2f5",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424588437,
+    "stop" : 1600424588476,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "166cb639b964efc9",
+  "name" : "异常保存-仅开启猜你想问，并设置showNumberLimit条数为负数",
+  "time" : {
+    "start" : 1600424576949,
+    "stop" : 1600424577037,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd581074e060ff82",
+  "name" : "上传机器人头像-无额外校验",
+  "time" : {
+    "start" : 1600424599654,
+    "stop" : 1600424599714,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4a9aa72cbfe46ca",
+  "name" : "直接引用",
+  "time" : {
+    "start" : 1600424603163,
+    "stop" : 1600424603206,
+    "duration" : 43
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "20048b992cd4c792",
+  "name" : "正常保存-开启未知问题回复(其他为空）",
+  "time" : {
+    "start" : 1600424575693,
+    "stop" : 1600424575736,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a74bdeef3b2ff54",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424595498,
+    "stop" : 1600424595537,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1ac71378c9a786b",
+  "name" : "正常保存-开启保存",
+  "time" : {
+    "start" : 1600424586046,
+    "stop" : 1600424586121,
+    "duration" : 75
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1f76f7d17f89c41",
+  "name" : "错参-robotId与userId不匹配",
+  "time" : {
+    "start" : 1600424571958,
+    "stop" : 1600424571998,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a65ccf68a3b15b8",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424597564,
+    "stop" : 1600424597605,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfe26d6cef50c6a5",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424586406,
+    "stop" : 1600424586437,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efb041c6549442b2",
+  "name" : "正常保存-访客端转人工，累计未识别问题转人工，累积未解决问题转人工均开启",
+  "time" : {
+    "start" : 1600424583420,
+    "stop" : 1600424583467,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f71d72491f54e58",
+  "name" : "缺参-robotId为空",
+  "time" : {
+    "start" : 1600424572914,
+    "stop" : 1600424572954,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de26caf1011fef77",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424571548,
+    "stop" : 1600424571591,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8a13fb1e5b38ce7",
+  "name" : "缺参-userId缺失",
+  "time" : {
+    "start" : 1600424585682,
+    "stop" : 1600424585722,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b72792c74864ddd",
+  "name" : "缺参-robotPackage",
+  "time" : {
+    "start" : 1600424597166,
+    "stop" : 1600424597203,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "997e448b66b3a54b",
+  "name" : "错参-keywordGreetingEnable为空",
+  "time" : {
+    "start" : 1600424573642,
+    "stop" : 1600424573683,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e9a1658fa587a03",
+  "name" : "缺参-wantToAskEnable为空",
+  "time" : {
+    "start" : 1600424577350,
+    "stop" : 1600424577388,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76aabe7bd445befc",
+  "name" : "正常保存-保存两条问候语",
+  "time" : {
+    "start" : 1600424574404,
+    "stop" : 1600424574461,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aeefcb39f160cf1a",
+  "name" : "正常保存-开启暖场语(增加两条暖场语）",
+  "time" : {
+    "start" : 1600424575255,
+    "stop" : 1600424575311,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b444f721839685e",
+  "name" : "正常查询-非空查询",
+  "time" : {
+    "start" : 1600424585776,
+    "stop" : 1600424585833,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa38e96e8aecdd46",
+  "name" : "正常编辑-回退",
+  "time" : {
+    "start" : 1600424598099,
+    "stop" : 1600424598144,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "480ac38b8306cbc7",
+  "name" : "错参-id为空",
+  "time" : {
+    "start" : 1600424595936,
+    "stop" : 1600424595978,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1f40053f921d18b",
+  "name" : "正常查询",
+  "time" : {
+    "start" : 1600424604151,
+    "stop" : 1600424604209,
+    "duration" : 58
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "490552daedd8a8d3",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424588540,
+    "stop" : 1600424588589,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5ba115f3a7225ad",
+  "name" : "缺参-robotStatus缺失",
+  "time" : {
+    "start" : 1600424598271,
+    "stop" : 1600424598335,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76d9ef4747751d9d",
+  "name" : "正常添加分类",
+  "time" : {
+    "start" : 1600424595176,
+    "stop" : 1600424595226,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bb52aa49c29881c",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424576884,
+    "stop" : 1600424576945,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ac2c06bbfd0ff3b",
+  "name" : "正常查询-全参",
+  "time" : {
+    "start" : 1600424600288,
+    "stop" : 1600424600567,
+    "duration" : 279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9004d2fab461c35",
+  "name" : "正常保存-开启未知问题回复，并增加1条回复",
+  "time" : {
+    "start" : 1600424575789,
+    "stop" : 1600424575840,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0147660102b7434",
+  "name" : "缺参-unknowQuestionDisplayEnable缺失",
+  "time" : {
+    "start" : 1600424584047,
+    "stop" : 1600424584087,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5af668604de287f2",
+  "name" : "正常查询-未开启设置查询",
+  "time" : {
+    "start" : 1600424577867,
+    "stop" : 1600424577907,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4661b41e3426c73",
+  "name" : "错参-id为string",
+  "time" : {
+    "start" : 1600424592664,
+    "stop" : 1600424592709,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f08ada3165fae69",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424584439,
+    "stop" : 1600424584482,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "644a5c7081f38c47",
+  "name" : "错参-guestDisplayEnable为空",
+  "time" : {
+    "start" : 1600424583680,
+    "stop" : 1600424583721,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41624d13a0ef2b09",
+  "name" : "缺参-keywordGreetingEnable缺失",
+  "time" : {
+    "start" : 1600424573821,
+    "stop" : 1600424573862,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d5a4bd74f140e18",
+  "name" : "缺参-robotId为空",
+  "time" : {
+    "start" : 1600424577264,
+    "stop" : 1600424577303,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58122eccdc48abc8",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424571037,
+    "stop" : 1600424571088,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40ba8668daafa07",
+  "name" : "正常保存-关闭暖场语(问候语为空）",
+  "time" : {
+    "start" : 1600424575144,
+    "stop" : 1600424575191,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0f6abfcd13dd7e",
+  "name" : "正常查询-非空查询",
+  "time" : {
+    "start" : 1600424587776,
+    "stop" : 1600424587850,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5312fab054169223",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424596451,
+    "stop" : 1600424596492,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5a9da22ab6e537c",
+  "name" : "错参查询-curPage为负数",
+  "time" : {
+    "start" : 1600424601357,
+    "stop" : 1600424601400,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45e5b3a40f8d60ce",
+  "name" : "正常保存-关闭未知问题回复(其他为空）",
+  "time" : {
+    "start" : 1600424575741,
+    "stop" : 1600424575784,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d9591ae20773ebe",
+  "name" : "正常保存-配置信息（包含相似问题），状态为开启",
+  "time" : {
+    "start" : 1600424590723,
+    "stop" : 1600424590970,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "447dfd737ae10a80",
+  "name" : "缺参-nickNameOutsite缺失",
+  "time" : {
+    "start" : 1600424598053,
+    "stop" : 1600424598093,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf2def821f978a2e",
+  "name" : "缺参-templateId缺失",
+  "time" : {
+    "start" : 1600424601455,
+    "stop" : 1600424601505,
+    "duration" : 50
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "20742e702943380b",
+  "name" : "异常保存-仅开启累积未识别问题转人工，设置unkonwQuestionCountTimes时间为负数",
+  "time" : {
+    "start" : 1600424583531,
+    "stop" : 1600424583577,
+    "duration" : 46
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c710c568487f6c0",
+  "name" : "正常查询-引导语为空查询",
+  "time" : {
+    "start" : 1600424571847,
+    "stop" : 1600424571896,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f545619c4ffd153d",
+  "name" : "错参-normalGreetingEnable为空",
+  "time" : {
+    "start" : 1600424573598,
+    "stop" : 1600424573637,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5676909bbb179d91",
+  "name" : "错参-enable为空",
+  "time" : {
+    "start" : 1600424592766,
+    "stop" : 1600424592809,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "926cf6f4681e3dff",
+  "name" : "正常查询-均开启设置查询",
+  "time" : {
+    "start" : 1600424577913,
+    "stop" : 1600424577959,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd96aa8d396510c6",
+  "name" : "缺参-robotId为空",
+  "time" : {
+    "start" : 1600424572114,
+    "stop" : 1600424572154,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f854c7bcece1b3d",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424586859,
+    "stop" : 1600424586903,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d94e023f3dea635",
+  "name" : "正常查询-仅templateId+curPage+pageSize",
+  "time" : {
+    "start" : 1600424600573,
+    "stop" : 1600424600831,
+    "duration" : 258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "797e01e59fb07e2",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424591372,
+    "stop" : 1600424591417,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b15bd02a605ac6",
+  "name" : "缺参-sourceId缺少",
+  "time" : {
+    "start" : 1600424596285,
+    "stop" : 1600424596327,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57b0058242669ca9",
+  "name" : "错参-modifyFrom时间晚于To时间",
+  "time" : {
+    "start" : 1600424600180,
+    "stop" : 1600424600228,
+    "duration" : 48
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "575a12733b8f9f8c",
+  "name" : "缺参-question缺失",
+  "time" : {
+    "start" : 1600424604454,
+    "stop" : 1600424604499,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d356be65255c20a",
+  "name" : "错参-修改前阈值大于1",
+  "time" : {
+    "start" : 1600424571354,
+    "stop" : 1600424571397,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d9a6b19fb6fe94a",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424597770,
+    "stop" : 1600424597812,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a4bf9f2d477c2cb",
+  "name" : "正常保存-保存随机时长回复+保存访客反馈入口+设置反馈消息设置-未解决",
+  "time" : {
+    "start" : 1600424584912,
+    "stop" : 1600424584971,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "645619d5d251c5bc",
+  "name" : "错参-userId与robotId不匹配",
+  "time" : {
+    "start" : 1600424598343,
+    "stop" : 1600424598411,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d8c2f43f51d7d70",
+  "name" : "缺参-robotId为空",
+  "time" : {
+    "start" : 1600424576418,
+    "stop" : 1600424576455,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52221343a54034cc",
+  "name" : "缺参-normalGreetingEnable缺失",
+  "time" : {
+    "start" : 1600424573777,
+    "stop" : 1600424573816,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdf8909d8dc8e981",
+  "name" : "错参-robotId与userId不匹配",
+  "time" : {
+    "start" : 1600424574013,
+    "stop" : 1600424574053,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f69024d44e4a676",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424589314,
+    "stop" : 1600424589353,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "695b3e4ff7f8ddb4",
+  "name" : "错参-templateId为空",
+  "time" : {
+    "start" : 1600424599995,
+    "stop" : 1600424600111,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38161c0b57cc3ddb",
+  "name" : "缺参-robotId缺失",
+  "time" : {
+    "start" : 1600424598840,
+    "stop" : 1600424598903,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed14f6ce655e6746",
+  "name" : "异常保存-设置显示条数限制为负数",
+  "time" : {
+    "start" : 1600424587253,
+    "stop" : 1600424587299,
+    "duration" : 46
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9eb17f21093869e2",
+  "name" : "缺参-hotDataMode缺少",
+  "time" : {
+    "start" : 1600424588666,
+    "stop" : 1600424588704,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12d075b87db7ba34",
+  "name" : "正常查询-仅userId和robotId+categoryId+curPage+pageSize，搜索某个分类下的信息，分页",
+  "time" : {
+    "start" : 1600424589004,
+    "stop" : 1600424589074,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe33eeef61ccc56d",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424577088,
+    "stop" : 1600424577126,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a93c60d1c8e790",
+  "name" : "正常保存-仅开启关联问题",
+  "time" : {
+    "start" : 1600424577618,
+    "stop" : 1600424577672,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7462b561ee7c7d6",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424572439,
+    "stop" : 1600424572480,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a03cd0b1ca0bdf43",
+  "name" : "正常保存-访客端转人工，累计未识别问题转人工，累积未解决问题转人工均关闭",
+  "time" : {
+    "start" : 1600424584232,
+    "stop" : 1600424584279,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "193610dde7091ebf",
+  "name" : "异常保存-hotDataMode为空",
+  "time" : {
+    "start" : 1600424588292,
+    "stop" : 1600424588335,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd18e136abc1c30f",
+  "name" : "正常查询-可以直接引用",
+  "time" : {
+    "start" : 1600424591991,
+    "stop" : 1600424592108,
+    "duration" : 117
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bf1c9302dd5b6f7",
+  "name" : "正常保存-保存设置发送速度回复",
+  "time" : {
+    "start" : 1600424584621,
+    "stop" : 1600424584720,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf7ceacf1bdbc8e0",
+  "name" : "正常保存-仅开启访客端转人工",
+  "time" : {
+    "start" : 1600424583186,
+    "stop" : 1600424583260,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28576db4ffadd01a",
+  "name" : "空查询-templateId为空",
+  "time" : {
+    "start" : 1600424601206,
+    "stop" : 1600424601344,
+    "duration" : 138
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "76e4fc1272a7846d",
+  "name" : "异常保存-intervalSeconds为负数",
+  "time" : {
+    "start" : 1600424574645,
+    "stop" : 1600424574683,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbc0c7a1b999925e",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424586486,
+    "stop" : 1600424586526,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91258b0274b26284",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424587441,
+    "stop" : 1600424587481,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47941d62216d0645",
+  "name" : "正常保存-关闭保存",
+  "time" : {
+    "start" : 1600424587151,
+    "stop" : 1600424587197,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50498854f4d17eac",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424575404,
+    "stop" : 1600424575443,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5b362076138df93",
+  "name" : "重复删除",
+  "time" : {
+    "start" : 1600424590153,
+    "stop" : 1600424590389,
+    "duration" : 236
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "69c6361a6a6a15e0",
+  "name" : "缺参-hotQuestionEnable为空",
+  "time" : {
+    "start" : 1600424577394,
+    "stop" : 1600424577433,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec2e439b9ea12459",
+  "name" : "异常保存-delaySecondsFrom为负数",
+  "time" : {
+    "start" : 1600424575904,
+    "stop" : 1600424575955,
+    "duration" : 51
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4d8c3d8bd69de91",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424587532,
+    "stop" : 1600424587572,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "762e1e22f0b6643d",
+  "name" : "正常查询-均开启设置查询",
+  "time" : {
+    "start" : 1600424584331,
+    "stop" : 1600424584387,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc20e86786d94ad3",
+  "name" : "正常保存-配置信息（不包含相似问题）,状态为开启",
+  "time" : {
+    "start" : 1600424590534,
+    "stop" : 1600424590716,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a319d246eb72874",
+  "name" : "缺参-unsolveQuestionDisplayEnable缺失",
+  "time" : {
+    "start" : 1600424584093,
+    "stop" : 1600424584135,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59d9723760fbff6a",
+  "name" : "正常查询-仅userId和robotId+categoryId+curPage+pageSize+effectiveType+orderby，搜索某个分类下的信息，分页，永久有效,根据robotId降序排序",
+  "time" : {
+    "start" : 1600424589175,
+    "stop" : 1600424589253,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "760536e1f889a7b1",
+  "name" : "错参-keyName为空",
+  "time" : {
+    "start" : 1600424594189,
+    "stop" : 1600424594228,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fd09c5da57fcc6e",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424572821,
+    "stop" : 1600424572862,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7aa309f3dc783579",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424576304,
+    "stop" : 1600424576344,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1297f62cbc9486ea",
+  "name" : "正常保存-开启访客端转人工+累积未解决问题转人工",
+  "time" : {
+    "start" : 1600424583369,
+    "stop" : 1600424583414,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc017a5e432b3772",
+  "name" : "正常保存-仅开启热点问题",
+  "time" : {
+    "start" : 1600424577540,
+    "stop" : 1600424577613,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ee78fe1973a7452",
+  "name" : "正常查询",
+  "time" : {
+    "start" : 1600424596336,
+    "stop" : 1600424596392,
+    "duration" : 56
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b00de7d43743d8d",
+  "name" : "缺参-password",
+  "time" : {
+    "start" : 1600424599226,
+    "stop" : 1600424599325,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90fa8cc990cbaa6a",
+  "name" : "错参-question为空",
+  "time" : {
+    "start" : 1600424592219,
+    "stop" : 1600424592275,
+    "duration" : 56
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7784516b084a4e94",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424571598,
+    "stop" : 1600424571638,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fb99a0d5ab8bb27",
+  "name" : "登陆错误-password",
+  "time" : {
+    "start" : 1600424599466,
+    "stop" : 1600424599510,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e3a65bde256da76",
+  "name" : "错参-unknowQuestionDisplayEnable为空",
+  "time" : {
+    "start" : 1600424583726,
+    "stop" : 1600424583764,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7504dfd3858e7271",
+  "name" : "正常保存-仅开启累积未识别问题转人工",
+  "time" : {
+    "start" : 1600424583265,
+    "stop" : 1600424583312,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f7f9d8191f1853a",
+  "name" : "正常保存-保存发送速度回复+保存访客反馈入口+设置反馈消息设置-解决+未解决",
+  "time" : {
+    "start" : 1600424585027,
+    "stop" : 1600424585080,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "207b2fa6f7e642ee",
+  "name" : "缺参-userId缺少",
+  "time" : {
+    "start" : 1600424571157,
+    "stop" : 1600424571218,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e681a90cb72c862d",
+  "name" : "异常保存-guideWord为空",
+  "time" : {
+    "start" : 1600424586244,
+    "stop" : 1600424586285,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8dfd254ed9cf47f8",
+  "name" : "缺参-templateId缺失",
+  "time" : {
+    "start" : 1600424600241,
+    "stop" : 1600424600282,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "459c6d7fc1c42dd5",
+  "name" : "缺参-userId缺失",
+  "time" : {
+    "start" : 1600424574941,
+    "stop" : 1600424574980,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28cbbe010a72e00",
+  "name" : "正常保存-保存一条问候语",
+  "time" : {
+    "start" : 1600424574346,
+    "stop" : 1600424574399,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bca0518f4cb26d4e",
+  "name" : "正常保存-关闭通用问候语",
+  "time" : {
+    "start" : 1600424573209,
+    "stop" : 1600424573254,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c4d4f92f993d57b",
+  "name" : "正常查询-查询question",
+  "time" : {
+    "start" : 1600424599793,
+    "stop" : 1600424599854,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "604cc1a49f2f2f5b",
+  "name" : "正常保存-开启暖场语(增加两条暖场语）",
+  "time" : {
+    "start" : 1600424575032,
+    "stop" : 1600424575086,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e56c134cdb26a13",
+  "name" : "异常保存-wantToAskEnable为空",
+  "time" : {
+    "start" : 1600424586293,
+    "stop" : 1600424586401,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7884681887d39992",
+  "name" : "错参-relatedQuestionEnable为空",
+  "time" : {
+    "start" : 1600424577219,
+    "stop" : 1600424577259,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ab307eb9a871a1a",
+  "name" : "空查询-查询不存在的faq",
+  "time" : {
+    "start" : 1600424601087,
+    "stop" : 1600424601139,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92f11a8239d41458",
+  "name" : "错参-robotId缺少",
+  "time" : {
+    "start" : 1600424591638,
+    "stop" : 1600424591680,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff775ce696c6daf0",
+  "name" : "正常查询-查询keyName = answer，翻页第二页查询",
+  "time" : {
+    "start" : 1600424602003,
+    "stop" : 1600424602190,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49190de096518ee4",
+  "name" : "错参-username为空",
+  "time" : {
+    "start" : 1600424599331,
+    "stop" : 1600424599361,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9add95e96d482d0c",
+  "name" : "缺参-ids为空",
+  "time" : {
+    "start" : 1600424592861,
+    "stop" : 1600424592900,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb2852fb1338c912",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424597494,
+    "stop" : 1600424597558,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f581af50e110c5c",
+  "name" : "缺参-targetId缺少",
+  "time" : {
+    "start" : 1600424596237,
+    "stop" : 1600424596280,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56f5166e9c5e6863",
+  "name" : "缺参-robotTemplate",
+  "time" : {
+    "start" : 1600424597118,
+    "stop" : 1600424597161,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7460b9cf2313edf0",
+  "name" : "正常查询-问候语为空查询",
+  "time" : {
+    "start" : 1600424573913,
+    "stop" : 1600424573954,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e3c7de8b8d4c0fa",
+  "name" : "错参-targetId为空",
+  "time" : {
+    "start" : 1600424596137,
+    "stop" : 1600424596182,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29572a81386a013a",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424578023,
+    "stop" : 1600424578061,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5c97f5fb0ef997c",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424592120,
+    "stop" : 1600424592165,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28b76dd175185f54",
+  "name" : "正常查询-查询answer",
+  "time" : {
+    "start" : 1600424599861,
+    "stop" : 1600424599928,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dba86af85adf0553",
+  "name" : "错参-categoty为空",
+  "time" : {
+    "start" : 1600424593122,
+    "stop" : 1600424593242,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "425c7cc1d95c62c8",
+  "name" : "正常查询-查询keyName = answer",
+  "time" : {
+    "start" : 1600424601818,
+    "stop" : 1600424601997,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97cbae51556deadf",
+  "name" : "正常查询-问候语非空查询",
+  "time" : {
+    "start" : 1600424573960,
+    "stop" : 1600424574008,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b6e0ce0f371404a",
+  "name" : "缺参-guideResponseEnable缺失",
+  "time" : {
+    "start" : 1600424574985,
+    "stop" : 1600424575025,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3448b9f6b36a63af",
+  "name" : "缺参-userId为空",
+  "time" : {
+    "start" : 1600424577308,
+    "stop" : 1600424577345,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a959ad4a174f1496",
+  "name" : "缺参查询-templateId缺少",
+  "time" : {
+    "start" : 1600424602751,
+    "stop" : 1600424602789,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42779b162ea31d15",
+  "name" : "正常添加分类-（准备数据）",
+  "time" : {
+    "start" : 1600424595336,
+    "stop" : 1600424595382,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40a9440d918a925d",
+  "name" : "缺参-userId缺失",
+  "time" : {
+    "start" : 1600424604505,
+    "stop" : 1600424604549,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6262fca698951101",
+  "name" : "正常保存-关闭引导语",
+  "time" : {
+    "start" : 1600424574480,
+    "stop" : 1600424574534,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cc5e9c31073dc52",
+  "name" : "重复添加",
+  "time" : {
+    "start" : 1600424603011,
+    "stop" : 1600424603054,
+    "duration" : 43
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "47f0fe547c9de42f",
+  "name" : "缺参查询-userId缺少",
+  "time" : {
+    "start" : 1600424595086,
+    "stop" : 1600424595125,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6bd232932648aa9",
+  "name" : "异常保存-intervalSeconds缺失",
+  "time" : {
+    "start" : 1600424574599,
+    "stop" : 1600424574640,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cff5483a8c24826",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424573689,
+    "stop" : 1600424573727,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7299bd9bd219e58",
+  "name" : "缺参-robotId缺失",
+  "time" : {
+    "start" : 1600424585585,
+    "stop" : 1600424585624,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92f557a71bd94dd3",
+  "name" : "缺参-robotId缺少",
+  "time" : {
+    "start" : 1600424576832,
+    "stop" : 1600424576879,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5dd52f7b4c57adc",
+  "name" : "正常保存-配置信息（包含相似问题），状态为关闭",
+  "time" : {
+    "start" : 1600424591044,
+    "stop" : 1600424591255,
+    "duration" : 211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cd5efb7bd82682b",
+  "name" : "正常保存-关闭保存，且设置guideWord为空",
+  "time" : {
+    "start" : 1600424587202,
+    "stop" : 1600424587247,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9418dd89f37ed940",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424592170,
+    "stop" : 1600424592213,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fb053cfcb2eb5ff",
+  "name" : "缺参-robotId缺失",
+  "time" : {
+    "start" : 1600424597422,
+    "stop" : 1600424597488,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ee7e3720503b680",
+  "name" : "正常保存-开启未知问题回复，并增加2条回复",
+  "time" : {
+    "start" : 1600424575847,
+    "stop" : 1600424575898,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4064661124b6cd95",
+  "name" : "正常保存-保存随机时长回复+保存访客反馈入口+设置反馈消息设置-解决+未解决",
+  "time" : {
+    "start" : 1600424584976,
+    "stop" : 1600424585021,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd738af5566aec59",
+  "name" : "错参-userId与robotId不匹配",
+  "time" : {
+    "start" : 1600424570895,
+    "stop" : 1600424570936,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d216cf86f9f42c0f",
+  "name" : "缺参-robotId缺失",
+  "time" : {
+    "start" : 1600424597963,
+    "stop" : 1600424598003,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64556c5d8d4e4152",
+  "name" : "正常查询-为空查询",
+  "time" : {
+    "start" : 1600424586706,
+    "stop" : 1600424586744,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a0fe3b1b4089d51",
+  "name" : "空查询-templateId错误",
+  "time" : {
+    "start" : 1600424601145,
+    "stop" : 1600424601200,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a9081c30a636b9f",
+  "name" : "正常删除",
+  "time" : {
+    "start" : 1600424598909,
+    "stop" : 1600424599076,
+    "duration" : 167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc0a41453a22e16a",
+  "name" : "错参-userId为空",
+  "time" : {
+    "start" : 1600424597869,
+    "stop" : 1600424597911,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "327fa1904629395f",
+  "name" : "异常保存-guideWord为空",
+  "time" : {
+    "start" : 1600424587313,
+    "stop" : 1600424587351,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c54d77f524b9953e",
+  "name" : "正常查询-为空查询",
+  "time" : {
+    "start" : 1600424585727,
+    "stop" : 1600424585770,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbd9dc058367193a",
+  "name" : "正常查询-搜索问题+无分类+分页（设置每页2行）",
+  "time" : {
+    "start" : 1600424593497,
+    "stop" : 1600424593565,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58aed764b3d45e5d",
+  "name" : "缺参-userId",
+  "time" : {
+    "start" : 1600424597254,
+    "stop" : 1600424597293,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b937793e0b2d28e8",
+  "name" : "正常删除",
+  "time" : {
+    "start" : 1600424595685,
+    "stop" : 1600424595800,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7201bab5f0b0bb1",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424591425,
+    "stop" : 1600424591468,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8878a8326b2f1bc",
+  "name" : "正常保存-开启关联问题+猜你想问",
+  "time" : {
+    "start" : 1600424577731,
+    "stop" : 1600424577786,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d5a235886c6c594",
+  "name" : "错参-robotId不存在",
+  "time" : {
+    "start" : 1600424597718,
+    "stop" : 1600424597761,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62febe157a12d92c",
+  "name" : "缺参-data缺少",
+  "time" : {
+    "start" : 1600424603114,
+    "stop" : 1600424603155,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c607f9b0db8c2fc",
+  "name" : "错参-robotId为空",
+  "time" : {
+    "start" : 1600424574059,
+    "stop" : 1600424574100,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eae455592bc7d4fb",
+  "name" : "缺参-userId缺失",
+  "time" : {
+    "start" : 1600424583958,
+    "stop" : 1600424583997,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b7641c113661f90",
+  "name" : "缺参-faqId缺少",
+  "time" : {
+    "start" : 1600424588606,
+    "stop" : 1600424588661,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b62aca0e5c9d81a6",
+  "name" : "缺参-userId为空",
+  "time" : {
+    "start" : 1600424572581,
+    "stop" : 1600424572641,
+    "duration" : 60
   },
   "status" : "passed",
   "severity" : "normal"

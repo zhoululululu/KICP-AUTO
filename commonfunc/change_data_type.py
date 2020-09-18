@@ -9,6 +9,7 @@ Created on 2020/2/26
 import json
 import pandas
 import os
+import zipfile
 
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
@@ -50,3 +51,19 @@ class ChangeDataType:
         for i in range(len(params)):
             result.append((description[i], params[i], assert_value[i]))
         return result
+
+    @staticmethod
+    def zip_file(dir_path, zip_path):
+        """
+        将测试结果添加成压缩包
+        :param dir_path: 生成测试结果数据的文件夹路径
+        :param zip_path：生成压缩包的文件夹路径
+        """
+        resultzip = zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED)
+        for root, dirnames, filenames in os.walk(dir_path):
+            # 去掉根路径，只对目标文件夹下的文件及文件夹进行压缩
+            file_path = root.replace(dir_path, '')
+            # 循环出一个个文件名
+            for filename in filenames:
+                resultzip.write(os.path.join(root, filename), os.path.join(file_path, filename))
+        resultzip.close()

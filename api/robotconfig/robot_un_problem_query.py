@@ -35,10 +35,15 @@ class RobotUnProblemQuery:
                         "userId"]
                 sql_result_list = SqlConnect("kicp_robot_config").exec_sql(assert_value.split("-")[1])
                 for i in range(len(sql_result_list)):
-                    unknow_response_list.append(
-                        {'recordId': str(sql_result_list[i][4]), 'robotId': str(sql_result_list[i][5]),
-                         'responseContent': sql_result_list[i][6],
-                         'indexNo': str(sql_result_list[i][7])})
+                    if sql_result_list[i][6]:
+                        unknow_response_list.append(
+                            {'recordId': str(sql_result_list[i][4]), 'robotId': str(sql_result_list[i][5]),
+                             'responseContent': sql_result_list[i][6],
+                             'indexNo': str(sql_result_list[i][7])})
+                    else:
+                        unknow_response_list.append(
+                            {'recordId': str(sql_result_list[i][4]), 'robotId': str(sql_result_list[i][5]),
+                             'indexNo': str(sql_result_list[i][7])})
                 robot_id = str(sql_result_list[0][0])
                 unknow_response_enable = True if sql_result_list[0][1] == 1 else False
                 delay_seconds_from = sql_result_list[0][2]
@@ -57,11 +62,14 @@ class RobotUnProblemQuery:
         except Exception:
             raise Exception
 
+
 #
 # if __name__ == '__main__':
 #     actual_result, except_result = RobotUnProblemQuery().un_problem_query("https://tkf-kicp.kuaishang.cn", json.dumps(
-#         {"robotId": "709", "userId": "11"}),
-#                                                                           "sql-select up.robotId,up.unknowResponseEnable,up.delaySecondsFrom,up.delaySecondsTo,upl.recordId,upl.robotId,upl.responseContent,upl.indexNo,up.userId from robot_unknow_response up,robot_unknow_response_list upl where up.robotId =709 and up.userId = 11 and up.userId = upl.userId and upl.robotId = up.robotId")
+#         {"robotId": "760", "userId": "11"}),
+#                                                                           "sql-select up.robotId,up.unknowResponseEnable,up.delaySecondsFrom,up.delaySecondsTo,upl.recordId,upl.robotId,upl.responseContent,upl.indexNo,up.userId from robot_unknow_response up,robot_unknow_response_list upl where up.robotId =760 and up.userId = 11 and up.userId = upl.userId and upl.robotId = up.robotId")
+#     print(actual_result)
+#     print(except_result)
 #     actual_result, except_result = RobotAdd().add_robot("https://tkf-kicp.kuaishang.cn", json.dumps(
 #         { "robotTemplate": "3", "robotPackage": "1", "nickNameOutsite": "zltestrobot1",
 #          "signature": "周璐测试机器人1", "userId": "11"}), "bean-对内昵称为空")

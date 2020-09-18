@@ -36,6 +36,12 @@ class RobotWarmWordQuery:
 
                 sql_result_list = SqlConnect("kicp_robot_config").exec_sql(assert_value.split("-")[1])
                 for i in range(len(sql_result_list)):
+                    # if sql_result_list[i][5] and sql_result_list[i][7]:
+                    #     warm_word_list.append(
+                    #         {'recordId': str(sql_result_list[i][5]), 'robotId': str(sql_result_list[i][6]),
+                    #          'responseContent': str(sql_result_list[i][8]),
+                    #          'indexNo': str(sql_result_list[i][9])})
+                    # elif sql_result_list[i][7] is not None:
                     warm_word_list.append(
                         {'recordId': str(sql_result_list[i][5]), 'robotId': str(sql_result_list[i][6]),
                          'intervalSeconds': sql_result_list[i][7],
@@ -47,16 +53,6 @@ class RobotWarmWordQuery:
                 warm_send_limit_enable = True if sql_result_list[0][3] == 1 else False
                 warm_send_limit_nums = sql_result_list[0][4]
                 user_id = str(sql_result_list[0][10])
-                print(sql_result_list)
-                print([re_robot_id, re_warm_response_enable, re_get_contact_dont_send_enable,
-                        re_warm_send_limit_enable, re_warm_send_limit_nums, re_warm_word_list, re_user_id])
-                print([robot_id,
-                        warm_response_enable,
-                        get_contact_dont_send_enable,
-                        warm_send_limit_enable,
-                        warm_send_limit_nums,
-                        warm_word_list,
-                        user_id])
                 return [re_robot_id, re_warm_response_enable, re_get_contact_dont_send_enable,
                         re_warm_send_limit_enable, re_warm_send_limit_nums, re_warm_word_list, re_user_id], \
                        [robot_id,
@@ -75,13 +71,11 @@ class RobotWarmWordQuery:
         except Exception:
             raise Exception
 
-
 #
 if __name__ == '__main__':
     actual_result, except_result = RobotWarmWordQuery().warm_word_query("https://tkf-kicp.kuaishang.cn", json.dumps(
-        {"robotId": "709", "userId": "11"}),
-                                                                        "sql-select ww.robotId,ww.warmResponseEnable,ww.getContactDontSendEnable,ww.warmResponseEnable,ww.warmSendLimitNums,wwl.recordId,wwl.robotId,wwl.intervalSeconds,wwl.responseContent,wwl.indexNo,ww.userId from robot_warm_word ww,robot_warm_word_list wwl where ww.robotId =709 and ww.userId = 11 and ww.userId = wwl.userId and wwl.robotId = ww.robotId")
-#     actual_result, except_result = RobotAdd().add_robot("https://tkf-kicp.kuaishang.cn", json.dumps(
-#         { "robotTemplate": "3", "robotPackage": "1", "nickNameOutsite": "zltestrobot1",
-#          "signature": "周璐测试机器人1", "userId": "11"}), "bean-对内昵称为空")
-#     assert Assert.get_result(actual_result, except_result)
+        {"robotId": "877", "userId": "11"}),
+                                                                        "sql-select ww.robotId,ww.warmResponseEnable,ww.getContactDontSendEnable,ww.warmResponseEnable,ww.warmSendLimitNums,wwl.recordId,wwl.robotId,wwl.intervalSeconds,wwl.responseContent,wwl.indexNo,ww.userId from robot_warm_word ww,robot_warm_word_list wwl where ww.robotId =877 and ww.userId = 11 and ww.userId = wwl.userId and wwl.robotId = ww.robotId")
+    print(actual_result)
+    print(except_result)
+    # assert Assert.get_result(actual_result, except_result)

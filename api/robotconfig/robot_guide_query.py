@@ -33,10 +33,17 @@ class RobotGuideQuery:
                         "guideWordList"], result["bean"]["userId"]
                 sql_result_list = SqlConnect("kicp_robot_config").exec_sql(assert_value.split("-")[1])
                 for i in range(len(sql_result_list)):
-                    guide_word_list.append({'recordId': str(sql_result_list[i][2]), 'robotId': str(sql_result_list[i][3]),
-                                            'intervalSeconds': sql_result_list[i][4],
-                                            'responseContent': str(sql_result_list[i][5]),
-                                            'indexNo': str(sql_result_list[i][6])})
+                    if sql_result_list[i][4]:
+                        guide_word_list.append(
+                            {'recordId': str(sql_result_list[i][2]), 'robotId': str(sql_result_list[i][3]),
+                             'intervalSeconds': sql_result_list[i][4],
+                             'responseContent': str(sql_result_list[i][5]),
+                             'indexNo': str(sql_result_list[i][6])})
+                    else:
+                        guide_word_list.append(
+                            {'recordId': str(sql_result_list[i][2]), 'robotId': str(sql_result_list[i][3]),
+                             'responseContent': str(sql_result_list[i][5]),
+                             'indexNo': str(sql_result_list[i][6])})
                 robot_id = str(sql_result_list[0][0])
                 guide_response_enable = True if sql_result_list[0][1] == 1 else False
                 user_id = str(sql_result_list[0][7])
@@ -55,11 +62,12 @@ class RobotGuideQuery:
         except Exception:
             raise Exception
 
+
 #
-if __name__ == '__main__':
-    actual_result, except_result = RobotGuideQuery().guide_query("https://tkf-kicp.kuaishang.cn", json.dumps(
-        {"robotId": "709", "userId": "11"}),
-                                                                 "sql-select gw.robotId,gw.guideResponseEnable,gwl.recordId,gw.robotId,gwl.intervalSeconds,gwl.responseContent,gwl.indexNo,gw.userId from robot_guide_word gw,robot_guide_word_list gwl where gw.robotId =709 and gw.userId = 11 and gw.userId = gwl.userId and gwl.robotId = gw.robotId")
+# if __name__ == '__main__':
+#     actual_result, except_result = RobotGuideQuery().guide_query("https://tkf-kicp.kuaishang.cn", json.dumps(
+#         {"robotId": "709", "userId": "11"}),
+#                                                                  "sql-select gw.robotId,gw.guideResponseEnable,gwl.recordId,gw.robotId,gwl.intervalSeconds,gwl.responseContent,gwl.indexNo,gw.userId from robot_guide_word gw,robot_guide_word_list gwl where gw.robotId =709 and gw.userId = 11 and gw.userId = gwl.userId and gwl.robotId = gw.robotId")
 #     actual_result, except_result = RobotAdd().add_robot("https://tkf-kicp.kuaishang.cn", json.dumps(
 #         { "robotTemplate": "3", "robotPackage": "1", "nickNameOutsite": "zltestrobot1",
 #          "signature": "周璐测试机器人1", "userId": "11"}), "bean-对内昵称为空")

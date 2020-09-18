@@ -4,7 +4,7 @@ login_email = 609200751@qq.com
 login_password = aypbshupgalqbbjd
 smtp = smtp.qq.com
 subject = AUTO-API Test Result
-mailbody = 接口自动化测试报告
+mailbody = KICP接口自动化测试报告
 Recipient = zl@kuaishang.cn
 
 [Mysql]
@@ -12,3 +12,9 @@ db_host = 192.168.26.210
 db_port = 3306
 user_name = root
 user_pwd = kicp
+
+[ES]
+ip = http://192.168.26.211/
+port = 9200
+user_name = elastic
+user_pwd = es123456

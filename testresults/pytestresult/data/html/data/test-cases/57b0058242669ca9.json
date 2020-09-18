@@ -1,0 +1,111 @@
+{
+  "uid" : "57b0058242669ca9",
+  "name" : "错参-modifyFrom时间晚于To时间",
+  "fullName" : "pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_template_category",
+  "historyId" : "29d7b6660fb80d39e2e7aa95d8d7b02e",
+  "time" : {
+    "start" : 1600424600180,
+    "stop" : 1600424600228,
+    "duration" : 48
+  },
+  "description" : "\n        预置问答问答对分类信息--查询\n        ",
+  "descriptionHtml" : "<pre><code>    预置问答问答对分类信息--查询\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('8', '1213')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
+  "statusTrace" : "self = <test_robot_template_category.TestRobotTemplateCategory object at 0x0000018B4BD15C50>\ndesc = '错参-modifyFrom时间晚于To时间'\nparams = '{\"templateId\":\"5\",\"keyName\":\"question\",\"keyword\":\"瘦脸针\",\"modifyTimeFrom\":\"2020-10-01 23:36:52\",\"modifyTimeTo\":\"2020-09-05 23:36:52\"}'\nassert_value = 'code-1213'\n\n    @pytest.mark.parametrize('desc,params,assert_value', query_faq_template_category)  # 用例参数化\n    @allure.feature(\"预置回答问答对配置信息\")\n    @allure.story('预置问答问答对分类信息--查询')  # 描述\n    @allure.title('{desc}')  # title\n    @pytest.mark.flaky(returns=0)  # 标记失败后重新运行次数\n    @pytest.mark.faq_template\n    def test_query_faq_template_category(self, desc, params, assert_value):\n        \"\"\"\n        预置问答问答对分类信息--查询\n        \"\"\"\n        actual_result, expect_result = FaqQueryTemplateCategory.query_template_category(self.url, params, assert_value)\n>       assert Assert.get_result(actual_result, expect_result)\nE       AssertionError: assert False\nE        +  where False = <function Assert.get_result at 0x0000018B4AF03510>('8', '1213')\nE        +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result\n\ntest_robot_template_category.py:56: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600424599718,
+      "stop" : 1600424599718,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600424604601,
+      "stop" : 1600424604601,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "预置问答问答对分类信息--查询"
+  }, {
+    "name" : "tag",
+    "value" : "faq_template"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_template_category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotTemplateCategory"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_template_category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1213'"
+  }, {
+    "name" : "desc",
+    "value" : "'错参-modifyFrom时间晚于To时间'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"templateId\":\"5\",\"keyName\":\"question\",\"keyword\":\"瘦脸针\",\"modifyTimeFrom\":\"2020-10-01 23:36:52\",\"modifyTimeTo\":\"2020-09-05 23:36:52\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "faq_template" ]
+  },
+  "source" : "57b0058242669ca9.json",
+  "parameterValues" : [ "'code-1213'", "'错参-modifyFrom时间晚于To时间'", "'{\"templateId\":\"5\",\"keyName\":\"question\",\"keyword\":\"瘦脸针\",\"modifyTimeFrom\":\"2020-10-01 23:36:52\",\"modifyTimeTo\":\"2020-09-05 23:36:52\"}'" ]
+}

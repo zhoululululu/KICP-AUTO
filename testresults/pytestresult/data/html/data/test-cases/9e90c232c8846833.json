@@ -1,0 +1,105 @@
+{
+  "uid" : "9e90c232c8846833",
+  "name" : "正常修改排序",
+  "fullName" : "pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no",
+  "historyId" : "c47c56de63bdbba36418a9607849687e",
+  "time" : {
+    "start" : 1600424596029,
+    "stop" : 1600424596075,
+    "duration" : 46
+  },
+  "description" : "\n        常规问答问答对分类信息--修改排序\n        ",
+  "descriptionHtml" : "<pre><code>    常规问答问答对分类信息--修改排序\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600424594373,
+      "stop" : 1600424594373,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600424596331,
+      "stop" : 1600424596331,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "常规问答问答对分类信息--修改排序"
+  }, {
+    "name" : "feature",
+    "value" : "常规问答问答对分类信息"
+  }, {
+    "name" : "tag",
+    "value" : "category_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq_category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaqCategory"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq_category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常修改排序'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"sourceId\": \"895\",\"targetId\": \"904\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "category_faq" ]
+  },
+  "source" : "9e90c232c8846833.json",
+  "parameterValues" : [ "'code-8'", "'正常修改排序'", "'{\"sourceId\": \"895\",\"targetId\": \"904\"}'" ]
+}

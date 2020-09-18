@@ -1,0 +1,105 @@
+{
+  "uid" : "be8545caa76293c6",
+  "name" : "缺参-data缺少",
+  "fullName" : "pytest.test_robot_template_category.TestRobotTemplateCategory#test_cite_faq",
+  "historyId" : "2d7c2937737c35970c716aa8827b6e47",
+  "time" : {
+    "start" : 1600424603394,
+    "stop" : 1600424603462,
+    "duration" : 68
+  },
+  "description" : "\n        预置问答问答对配置信息--引用\n        ",
+  "descriptionHtml" : "<pre><code>    预置问答问答对配置信息--引用\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600424599718,
+      "stop" : 1600424599718,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600424604601,
+      "stop" : 1600424604601,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "预置问答问答对配置信息--引用"
+  }, {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "tag",
+    "value" : "faq_template"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_template_category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotTemplateCategory"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_template_category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1214'"
+  }, {
+    "name" : "desc",
+    "value" : "'缺参-data缺少'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"key\":\"\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "faq_template" ]
+  },
+  "source" : "be8545caa76293c6.json",
+  "parameterValues" : [ "'code-1214'", "'缺参-data缺少'", "'{\"key\":\"\"}'" ]
+}

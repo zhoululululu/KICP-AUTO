@@ -25,7 +25,7 @@ class SendEmail:
         """
         # 配置文件中提取email信息
         config = Config()
-        c = config.get_email()
+        c = config.get_email_info()
         smtp_email = c["smtp"]
         port = c["port"]
         login_email = c["login_email"]

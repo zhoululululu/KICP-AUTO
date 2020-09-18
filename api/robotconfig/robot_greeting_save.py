@@ -23,8 +23,7 @@ class RobotGreetingsave:
             "Content-Type": "application/json"
         }
         try:
-            result = requests.post(url=url + path, data=params, headers=header).json()
-            print(result)
+            result = requests.post(url=url + path, data=json.dumps(params), headers=header).json()
             if "code" in assert_value:
                 re_code = str(result["code"])
                 except_data = assert_value.split("-")[1]
@@ -38,6 +37,8 @@ class RobotGreetingsave:
         except Exception:
             raise Exception
 
+        finally:
+            requests.session().close()
 
 #
 # if __name__ == '__main__':

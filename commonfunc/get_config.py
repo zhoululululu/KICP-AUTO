@@ -39,11 +39,23 @@ class Config:
 
     def get_sql_info(self):
         """
-        获取xpath的各种参数配置值
+        获取数据库的各种参数配置值
         """
         self.conf['db_host'] = self.config.get("Mysql", "db_host")
         self.conf['db_port'] = self.config.get("Mysql", "db_port")
         self.conf['user_name'] = self.config.get("Mysql", "user_name")
         self.conf['user_pwd'] = self.config.get("Mysql", "user_pwd")
+
+        return self.conf
+
+
+    def get_es_info(self):
+        """
+        获取ES的各种参数配置值
+        """
+        self.conf['es_host'] = self.config.get("ES", "ip")
+        self.conf['es_port'] = self.config.get("ES", "port")
+        self.conf['es_user_name'] = self.config.get("ES", "user_name")
+        self.conf['es_user_pwd'] = self.config.get("ES", "user_pwd")
 
         return self.conf

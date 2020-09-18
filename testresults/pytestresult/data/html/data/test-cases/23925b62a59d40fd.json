@@ -1,0 +1,111 @@
+{
+  "uid" : "23925b62a59d40fd",
+  "name" : "正常查询-查询答案",
+  "fullName" : "pytest.test_robot_template_category.TestRobotTemplateCategory#test_search_standard_questions[正常查询-查询答案-{\"templateId\": \"5\", \"keyword\": \"瘦脸针\", \"keyName\": \"answer\", \"curPage\": 1, \"pageSize\": 10}-esanswer--template_faq_answer--{\"query\":{\"bool\":{\"must\":[{\"match\":{\"templateId\":5}},{\"match\":{\"content\":\"瘦脸针要\"}}]}},\"size\":10,\"from\":0,\"sort\":",
+  "historyId" : "58a388e38fc4b0ab322e54439912fe3f",
+  "time" : {
+    "start" : 1600424602506,
+    "stop" : 1600424602692,
+    "duration" : 186
+  },
+  "description" : "\n        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据\n        ",
+  "descriptionHtml" : "<pre><code>    预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('{\"resultlist\": [{\"id\": \"97460599576952833\", \"answer\": \"\\\\u7626\\\\u8138\\\\u9488\\\\u4e00\\\\u822c\\\\u51e0\\\\u9488--\\\\u56de\\\\u7...odifyTime\": \"2020-09-03 11:09:44\"}], \"totalrecord\": 12, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 2, \"beginIndex\": 0}', '{\"resultlist\": [{\"id\": \"97760279195123712\", \"answer\": \"\\\\u7626\\\\u8138\\\\u9488\\\\u8981\\\\u6253\\\\u51e0\\\\u9488--\\\\u56de\\\\u7...odifyTime\": \"2020-09-02 18:09:22\"}], \"totalrecord\": 16, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 2, \"beginIndex\": 0}')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
+  "statusTrace" : "self = <test_robot_template_category.TestRobotTemplateCategory object at 0x0000018B4BD4AB70>\ndesc = '正常查询-查询答案'\nparams = '{\"templateId\": \"5\", \"keyword\": \"瘦脸针\", \"keyName\": \"answer\", \"curPage\": 1, \"pageSize\": 10}'\nassert_value = 'esanswer--template_faq_answer--{\"query\":{\"bool\":{\"must\":[{\"match\":{\"templateId\":5}},{\"match\":{\"content\":\"瘦脸针要\"}}]}},\"size\":10,\"from\":0,\"sort\":[{\"_score\":{\"order\":\"desc\"}}]}'\n\n    @pytest.mark.parametrize('desc,params,assert_value', search_standard_questions)  # 用例参数化\n    @allure.feature(\"预置回答问答对配置信息\")\n    @allure.story('预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据')  # 描述\n    @allure.title('{desc}')  # title\n    @pytest.mark.flaky(returns=0)  # 标记失败后重新运行次数\n    @pytest.mark.faq_template\n    def test_search_standard_questions(self, desc, params, assert_value):\n        \"\"\"\n        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据\n        \"\"\"\n        actual_result, expect_result = FaqQueryTemplateStandardQuestion.query_template_standard_question(self.url,\n                                                                                                         params,\n                                                                                                         assert_value)\n>       assert Assert.get_result(actual_result, expect_result)\nE       assert False\nE        +  where False = <function Assert.get_result at 0x0000018B4AF03510>('{\"resultlist\": [{\"id\": \"97460599576952833\", \"answer\": \"\\\\u7626\\\\u8138\\\\u9488\\\\u4e00\\\\u822c\\\\u51e0\\\\u9488--\\\\u56de\\\\u7...odifyTime\": \"2020-09-03 11:09:44\"}], \"totalrecord\": 12, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 2, \"beginIndex\": 0}', '{\"resultlist\": [{\"id\": \"97760279195123712\", \"answer\": \"\\\\u7626\\\\u8138\\\\u9488\\\\u8981\\\\u6253\\\\u51e0\\\\u9488--\\\\u56de\\\\u7...odifyTime\": \"2020-09-02 18:09:22\"}], \"totalrecord\": 16, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 2, \"beginIndex\": 0}')\nE        +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result\n\ntest_robot_template_category.py:85: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600424599718,
+      "stop" : 1600424599718,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600424604601,
+      "stop" : 1600424604601,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据"
+  }, {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "tag",
+    "value" : "faq_template"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_template_category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotTemplateCategory"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_template_category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'esanswer--template_faq_answer--{\"query\":{\"bool\":{\"must\":[{\"match\":{\"templateId\":5}},{\"match\":{\"content\":\"瘦脸针要\"}}]}},\"size\":10,\"from\":0,\"sort\":[{\"_score\":{\"order\":\"desc\"}}]}'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常查询-查询答案'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"templateId\": \"5\", \"keyword\": \"瘦脸针\", \"keyName\": \"answer\", \"curPage\": 1, \"pageSize\": 10}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "faq_template" ]
+  },
+  "source" : "23925b62a59d40fd.json",
+  "parameterValues" : [ "'esanswer--template_faq_answer--{\"query\":{\"bool\":{\"must\":[{\"match\":{\"templateId\":5}},{\"match\":{\"content\":\"瘦脸针要\"}}]}},\"size\":10,\"from\":0,\"sort\":[{\"_score\":{\"order\":\"desc\"}}]}'", "'正常查询-查询答案'", "'{\"templateId\": \"5\", \"keyword\": \"瘦脸针\", \"keyName\": \"answer\", \"curPage\": 1, \"pageSize\": 10}'" ]
+}

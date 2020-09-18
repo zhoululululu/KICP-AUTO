@@ -27,10 +27,9 @@ class RobotDelete:
                 if re_code == "8":
                     try:
                         # 针对delete额外操作：修改用例表,将deleteId重新从库中寻找
-                        delete_id = \
-                            SqlConnect("kicp_robot_config").exec_sql(
-                                "select robotId from robot_basic_info ORDER BY robotId DESC")[
-                                0][0]
+                        delete_id = SqlConnect("kicp_robot_config").exec_sql(
+                            "select robotId from robot_basic_info where userId = 11 and robotId!=358 and robotId!=877 ORDER BY robotId DESC")[
+                            0][0]
                         wb = openpyxl.load_workbook(rootPath + "testdata\\robotmanage\\robot_manage.xlsx")
                         sheet = wb["delete_data"]
                         RobotDelete.modify(sheet, '正常删除', '{ "userId": 11,"robotId":' + str(delete_id) + '}')
@@ -41,7 +40,7 @@ class RobotDelete:
 
                     # 删除该测试账号下无用的账号,358为userId为11下的需要校验的robot manage，709用与查询robot config非空查询
                     SqlConnect("kicp_robot_config").delete_data(
-                        "delete from robot_basic_info where userId=11 and robotId!=358 and robotId!=709 and robotId!=" + str(
+                        "delete from robot_basic_info where userId=11 and robotId!=358 and robotId!=877 and robotId!=" + str(
                             delete_id))
                     print("删除成功")
                 return re_code, except_data
@@ -59,5 +58,11 @@ class RobotDelete:
                 sheet.cell(row=index + 1, column=2, value=value)
 
 # if __name__ == '__main__':
-# testdata = ChangeDataType.file_to_dict(rootPath + "testdata\\robotmanage\\robot_manage.xlsx",
-#                                        sheet_name="delete_data")
+#     actual_result, expect_result  = RobotDelete().delete_robot(
+#         "https://tkf-kicp.kuaishang.cn",
+#         json.dumps({"id": "898"}
+#                    ),
+#         'code-8')
+#     print(actual_result)
+#     print(expect_result)
+    # assert Assert.get_result(actual_result, expect_result)

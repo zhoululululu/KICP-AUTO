@@ -1,0 +1,105 @@
+{
+  "uid" : "5cf8689cb2d2fa77",
+  "name" : "缺参-userId缺少",
+  "fullName" : "pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query",
+  "historyId" : "192537aeb1a4e2c3e4ae8c836b7b5261",
+  "time" : {
+    "start" : 1600424585978,
+    "stop" : 1600424586041,
+    "duration" : 63
+  },
+  "description" : "\n        机器人猜你想问查询\n        ",
+  "descriptionHtml" : "<pre><code>    机器人猜你想问查询\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600424570797,
+      "stop" : 1600424570798,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600424588753,
+      "stop" : 1600424588753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "story",
+    "value" : "机器人猜你想问查询"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'message-Required Long parameter 'userId' is not present'"
+  }, {
+    "name" : "desc",
+    "value" : "'缺参-userId缺少'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"877\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "5cf8689cb2d2fa77.json",
+  "parameterValues" : [ "'message-Required Long parameter 'userId' is not present'", "'缺参-userId缺少'", "'{\"robotId\":\"877\"}'" ]
+}

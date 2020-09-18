@@ -1,0 +1,105 @@
+{
+  "uid" : "38161c0b57cc3ddb",
+  "name" : "缺参-robotId缺失",
+  "fullName" : "pytest.test_robot_manage.TestRobotManage#test_robot_delete",
+  "historyId" : "d8c46042c9e4f142b48bf7bd99d256da",
+  "time" : {
+    "start" : 1600424598840,
+    "stop" : 1600424598903,
+    "duration" : 63
+  },
+  "description" : "\n        删除robot\n        ",
+  "descriptionHtml" : "<pre><code>    删除robot\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600424596335,
+      "stop" : 1600424596335,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600424599714,
+      "stop" : 1600424599714,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "删除机器人"
+  }, {
+    "name" : "feature",
+    "value" : "机器人管理"
+  }, {
+    "name" : "tag",
+    "value" : "robot_manage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_manage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotManage"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_manage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'message-Required Long parameter 'robotId' is not present'"
+  }, {
+    "name" : "desc",
+    "value" : "'缺参-robotId缺失'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"userId\": 11}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_manage" ]
+  },
+  "source" : "38161c0b57cc3ddb.json",
+  "parameterValues" : [ "'message-Required Long parameter 'robotId' is not present'", "'缺参-robotId缺失'", "'{\"userId\": 11}'" ]
+}

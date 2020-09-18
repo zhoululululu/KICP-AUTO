@@ -1,0 +1,75 @@
+{
+  "uid" : "f9004d2fab461c35",
+  "name" : "正常保存-开启未知问题回复，并增加1条回复",
+  "fullName" : "pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[正常保存-开启未知问题回复，并增加1条回复-{\"robotId\":\"877\",\"unknowResponseEnable\":\"true\",\"unknowResponseList\":",
+  "historyId" : "bffadb9ff5073a43897ec81712e9b4f6",
+  "time" : {
+    "start" : 1600424575789,
+    "stop" : 1600424575840,
+    "duration" : 51
+  },
+  "description" : "\n        机器人未知问题保存\n        ",
+  "descriptionHtml" : "<pre><code>    机器人未知问题保存\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "机器人未知问题语保存"
+  }, {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常保存-开启未知问题回复，并增加1条回复'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"877\",\"unknowResponseEnable\":\"true\",\"unknowResponseList\":[{\"responseContent\":\"<div>zl-测试位置问题回复1</div>\",\"recordId\":1599704268658,\"robotId\":\"877\"}],\"userId\":\"11\",\"loaded\":\"true\",\"delaySecondsFrom\":1,\"delaySecondsTo\":2}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "f9004d2fab461c35.json",
+  "parameterValues" : [ "'code-8'", "'正常保存-开启未知问题回复，并增加1条回复'", "'{\"robotId\":\"877\",\"unknowResponseEnable\":\"true\",\"unknowResponseList\":[{\"responseContent\":\"<div>zl-测试位置问题回复1</div>\",\"recordId\":1599704268658,\"robotId\":\"877\"}],\"userId\":\"11\",\"loaded\":\"true\",\"delaySecondsFrom\":1,\"delaySecondsTo\":2}'" ]
+}

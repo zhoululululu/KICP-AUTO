@@ -1,0 +1,111 @@
+{
+  "uid" : "bf2def821f978a2e",
+  "name" : "缺参-templateId缺失",
+  "fullName" : "pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_template_query_page",
+  "historyId" : "00be99a76de381688a9e65aa324ba7b9",
+  "time" : {
+    "start" : 1600424601455,
+    "stop" : 1600424601505,
+    "duration" : 50
+  },
+  "description" : "\n        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据\n        ",
+  "descriptionHtml" : "<pre><code>    预置回答问答对配置信息--根据分类和模板Id查询问题分页数据\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('8', '1214')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
+  "statusTrace" : "self = <test_robot_template_category.TestRobotTemplateCategory object at 0x0000018B4BCF12B0>\ndesc = '缺参-templateId缺失'\nparams = '{\"curPage\": 1,\"pageSize\": 10,\"categoryId\":793,\"orderName\":\"\",\"orderBy\":\"\"}'\nassert_value = 'code-1214'\n\n    @pytest.mark.parametrize('desc,params,assert_value', query_template_query_page)  # 用例参数化\n    @allure.feature(\"预置回答问答对配置信息\")\n    @allure.story('预置回答问答对配置信息--根据分类和模板Id查询问题分页数据')  # 描述\n    @allure.title('{desc}')  # title\n    @pytest.mark.flaky(returns=0)  # 标记失败后重新运行次数\n    @pytest.mark.faq_template\n    def test_query_template_query_page(self, desc, params, assert_value):\n        \"\"\"\n        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据\n        \"\"\"\n        actual_result, expect_result = FaqQueryTemplatePage.query_template_page(self.url, params,\n                                                                                assert_value)\n>       assert Assert.get_result(actual_result, expect_result)\nE       AssertionError: assert False\nE        +  where False = <function Assert.get_result at 0x0000018B4AF03510>('8', '1214')\nE        +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result\n\ntest_robot_template_category.py:70: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600424599718,
+      "stop" : 1600424599718,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600424604601,
+      "stop" : 1600424604601,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "预置回答问答对配置信息--根据分类和模板Id查询问题分页数据"
+  }, {
+    "name" : "tag",
+    "value" : "faq_template"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_template_category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotTemplateCategory"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_template_category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1214'"
+  }, {
+    "name" : "desc",
+    "value" : "'缺参-templateId缺失'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"curPage\": 1,\"pageSize\": 10,\"categoryId\":793,\"orderName\":\"\",\"orderBy\":\"\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "faq_template" ]
+  },
+  "source" : "bf2def821f978a2e.json",
+  "parameterValues" : [ "'code-1214'", "'缺参-templateId缺失'", "'{\"curPage\": 1,\"pageSize\": 10,\"categoryId\":793,\"orderName\":\"\",\"orderBy\":\"\"}'" ]
+}

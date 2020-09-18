@@ -1,0 +1,105 @@
+{
+  "uid" : "28258d0e4d3781e5",
+  "name" : "缺参-ids为空",
+  "fullName" : "pytest.test_robot_faq.TestRobotFaq#test_change_category",
+  "historyId" : "13319f533fbc0ac5462aaba8a9569d6d",
+  "time" : {
+    "start" : 1600424593297,
+    "stop" : 1600424593338,
+    "duration" : 41
+  },
+  "description" : "\n        常规问答问答对配置信息--批量修改分类\n        ",
+  "descriptionHtml" : "<pre><code>    常规问答问答对配置信息--批量修改分类\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600424588759,
+      "stop" : 1600424588759,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600424594369,
+      "stop" : 1600424594369,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "常规问答问答对配置信息--批量修改分类"
+  }, {
+    "name" : "feature",
+    "value" : "常规问答问答对配置信息"
+  }, {
+    "name" : "tag",
+    "value" : "robot_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1100'"
+  }, {
+    "name" : "desc",
+    "value" : "'缺参-ids为空'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"category\": \"904\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_faq" ]
+  },
+  "source" : "28258d0e4d3781e5.json",
+  "parameterValues" : [ "'code-1100'", "'缺参-ids为空'", "'{\"category\": \"904\"}'" ]
+}

@@ -1,0 +1,75 @@
+{
+  "uid" : "92f11a8239d41458",
+  "name" : "错参-robotId缺少",
+  "fullName" : "pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-robotId缺少-{\"data\":{\"question\": \"ZL-测试配置问答对信息1\", \"categoryId\": \"895\",\"similarQuestionforms\": [{\"question\": \"ZL-测试配置问答对信息1-1\"}],\"answerForms\": ",
+  "historyId" : "d0bbfdbe2bdb24e94f4c48f5e22823a9",
+  "time" : {
+    "start" : 1600424591638,
+    "stop" : 1600424591680,
+    "duration" : 42
+  },
+  "description" : "\n        常规问答问答对配置信息--保存\n        ",
+  "descriptionHtml" : "<pre><code>    常规问答问答对配置信息--保存\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "常规问答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "常规问答问答对配置信息--保存"
+  }, {
+    "name" : "tag",
+    "value" : "robot_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "17960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1214'"
+  }, {
+    "name" : "desc",
+    "value" : "'错参-robotId缺少'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"data\":{\"question\": \"ZL-测试配置问答对信息1\", \"categoryId\": \"895\",\"similarQuestionforms\": [{\"question\": \"ZL-测试配置问答对信息1-1\"}],\"answerForms\": [{\"content\": \"<div>ZL-测试配置问答对回答1</div>\"}], \"effectiveType\": 0,\"sourceType\": 0, \"enable\": True, \"userId\": \"11\"}}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_faq" ]
+  },
+  "source" : "92f11a8239d41458.json",
+  "parameterValues" : [ "'code-1214'", "'错参-robotId缺少'", "'{\"data\":{\"question\": \"ZL-测试配置问答对信息1\", \"categoryId\": \"895\",\"similarQuestionforms\": [{\"question\": \"ZL-测试配置问答对信息1-1\"}],\"answerForms\": [{\"content\": \"<div>ZL-测试配置问答对回答1</div>\"}], \"effectiveType\": 0,\"sourceType\": 0, \"enable\": True, \"userId\": \"11\"}}'" ]
+}
