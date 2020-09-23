@@ -50,7 +50,7 @@ class RobotDelete:
                 except_data = assert_value.split("-")[1]
                 return re_bean, except_data
         except Exception:
-            raise
+            raise Exception
 
     def modify(sheet, name, value):
         for index, row in enumerate(sheet.rows):

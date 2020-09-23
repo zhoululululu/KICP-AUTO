@@ -24,12 +24,12 @@ class FaqSaveCategory:
     @staticmethod
     def faq_save_category(url, params, assert_value):
         path = "/faqConfig/fAQRobotCategory/save"
-        if "code-8" in assert_value:
-            value = eval(params).get("categoryName") + str(time.time())
-            params = eval(params)
-            params["categoryName"] = value
-            params = json.dumps(params)
         try:
+            if ("categoryName" in params and "1253" not in assert_value) or "code-8" in assert_value:
+                new_params = eval(str(params))
+                value = eval(str(params)).get("categoryName")
+                new_params["categoryName"] = value + str(time.time())
+                params = json.dumps(new_params)
             result = requests.post(url=url + path, data=json.loads(params)).json()
             if "code" in assert_value:
                 re_code = str(result["code"])
@@ -49,8 +49,8 @@ class FaqSaveCategory:
 if __name__ == '__main__':
     actual_result, expect_result = FaqSaveCategory().faq_save_category(
         "https://tkf-kicp.kuaishang.cn",
-        json.dumps({"robotId": "", "userId": "", "categoryName": "ZL-test子类1"}),
-        'code-8')
+        json.dumps({"robotId": "877", "userId": "11", "categoryName": "ZL测试分类1"}),
+        'code-1253')
     print(actual_result)
     print(expect_result)
     assert Assert.get_result(actual_result, expect_result)

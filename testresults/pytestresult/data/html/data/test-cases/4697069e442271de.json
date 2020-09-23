@@ -1,0 +1,105 @@
+{
+  "uid" : "4697069e442271de",
+  "name" : "正常查询-为空查询",
+  "fullName" : "pytest.test_robot_config.TestRobotConfig#test_related_related_question_query",
+  "historyId" : "7276d4dc5eb0e6e1708e13956ae010d2",
+  "time" : {
+    "start" : 1600862936858,
+    "stop" : 1600862936903,
+    "duration" : 45
+  },
+  "description" : "\n        机器人关联问题查询\n        ",
+  "descriptionHtml" : "<pre><code>    机器人关联问题查询\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600862925579,
+      "stop" : 1600862925579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600862938974,
+      "stop" : 1600862938974,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "story",
+    "value" : "机器人关联问题查询"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常查询-为空查询'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"358\",\"userId\":\"11\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "4697069e442271de.json",
+  "parameterValues" : [ "'code-8'", "'正常查询-为空查询'", "'{\"robotId\":\"358\",\"userId\":\"11\"}'" ]
+}

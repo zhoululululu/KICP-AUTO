@@ -38,8 +38,8 @@ class RobotHotQuestionSave:
             raise Exception
 
 
-if __name__ == '__main__':
-    actual_result, expect_result= RobotHotQuestionSave.hot_question_save("https://tkf-kicp.kuaishang.cn", json.dumps(
-        {"robotId":"877","hotQuestion":{"robotId":"877","hotQuestionEnable":"false","hotDataMode":"MANUAL_ADD","guideWord":"测试热点问题","hotQuestionList":[{"id":"101305312947044352","question":"zl-test分类测试问题1","similarQuestionCount":1,"effectiveType":0,"userId":"11","robotId":"877","modifyTime":"2020-09-17 23:56:21","key":"101305312947044352","isFind":"true","faqId":"101305312947044352","hotDataMode":"MANUAL_ADD"}]},"userId":"11"}), "code-8")
-    print(actual_result, expect_result)
+# if __name__ == '__main__':
+#     actual_result, expect_result= RobotHotQuestionSave.hot_question_save("https://tkf-kicp.kuaishang.cn", json.dumps(
+#         {"robotId":"877","hotQuestion":{"robotId":"877","hotQuestionEnable":"false","hotDataMode":"MANUAL_ADD","guideWord":"测试热点问题","hotQuestionList":[{"id":"101305312947044352","question":"zl-test分类测试问题1","similarQuestionCount":1,"effectiveType":0,"userId":"11","robotId":"877","modifyTime":"2020-09-17 23:56:21","key":"101305312947044352","isFind":"true","faqId":"101305312947044352","hotDataMode":"MANUAL_ADD"}]},"userId":"11"}), "code-8")
+#     print(actual_result, expect_result)
     # assert Assert.get_result(actual_result, except_result)

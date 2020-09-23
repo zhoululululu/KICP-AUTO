@@ -1,0 +1,75 @@
+{
+  "uid" : "d6007d7af4dca6ee",
+  "name" : "重复保存-配置信息",
+  "fullName" : "pytest.test_robot_faq.TestRobotFaq#test_save_faq[重复保存-配置信息-{\"data\":{\"question\": \"ZL-接口测试222\", \"categoryId\": \"0\",\"similarQuestionforms\": [{\"question\": \"ZL-接口测试2222-1\"}],\"answerForms\": ",
+  "historyId" : "d1777e8cddb81cc07196f5e048dfd3b3",
+  "time" : {
+    "start" : 1600832099293,
+    "stop" : 1600832099349,
+    "duration" : 56
+  },
+  "description" : "\n        常规问答问答对配置信息--保存\n        ",
+  "descriptionHtml" : "<pre><code>    常规问答问答对配置信息--保存\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "常规问答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "常规问答问答对配置信息--保存"
+  }, {
+    "name" : "tag",
+    "value" : "robot_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "6220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1253'"
+  }, {
+    "name" : "desc",
+    "value" : "'重复保存-配置信息'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"data\":{\"question\": \"ZL-接口测试222\", \"categoryId\": \"0\",\"similarQuestionforms\": [{\"question\": \"ZL-接口测试2222-1\"}],\"answerForms\": [{\"content\": \"<div>ZL-测试配置问答对回答2222</div>\"}], \"effectiveType\": 0,\"sourceType\": 0, \"enable\": True, \"userId\": \"11\", \"robotId\": \"877\"}}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_faq" ]
+  },
+  "source" : "d6007d7af4dca6ee.json",
+  "parameterValues" : [ "'code-1253'", "'重复保存-配置信息'", "'{\"data\":{\"question\": \"ZL-接口测试222\", \"categoryId\": \"0\",\"similarQuestionforms\": [{\"question\": \"ZL-接口测试2222-1\"}],\"answerForms\": [{\"content\": \"<div>ZL-测试配置问答对回答2222</div>\"}], \"effectiveType\": 0,\"sourceType\": 0, \"enable\": True, \"userId\": \"11\", \"robotId\": \"877\"}}'" ]
+}

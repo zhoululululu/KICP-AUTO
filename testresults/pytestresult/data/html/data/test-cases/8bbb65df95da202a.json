@@ -1,0 +1,105 @@
+{
+  "uid" : "8bbb65df95da202a",
+  "name" : "异常保存-保存设置发送速度回复，设置非文本类回复时间为负数",
+  "fullName" : "pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save",
+  "historyId" : "2112210065e7f7d3befea39337677cb8",
+  "time" : {
+    "start" : 1600862935139,
+    "stop" : 1600862935179,
+    "duration" : 40
+  },
+  "description" : "\n        机器人高级设置保存\n        ",
+  "descriptionHtml" : "<pre><code>    机器人高级设置保存\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600862925579,
+      "stop" : 1600862925579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600862938974,
+      "stop" : 1600862938974,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "story",
+    "value" : "机器人高级设置保存"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1213'"
+  }, {
+    "name" : "desc",
+    "value" : "'异常保存-保存设置发送速度回复，设置非文本类回复时间为负数'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"877\",\"timeResponseType\":2,\"speedNonTextSeconds\":-2,\"speedTextWordCount\":5,\"guestFeedbackDisplayEnable\":\"false\",\"guestFeedbackSolveWord\":\"\",\"guestFeedbackUnsolveWord\":\"\",\"userId\":\"11\",\"loaded\":\"true\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "8bbb65df95da202a.json",
+  "parameterValues" : [ "'code-1213'", "'异常保存-保存设置发送速度回复，设置非文本类回复时间为负数'", "'{\"robotId\":\"877\",\"timeResponseType\":2,\"speedNonTextSeconds\":-2,\"speedTextWordCount\":5,\"guestFeedbackDisplayEnable\":\"false\",\"guestFeedbackSolveWord\":\"\",\"guestFeedbackUnsolveWord\":\"\",\"userId\":\"11\",\"loaded\":\"true\"}'" ]
+}

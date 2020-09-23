@@ -71,15 +71,15 @@ class RobotArtiticialSettingsQuery:
 
 
 #
-if __name__ == '__main__':
-    actual_result, expect_result = RobotArtiticialSettingsQuery().artiticial_settings_query(
-        "https://tkf-kicp.kuaishang.cn", json.dumps(
-            {"robotId": "760",
-             "userId": "11"}),
-        "sql-select robotId,guestDisplayEnable,guestDisplayWord,unknowQuestionDisplayEnable,unkonwQuestionCountTimes,unknowQuestionDisplayWord,unsolveQuestionDisplayEnable,unsolveQuestionDisplayWord,keywordDisplayEnable,keywordContent,keywordExactEnable,keywordDisplayWord,userId from robot_transfer_labor where robotId=760 and userId = 11")
-    print(actual_result)
-    print(expect_result)
-    assert Assert.get_result(actual_result, expect_result)
+# if __name__ == '__main__':
+#     actual_result, expect_result = RobotArtiticialSettingsQuery().artiticial_settings_query(
+#         "https://tkf-kicp.kuaishang.cn", json.dumps(
+#             {"robotId": "760",
+#              "userId": "11"}),
+#         "sql-select robotId,guestDisplayEnable,guestDisplayWord,unknowQuestionDisplayEnable,unkonwQuestionCountTimes,unknowQuestionDisplayWord,unsolveQuestionDisplayEnable,unsolveQuestionDisplayWord,keywordDisplayEnable,keywordContent,keywordExactEnable,keywordDisplayWord,userId from robot_transfer_labor where robotId=760 and userId = 11")
+#     print(actual_result)
+#     print(expect_result)
+#     assert Assert.get_result(actual_result, expect_result)
 #                                                                        "sql-select robotId,normalartiticial_settingsEnable,normalartiticial_settingsContent,keywordartiticial_settingsEnable,keywordartiticial_settingsContent,userId from robot_artiticial_settings_word where robotId=709")
 #     print(actual_result, expect_result )
 #     actual_result, except_result = RobotAdd().add_robot("https://tkf-kicp.kuaishang.cn", json.dumps(

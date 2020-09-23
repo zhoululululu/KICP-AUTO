@@ -1,0 +1,105 @@
+{
+  "uid" : "6b36486cf68f3db7",
+  "name" : "缺参-ids缺少",
+  "fullName" : "pytest.test_robot_faq.TestRobotFaq#test_delete_faq",
+  "historyId" : "cf0aadc715754a862b99fefaffecce83",
+  "time" : {
+    "start" : 1600862940276,
+    "stop" : 1600862940317,
+    "duration" : 41
+  },
+  "description" : "\n        常规问答问答对配置信息--删除\n        ",
+  "descriptionHtml" : "<pre><code>    常规问答问答对配置信息--删除\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600862938984,
+      "stop" : 1600862938984,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600862947464,
+      "stop" : 1600862947464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "常规问答问答对配置信息--删除"
+  }, {
+    "name" : "feature",
+    "value" : "常规问答问答对配置信息"
+  }, {
+    "name" : "tag",
+    "value" : "robot_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1100'"
+  }, {
+    "name" : "desc",
+    "value" : "'缺参-ids缺少'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"keys\": \"\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_faq" ]
+  },
+  "source" : "6b36486cf68f3db7.json",
+  "parameterValues" : [ "'code-1100'", "'缺参-ids缺少'", "'{\"keys\": \"\"}'" ]
+}

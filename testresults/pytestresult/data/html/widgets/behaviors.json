@@ -4,43 +4,21 @@
     "uid" : "03ef4dc3fbfc9728ed9288d04fd2a938",
     "name" : "预置回答问答对配置信息",
     "statistic" : {
-      "failed" : 7,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 7
-    }
-  }, {
-    "uid" : "d89f4d0ae4665d5b617417ea9d5a5b51",
-    "name" : "机器人配置",
-    "statistic" : {
-      "failed" : 5,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 17,
-      "unknown" : 0,
-      "total" : 22
-    }
-  }, {
-    "uid" : "95aeb49be23509cd6421d358062e7500",
-    "name" : "机器人管理",
-    "statistic" : {
-      "failed" : 4,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 5,
-      "unknown" : 0,
-      "total" : 9
+      "total" : 5
     }
   }, {
     "uid" : "58726fbd1864f5d2c9d2fa1b96d5edd0",
     "name" : "常规问答问答对配置信息",
     "statistic" : {
-      "failed" : 3,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 6,
       "unknown" : 0,
       "total" : 7
     }
@@ -48,12 +26,34 @@
     "uid" : "629c1badb22292792d04106b34484590",
     "name" : "常规问答问答对分类信息",
     "statistic" : {
-      "failed" : 3,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 3,
       "unknown" : 0,
       "total" : 4
+    }
+  }, {
+    "uid" : "d89f4d0ae4665d5b617417ea9d5a5b51",
+    "name" : "机器人配置",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 22,
+      "unknown" : 0,
+      "total" : 22
+    }
+  }, {
+    "uid" : "95aeb49be23509cd6421d358062e7500",
+    "name" : "机器人管理",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
     }
   } ]
 }

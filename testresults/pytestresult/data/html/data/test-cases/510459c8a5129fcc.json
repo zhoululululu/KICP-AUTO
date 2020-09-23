@@ -1,0 +1,105 @@
+{
+  "uid" : "510459c8a5129fcc",
+  "name" : "直接引用",
+  "fullName" : "pytest.test_robot_faq.TestRobotFaq#test_cite_faq[直接引用-{\"data\":{\"id\":\"95976306872795136\",\"question\":\"年龄大了能够做这些项目吗？\",\"categoryId\":0,\"answerIds\":\"[\\\"96813317940674560\\\"]\",\"addTime\":\"2020-09-03 15:17:05\",\"modifyTime\":\"2020-09-05 21:25:07\",\"templateId\":\"5\",\"answerForms\":",
+  "historyId" : "9498df78193168f9833182ca0a629193",
+  "time" : {
+    "start" : 1600862943503,
+    "stop" : 1600862943661,
+    "duration" : 158
+  },
+  "description" : "\n        预置问答问答对配置信息--引用\n        ",
+  "descriptionHtml" : "<pre><code>    预置问答问答对配置信息--引用\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600862938984,
+      "stop" : 1600862938984,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600862947464,
+      "stop" : 1600862947464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "预置问答问答对配置信息--引用"
+  }, {
+    "name" : "tag",
+    "value" : "robot_template_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'直接引用'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"data\":{\"id\":\"95976306872795136\",\"question\":\"年龄大了能够做这些项目吗？\",\"categoryId\":0,\"answerIds\":\"[\\\"96813317940674560\\\"]\",\"addTime\":\"2020-09-03 15:17:05\",\"modifyTime\":\"2020-09-05 21:25:07\",\"templateId\":\"5\",\"answerForms\":[{\"content\":\"您今年多大年龄呢？针对年龄大的人群做的项目较多的皮肤除皱 年轻化抗衰紧致提升的\",\"parentFAQId\":\"95976306872795136\",\"categoryId\":\"0\",\"addTime\":\"2020-09-05 21:25:07\",\"modifyTime\":\"2020-09-05 21:25:07\",\"templateId\":\"5\"}],\"key\":\"95976306872795136\",\"effectiveType\":0,\"enable\":\"true\",\"sourceType\":1,\"userId\":\"11\",\"robotId\":\"877\"}}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_template_faq" ]
+  },
+  "source" : "510459c8a5129fcc.json",
+  "parameterValues" : [ "'code-8'", "'直接引用'", "'{\"data\":{\"id\":\"95976306872795136\",\"question\":\"年龄大了能够做这些项目吗？\",\"categoryId\":0,\"answerIds\":\"[\\\"96813317940674560\\\"]\",\"addTime\":\"2020-09-03 15:17:05\",\"modifyTime\":\"2020-09-05 21:25:07\",\"templateId\":\"5\",\"answerForms\":[{\"content\":\"您今年多大年龄呢？针对年龄大的人群做的项目较多的皮肤除皱 年轻化抗衰紧致提升的\",\"parentFAQId\":\"95976306872795136\",\"categoryId\":\"0\",\"addTime\":\"2020-09-05 21:25:07\",\"modifyTime\":\"2020-09-05 21:25:07\",\"templateId\":\"5\"}],\"key\":\"95976306872795136\",\"effectiveType\":0,\"enable\":\"true\",\"sourceType\":1,\"userId\":\"11\",\"robotId\":\"877\"}}'" ]
+}

@@ -4,633 +4,105 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('8', '1213')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "异常保存-delaySecondsFrom为负数",
-        "uid" : "ec2e439b9ea12459",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424575904,
-          "stop" : 1600424575955,
-          "duration" : 51
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'异常保存-delaySecondsFrom为负数'", "'{\"robotId\":\"877\",\"unknowResponseEnable\":\"true\",\"unknowResponseList\":[{\"responseContent\":\"<div>zl-测试位置问题回复1</div>\",\"recordId\":1599704268658,\"robotId\":\"877\"}],\"userId\":\"11\",\"loaded\":\"true\",\"delaySecondsFrom\":-1,\"delaySecondsTo\":2}'" ]
-      }, {
-        "name" : "异常保存-delaySecondsTo为负数",
-        "uid" : "64dc21f4601ff30c",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424576117,
-          "stop" : 1600424576245,
-          "duration" : 128
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'异常保存-delaySecondsTo为负数'", "'{\"robotId\":\"877\",\"unknowResponseEnable\":\"true\",\"unknowResponseList\":[{\"responseContent\":\"<div>zl-测试位置问题回复1</div>\",\"recordId\":1599704268658,\"robotId\":\"877\"}],\"userId\":\"11\",\"loaded\":\"true\",\"delaySecondsFrom\":1,\"delaySecondsTo\":-2}'" ]
-      }, {
-        "name" : "错参-responseContent为空",
-        "uid" : "cdf55a1d332dfe10",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424576350,
-          "stop" : 1600424576403,
-          "duration" : 53
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'错参-responseContent为空'", "'{\"robotId\":\"877\",\"unknowResponseEnable\":\"true\",\"unknowResponseList\":[{\"responseContent\":\"\",\"recordId\":1599704268658,\"robotId\":\"877\"}],\"userId\":\"11\",\"loaded\":\"true\",\"delaySecondsFrom\":1,\"delaySecondsTo\":2}'" ]
-      }, {
-        "name" : "缺参-responseContent为空",
-        "uid" : "d55b98490701962f",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424576508,
-          "stop" : 1600424576556,
-          "duration" : 48
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'缺参-responseContent为空'", "'{\"robotId\":\"877\",\"unknowResponseEnable\":\"true\",\"unknowResponseList\":[{\"recordId\":1599704268658,\"robotId\":\"877\"}],\"userId\":\"11\",\"loaded\":\"true\",\"delaySecondsFrom\":1,\"delaySecondsTo\":2}'" ]
-      }, {
-        "name" : "异常保存-仅开启累积未解决问题转人工，设置unsolveQuestionCountTimes时间为负数",
-        "uid" : "5be66280cfb2e144",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424583472,
-          "stop" : 1600424583516,
-          "duration" : 44
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'异常保存-仅开启累积未解决问题转人工，设置unsolveQuestionCountTimes时间为负数'", "'{\"robotId\":\"877\",\"guestDisplayEnable\":\"false\",\"guestDisplayWord\":\"\",\"unknowQuestionDisplayEnable\":\"false\",\"unknowQuestionDisplayWord\":\"\",\"unsolveQuestionDisplayEnable\":\"true\",\"unsolveQuestionDisplayWord\":\"测试转人工\",\"keywordDisplayEnable\":\"false\",\"keywordContent\":\"\",\"keywordExactEnable\":\"false\",\"keywordDisplayWord\":\"\",\"userId\":\"11\",\"loaded\":\"true\",\"unkonwQuestionCountTimes\":\"\",\"unsolveQuestionCountTimes\":-2}'" ]
-      }, {
-        "name" : "异常保存-仅开启累积未识别问题转人工，设置unkonwQuestionCountTimes时间为负数",
-        "uid" : "20742e702943380b",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424583531,
-          "stop" : 1600424583577,
-          "duration" : 46
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'异常保存-仅开启累积未识别问题转人工，设置unkonwQuestionCountTimes时间为负数'", "'{\"robotId\":\"877\",\"guestDisplayEnable\":\"false\",\"guestDisplayWord\":\"\",\"unknowQuestionDisplayEnable\":\"true\",\"unknowQuestionDisplayWord\":\"测试转人工\",\"unsolveQuestionDisplayEnable\":\"false\",\"unsolveQuestionDisplayWord\":\"\",\"keywordDisplayEnable\":\"false\",\"keywordContent\":\"\",\"keywordExactEnable\":\"false\",\"keywordDisplayWord\":\"\",\"userId\":\"11\",\"loaded\":\"true\",\"unkonwQuestionCountTimes\":-2}'" ]
-      }, {
-        "name" : "异常保存-保存设置发送速度回复，设置非文本类回复时间为负数",
-        "uid" : "819a40a02f3e1b25",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424585085,
-          "stop" : 1600424585141,
-          "duration" : 56
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'异常保存-保存设置发送速度回复，设置非文本类回复时间为负数'", "'{\"robotId\":\"877\",\"timeResponseType\":2,\"speedNonTextSeconds\":-2,\"speedTextWordCount\":5,\"guestFeedbackDisplayEnable\":\"false\",\"guestFeedbackSolveWord\":\"\",\"guestFeedbackUnsolveWord\":\"\",\"userId\":\"11\",\"loaded\":\"true\"}'" ]
-      }, {
-        "name" : "异常保存-保存设置发送速度回复，设置文本类回复时间为负数",
-        "uid" : "59d2b51f5197bf61",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424585155,
-          "stop" : 1600424585220,
-          "duration" : 65
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'异常保存-保存设置发送速度回复，设置文本类回复时间为负数'", "'{\"robotId\":\"877\",\"timeResponseType\":2,\"speedNonTextSeconds\":2,\"speedTextWordCount\":-5,\"guestFeedbackDisplayEnable\":\"false\",\"guestFeedbackSolveWord\":\"\",\"guestFeedbackUnsolveWord\":\"\",\"userId\":\"11\",\"loaded\":\"true\"}'" ]
-      }, {
-        "name" : "异常保存-保存随机时长回复，设置randomSecondsFrom时间为负数",
-        "uid" : "9e68561f4584a771",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424585239,
-          "stop" : 1600424585290,
-          "duration" : 51
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'异常保存-保存随机时长回复，设置randomSecondsFrom时间为负数'", "'{\"robotId\":\"877\",\"timeResponseType\":1,\"guestFeedbackDisplayEnable\":\"false\",\"guestFeedbackSolveWord\":\"\",\"guestFeedbackUnsolveWord\":\"\",\"userId\":\"11\",\"loaded\":\"true\",\"randomSecondsFrom\":-2,\"randomSecondsTo\":3}'" ]
-      }, {
-        "name" : "异常保存-保存随机时长回复，设置randomSecondsTo时间为负数",
-        "uid" : "907758b5aba7081e",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424585312,
-          "stop" : 1600424585365,
-          "duration" : 53
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'异常保存-保存随机时长回复，设置randomSecondsTo时间为负数'", "'{\"robotId\":\"877\",\"timeResponseType\":1,\"guestFeedbackDisplayEnable\":\"false\",\"guestFeedbackSolveWord\":\"\",\"guestFeedbackUnsolveWord\":\"\",\"userId\":\"11\",\"loaded\":\"true\",\"randomSecondsFrom\":2,\"randomSecondsTo\":-3}'" ]
-      }, {
-        "name" : "异常保存-设置显示条数限制为负数",
-        "uid" : "c75f9b77744f939a",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424586182,
-          "stop" : 1600424586228,
-          "duration" : 46
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'异常保存-设置显示条数限制为负数'", "'{\"robotId\":\"877\",\"wantToAskEnable\":\"false\",\"guideWord\":\"猜你想问问题-通过猜你想问接口保存\",\"showNumberLimit\":-3,\"userId\":\"11\"}'" ]
-      }, {
-        "name" : "异常保存-设置显示条数限制为负数",
-        "uid" : "ed14f6ce655e6746",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424587253,
-          "stop" : 1600424587299,
-          "duration" : 46
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'异常保存-设置显示条数限制为负数'", "'{\"robotId\":\"877\",\"relatedQuestionEnable\":\"false\",\"guideWord\":\"猜你想问问题-通过猜你想问接口保存\",\"showNumberLimit\":-3,\"userId\":\"11\"}'" ]
-      }, {
-        "name" : "错参-keyName非question或answer",
-        "uid" : "29ef520c27f8dfd",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424600116,
-          "stop" : 1600424600168,
-          "duration" : 52
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'错参-keyName非question或answer'", "'{\"templateId\":\"5\",\"keyName\":\"test\",\"keyword\":\"瘦脸针\",\"modifyTimeFrom\":\"2020-09-01 23:36:52\",\"modifyTimeTo\":\"2020-09-05 23:36:52\"}'" ]
-      }, {
-        "name" : "错参-modifyFrom时间晚于To时间",
-        "uid" : "57b0058242669ca9",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424600180,
-          "stop" : 1600424600228,
-          "duration" : 48
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'错参-modifyFrom时间晚于To时间'", "'{\"templateId\":\"5\",\"keyName\":\"question\",\"keyword\":\"瘦脸针\",\"modifyTimeFrom\":\"2020-10-01 23:36:52\",\"modifyTimeTo\":\"2020-09-05 23:36:52\"}'" ]
-      }, {
-        "name" : "错参-id为空",
-        "uid" : "3f4f2739cb15254a",
-        "parentUid" : "8cfccf54655bb21d456f8c9cd12a9433",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424604043,
-          "stop" : 1600424604091,
-          "duration" : 48
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'错参-id为空'", "'{\"id\":\"\"}'" ]
-      } ],
-      "uid" : "8cfccf54655bb21d456f8c9cd12a9433"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('8', '1214')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "重复删除",
-        "uid" : "a5b362076138df93",
-        "parentUid" : "c036c5d555185bde1dded705429bbcd5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424590153,
-          "stop" : 1600424590389,
-          "duration" : 236
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1214'", "'重复删除'", "'{ \"ids\":\"[101588050644140036]\"}'" ]
-      }, {
-        "name" : "重复删除",
-        "uid" : "dad478bda7d398a2",
-        "parentUid" : "c036c5d555185bde1dded705429bbcd5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424595805,
-          "stop" : 1600424595925,
-          "duration" : 120
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1214'", "'重复删除'", "'{ \"id\":1492}'" ]
-      }, {
-        "name" : "缺参-templateId缺失",
-        "uid" : "bf2def821f978a2e",
-        "parentUid" : "c036c5d555185bde1dded705429bbcd5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424601455,
-          "stop" : 1600424601505,
-          "duration" : 50
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1214'", "'缺参-templateId缺失'", "'{\"curPage\": 1,\"pageSize\": 10,\"categoryId\":793,\"orderName\":\"\",\"orderBy\":\"\"}'" ]
-      } ],
-      "uid" : "c036c5d555185bde1dded705429bbcd5"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>({'code': 1101}, '常规问答库中有相似问题')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
+      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000015A22D51598>({'code': 1101}, '常规问答库中有相似问题')\n +    where <function Assert.get_result at 0x0000015A22D51598> = Assert.get_result",
       "children" : [ {
         "name" : "正常查询-常规问答库中有相似问题，设置size为1",
-        "uid" : "17405b1047b95aa6",
-        "parentUid" : "dc651baca566ccf0867f5a552998d3e7",
+        "uid" : "9257b7b39073e1ae",
+        "parentUid" : "368399753475ceb95cba88b574a70cd5",
         "status" : "failed",
         "time" : {
-          "start" : 1600424591685,
-          "stop" : 1600424591829,
-          "duration" : 144
+          "start" : 1600862940323,
+          "stop" : 1600862940441,
+          "duration" : 118
         },
         "flaky" : false,
         "parameters" : [ "'bean-常规问答库中有相似问题'", "'正常查询-常规问答库中有相似问题，设置size为1'", "'{\"robotId\": \"877\", \"userId\": \"11\",\"question\": \"zl-test分类测试问题6\",\"size\": 1}'" ]
       }, {
         "name" : "正常查询-常规问答库中有相似问题，设置size为2",
-        "uid" : "2679628c55460945",
-        "parentUid" : "dc651baca566ccf0867f5a552998d3e7",
+        "uid" : "a682935cf7f81133",
+        "parentUid" : "368399753475ceb95cba88b574a70cd5",
         "status" : "failed",
         "time" : {
-          "start" : 1600424591841,
-          "stop" : 1600424591980,
-          "duration" : 139
+          "start" : 1600862940653,
+          "stop" : 1600862940771,
+          "duration" : 118
         },
         "flaky" : false,
         "parameters" : [ "'bean-常规问答库中有相似问题'", "'正常查询-常规问答库中有相似问题，设置size为2'", "'{\"robotId\": \"877\", \"userId\": \"11\",\"question\": \"zl-test分类测试问题6\",\"size\": 1}'" ]
       } ],
-      "uid" : "dc651baca566ccf0867f5a552998d3e7"
+      "uid" : "368399753475ceb95cba88b574a70cd5"
     }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>({'code': 1101}, '可以直接引用')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "正常查询-可以直接引用",
-        "uid" : "cd18e136abc1c30f",
-        "parentUid" : "f673075f0a2965efdc7c02109a1a7eea",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424591991,
-          "stop" : 1600424592108,
-          "duration" : 117
-        },
-        "flaky" : false,
-        "parameters" : [ "'bean-可以直接引用'", "'正常查询-可以直接引用'", "'{\"robotId\": \"877\", \"userId\": \"11\",\"question\": \"啊哈哈哈哈哈哈哈哈安安大叔\",\"size\": 1}'" ]
-      } ],
-      "uid" : "f673075f0a2965efdc7c02109a1a7eea"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('8', '1100')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
+      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000015A22D51598>('8', '1100')\n +    where <function Assert.get_result at 0x0000015A22D51598> = Assert.get_result",
       "children" : [ {
         "name" : "错参-question为空",
-        "uid" : "90fa8cc990cbaa6a",
-        "parentUid" : "4eecac0428b1c9b82a7faabae4f43390",
+        "uid" : "fe193c5866186f47",
+        "parentUid" : "c5da1e5d7e7096763a79fbda46d2cbc6",
         "status" : "failed",
         "time" : {
-          "start" : 1600424592219,
-          "stop" : 1600424592275,
-          "duration" : 56
+          "start" : 1600862940956,
+          "stop" : 1600862941015,
+          "duration" : 59
         },
         "flaky" : false,
         "parameters" : [ "'code-1100'", "'错参-question为空'", "'{\"robotId\": \"877\", \"userId\": \"11\",\"question\": \"\",\"size\": 1}'" ]
+      } ],
+      "uid" : "c5da1e5d7e7096763a79fbda46d2cbc6"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000015A22D51598>('8', '1214')\n +    where <function Assert.get_result at 0x0000015A22D51598> = Assert.get_result",
+      "children" : [ {
+        "name" : "缺参-templateId缺失",
+        "uid" : "fe46ab15808b63cd",
+        "parentUid" : "04e6c1674a63defd051d5cf0998c8b06",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600862945884,
+          "stop" : 1600862945937,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "parameters" : [ "'code-1214'", "'缺参-templateId缺失'", "'{\"curPage\": 1,\"pageSize\": 10,\"categoryId\":793,\"orderName\":\"\",\"orderBy\":\"\"}'" ]
       }, {
-        "name" : "错参-question为空",
-        "uid" : "7b12c437509c90f5",
-        "parentUid" : "4eecac0428b1c9b82a7faabae4f43390",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424604281,
-          "stop" : 1600424604343,
-          "duration" : 62
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1100'", "'错参-question为空'", "'{\"userId\": \"111\",\"robotId\": \"8771\",\"question\": \"\",\"size\": 11110}'" ]
-      } ],
-      "uid" : "4eecac0428b1c9b82a7faabae4f43390"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('{\"resultlist\": [{\"id\": \"101305312947044352\", \"question\": \"zl-test\\\\u5206\\\\u7c7b\\\\u6d4b\\\\u8bd5\\\\u95ee\\\\u98981\", \"simil...modifyTime\": \"2020-09-17 23:56:43\"}], \"totalrecord\": 2, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 1, \"beginIndex\": 0}', '{\"resultlist\": [{\"id\": \"101305407436324864\", \"question\": \"zl-test\\\\u5206\\\\u7c7b\\\\u6d4b\\\\u8bd5\\\\u95ee\\\\u98982\", \"simil...modifyTime\": \"2020-09-18 01:30:22\"}], \"totalrecord\": 2, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 1, \"beginIndex\": 0}')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "正常查询-搜索问题+分类",
-        "uid" : "8bfb3e1331446a75",
-        "parentUid" : "a4ba860d772a52bbecffc82c38857332",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424593416,
-          "stop" : 1600424593484,
-          "duration" : 68
-        },
-        "flaky" : false,
-        "parameters" : [ "'es-robot_faq-{\"query\":{\"bool\":{\"must\":[{\"match\":{\"userId\":11}},{\"match\":{\"robotId\":877}},{\"match\":{\"parentId\":0}},{\"match\":{\"question\":\"分类\"}}]}},\"sort\":[{\"_score\":{\"order\":\"desc\"}}]}'", "'正常查询-搜索问题+分类'", "'{\"userId\": \"11\",\"robotId\": \"877\",\"keyName\": \"question\",\"keyword\": \"分类\",\"curPage\": \"1\",\"pageSize\": \"10\"}'" ]
-      } ],
-      "uid" : "a4ba860d772a52bbecffc82c38857332"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('[{\"categoryId\": \"1492\", \"categoryName\": \"11111600423977.6358418\", \"parentId\": \"0\", \"indexNo\": \"31\", \"robotId\": \"877\",..., \"unAllot\": false}, {\"categoryId\": \"0\", \"categoryName\": \"\\\\u672a\\\\u5206\\\\u7c7b\", \"questionNum\": 43, \"unAllot\": true}]', '[{\"categoryId\": \"916\", \"categoryName\": \"ZL\\\\u6d4b\\\\u8bd5\\\\u5206\\\\u7c7b916\", \"parentId\": \"0\", \"indexNo\": \"4\", \"robotId..., \"unAllot\": false}, {\"categoryId\": \"0\", \"categoryName\": \"\\\\u672a\\\\u5206\\\\u7c7b\", \"questionNum\": 43, \"unAllot\": true}]')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "正常查询-仅userId，robotId",
-        "uid" : "4ca0fea309ec12ea",
-        "parentUid" : "0e3ce04a72bf55cb8fe5100c0af7d57d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424594373,
-          "stop" : 1600424594595,
-          "duration" : 222
-        },
-        "flaky" : false,
-        "parameters" : [ "'sql-kicp_faq-select categoryId,categoryName,parentId,indexNo,robotId,addTime,modifyTime,userId,isunAllot from faq_robot_category where userId = 11 and robotId = 877 and categoryName!=\"未分类\" order by modifyTime'", "'正常查询-仅userId，robotId'", "'{\"userId\": \"11\",\"robotId\": \"877\"}'" ]
-      } ],
-      "uid" : "0e3ce04a72bf55cb8fe5100c0af7d57d"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('[{\"categoryId\": \"1492\", \"categoryName\": \"11111600423977.6358418\", \"parentId\": \"0\", \"indexNo\": \"31\", \"robotId\": \"877\",...], \"unAllot\": false}, {\"categoryId\": \"0\", \"categoryName\": \"\\\\u672a\\\\u5206\\\\u7c7b\", \"questionNum\": 2, \"unAllot\": true}]', '[{\"categoryId\": \"916\", \"categoryName\": \"ZL\\\\u6d4b\\\\u8bd5\\\\u5206\\\\u7c7b916\", \"parentId\": \"0\", \"indexNo\": \"4\", \"robotId..., \"unAllot\": false}, {\"categoryId\": \"0\", \"categoryName\": \"\\\\u672a\\\\u5206\\\\u7c7b\", \"questionNum\": 43, \"unAllot\": true}]')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "正常查询-question查询",
-        "uid" : "43d7ddc0fe0ebf87",
-        "parentUid" : "8d60c5695215257db37e21a6ccc73d77",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424594607,
-          "stop" : 1600424594775,
-          "duration" : 168
-        },
-        "flaky" : false,
-        "parameters" : [ "'sql-kicp_faq-select categoryId,categoryName,parentId,indexNo,robotId,addTime,modifyTime,userId,isunAllot from faq_robot_category where userId = 11 and robotId = 877 and categoryName!=\"未分类\" order by modifyTime'", "'正常查询-question查询'", "'{\"userId\": \"11\",\"robotId\": \"877\",\"keyName\":\"question\",\"keyword\":\"分类\"}'" ]
-      }, {
-        "name" : "正常查询-answer查询",
-        "uid" : "aedd725d32ae79df",
-        "parentUid" : "8d60c5695215257db37e21a6ccc73d77",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424594786,
-          "stop" : 1600424594985,
-          "duration" : 199
-        },
-        "flaky" : false,
-        "parameters" : [ "'sql-kicp_faq-select categoryId,categoryName,parentId,indexNo,robotId,addTime,modifyTime,userId,isunAllot from faq_robot_category where userId = 11 and robotId = 877 and categoryName!=\"未分类\" order by modifyTime'", "'正常查询-answer查询'", "'{\"userId\": \"11\",\"robotId\": \"877\",\"keyName\":\"answer\",\"keyword\":\"分类\"}'" ]
-      } ],
-      "uid" : "8d60c5695215257db37e21a6ccc73d77"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('8', '1253')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "重复添加分类",
-        "uid" : "c2a5529db67632f4",
-        "parentUid" : "17129e30582685e73ace241ae21e5816",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424595389,
-          "stop" : 1600424595434,
-          "duration" : 45
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1253'", "'重复添加分类'", "'{\"parantId\": \"904\",\"robotId\": \"877\",\"userId\": \"11\",\"categoryName\":\"ZL接口子类1\"}'" ]
-      } ],
-      "uid" : "17129e30582685e73ace241ae21e5816"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('1253', '1214')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
         "name" : "错参-robotId为空",
-        "uid" : "abb6c36c20e38d91",
-        "parentUid" : "df86be7fa4b07ce71025b276d1a76125",
+        "uid" : "5b0542f6f9699f20",
+        "parentUid" : "04e6c1674a63defd051d5cf0998c8b06",
         "status" : "failed",
         "time" : {
-          "start" : 1600424595445,
-          "stop" : 1600424595487,
-          "duration" : 42
+          "start" : 1600862948342,
+          "stop" : 1600862948394,
+          "duration" : 52
         },
         "flaky" : false,
-        "parameters" : [ "'code-1214'", "'错参-robotId为空'", "'{\"robotId\": \"\",\"userId\": \"11\",\"categoryName\":\"ZL-test子类1\"}'" ]
+        "parameters" : [ "'code-1214'", "'错参-robotId为空'", "'{\"robotId\": \"\",\"userId\": \"11\",\"categoryName\":\"ZL-test子类robotId为空\"}'" ]
       }, {
         "name" : "缺参-缺少robotId",
-        "uid" : "7b043fc214a03637",
-        "parentUid" : "df86be7fa4b07ce71025b276d1a76125",
+        "uid" : "52fce009007614f0",
+        "parentUid" : "04e6c1674a63defd051d5cf0998c8b06",
         "status" : "failed",
         "time" : {
-          "start" : 1600424595590,
-          "stop" : 1600424595632,
-          "duration" : 42
+          "start" : 1600862948540,
+          "stop" : 1600862948589,
+          "duration" : 49
         },
         "flaky" : false,
-        "parameters" : [ "'code-1214'", "'缺参-缺少robotId'", "'{\"userId\": \"11\",\"categoryName\":\"ZL-test子类1\"}'" ]
+        "parameters" : [ "'code-1214'", "'缺参-缺少robotId'", "'{\"userId\": \"11\",\"categoryName\":\"ZL-test子类缺少robotId\"}'" ]
       } ],
-      "uid" : "df86be7fa4b07ce71025b276d1a76125"
+      "uid" : "04e6c1674a63defd051d5cf0998c8b06"
     }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>(['358', 'zltestrobot1', 'zltestrobot1', 'ask', 1, 8, ...], ['358', 'zltestrobot1', 'zltestrobot1', 'ask', 1, 8, ...])\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
+      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000015A22D51598>('8', '1213')\n +    where <function Assert.get_result at 0x0000015A22D51598> = Assert.get_result",
       "children" : [ {
-        "name" : "正常查询",
-        "uid" : "8ee78fe1973a7452",
-        "parentUid" : "c967d5ab65dcfa52e2141614c25db4b3",
+        "name" : "错参-id为空",
+        "uid" : "142517674072149d",
+        "parentUid" : "19d9b8e9700bebb35787a0b7e28c58be",
         "status" : "failed",
         "time" : {
-          "start" : 1600424596336,
-          "stop" : 1600424596392,
-          "duration" : 56
+          "start" : 1600862947360,
+          "stop" : 1600862947407,
+          "duration" : 47
         },
         "flaky" : false,
-        "parameters" : [ "'sql-select robotId,robotName,nickNameInsite,robotType,robotPackage,robotTemplate,robotStatus,addTime,userId from robot_basic_info where userId=11 and robotId=358'", "'正常查询'", "'{\"userId\": 11,\"robotId\":358}'" ]
-      }, {
-        "name" : "正常查询",
-        "uid" : "aeca6bcacd63294b",
-        "parentUid" : "c967d5ab65dcfa52e2141614c25db4b3",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424597299,
-          "stop" : 1600424597354,
-          "duration" : 55
-        },
-        "flaky" : false,
-        "parameters" : [ "'sql-select robotId,robotName,nickNameInsite,robotType,robotPackage,robotTemplate,robotStatus,addTime,userId from robot_basic_info where userId=11 and robotId=358'", "'正常查询'", "'{ \"userId\": 11,\"robotId\":358}'" ]
+        "parameters" : [ "'code-1213'", "'错参-id为空'", "'{\"id\":\"\"}'" ]
       } ],
-      "uid" : "c967d5ab65dcfa52e2141614c25db4b3"
-    }, {
-      "name" : "AssertionError: assert None\n +  where None = <function Assert.get_result at 0x0000018B4AF03510>('1444', '8')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "正常添加",
-        "uid" : "a180f77bddee432f",
-        "parentUid" : "aa97d1cf374e019415e136607f1eb59c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424596655,
-          "stop" : 1600424596745,
-          "duration" : 90
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-8'", "'正常添加'", "'{\"nickNameInsite\":\"zltestrobot1\",\"robotTemplate\":\"3\",\"robotPackage\":\"1\",\"nickNameOutsite\":\"zltestrobot1\",\"signature\":\"周璐测试机器人1\",\"userId\":\"11\"}'" ]
-      }, {
-        "name" : "错参-robotPackage不存在",
-        "uid" : "b0ada56c2734dec9",
-        "parentUid" : "aa97d1cf374e019415e136607f1eb59c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424596966,
-          "stop" : 1600424597017,
-          "duration" : 51
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-8'", "'错参-robotPackage不存在'", "'{\"nickNameInsite\":\"zltestrobot1\",\"robotTemplate\":\"3\",\"robotPackage\":\"1111\",\"nickNameOutsite\":\"zltestrobot1\",\"signature\":\"周璐测试机器人1\",\"userId\":\"11\"}'" ]
-      } ],
-      "uid" : "aa97d1cf374e019415e136607f1eb59c"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('1444', '1213')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "错参-robotTemplate不存在",
-        "uid" : "bbfb28b7d5e76ab4",
-        "parentUid" : "256e4de192d4094854d232b68157b5c5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424596860,
-          "stop" : 1600424596908,
-          "duration" : 48
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1213'", "'错参-robotTemplate不存在'", "'{\"nickNameInsite\":\"zltestrobot1\",\"robotTemplate\":\"3000\",\"robotPackage\":\"1\",\"nickNameOutsite\":\"zltestrobot1\",\"signature\":\"周璐测试机器人1\",\"userId\":\"11\"}'" ]
-      } ],
-      "uid" : "256e4de192d4094854d232b68157b5c5"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>(['11', 'zl-test', '2020-09-02 23:10:07', '2020-09-02 23:10:07', True, 'ask', ...], ['11', 'zl-test', '2020-09-02 10:10:07', '2020-09-02 10:10:07', True, 'ask', ...])\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "正常登陆",
-        "uid" : "a7431051cfb0f4dc",
-        "parentUid" : "65b4dec1c9d9c276e3e39c8c7665630b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424599082,
-          "stop" : 1600424599168,
-          "duration" : 86
-        },
-        "flaky" : false,
-        "parameters" : [ "'sql-select DISTINCT rb.userId,rb.userName,rb.addTime,rb.modifyTime,rb.dataStatus,ra.robotType,ry.typeName,ry.addTime,ry.modifyTime,ry.dataStatus\nfrom kicp_robot_config.robot_basic_info ra,kicp_user_manage.`user` rb,kicp_basic_data.robot_type ry\nwhere ra.userId=11 and ra.userId =rb.userId and ra.robotType=ry.typeId'", "'正常登陆'", "'{\"username\":\"zl-test\",\"password\":\"admin\"}'" ]
-      } ],
-      "uid" : "65b4dec1c9d9c276e3e39c8c7665630b"
-    }, {
-      "name" : "AssertionError: assert None\n +  where None = <function Assert.get_result at 0x0000018B4AF03510>('{\"resultlist\": [{\"id\": \"100045126592724992\", \"question\": \"\\\\u5973\\\\u670b\\\\u53cb\", \"categoryId\": \"0\", \"answerIds\": \"[\\...07 15:17:22\", \"templateId\": \"5\"}]}], \"totalrecord\": 87, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 9, \"beginIndex\": 0}', '{\"resultlist\": [], \"totalrecord\": 0, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 1, \"beginIndex\": 0}')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "空查询-templateId为空",
-        "uid" : "28576db4ffadd01a",
-        "parentUid" : "77402d7ed63ef7e1345314525b7faf84",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424601206,
-          "stop" : 1600424601344,
-          "duration" : 138
-        },
-        "flaky" : false,
-        "parameters" : [ "'bean-{\"resultlist\": [], \"totalrecord\": 0, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 1, \"beginIndex\": 0}'", "'空查询-templateId为空'", "'{\"templateId\": \"\",\"curPage\": 1,\"pageSize\": 10}'" ]
-      } ],
-      "uid" : "77402d7ed63ef7e1345314525b7faf84"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('{\"resultlist\": [{\"id\": \"97876001477017600\", \"question\": \"\\\\u7626\\\\u8138\\\\u9488\\\\u8981\\\\u6253\\\\u51e0\\\\u9488\", \"answer\"...odifyTime\": \"2020-09-07 16:31:19\"}], \"totalrecord\": 17, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 2, \"beginIndex\": 0}', '{\"resultlist\": [{\"id\": \"97876001477017600\", \"question\": \"\\\\u7626\\\\u8138\\\\u9488\\\\u8981\\\\u6253\\\\u51e0\\\\u9488\", \"answer\"...odifyTime\": \"2020-09-07 16:31:19\"}], \"totalrecord\": 17, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 2, \"beginIndex\": 0}')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "正常查询-查询问题",
-        "uid" : "ba460dff7f894e30",
-        "parentUid" : "ee331fd813cab6fb1f9a53f083efaf9d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424602196,
-          "stop" : 1600424602493,
-          "duration" : 297
-        },
-        "flaky" : false,
-        "parameters" : [ "'esanswer--template_faq--{\"query\":{\"bool\":{\"must\":[{\"match\":{\"templateId\":5}},{\"match\":{\"question\":\"瘦脸针要打几针\"}}]}},\"size\":10,\"from\":0,\"sort\":[{\"_score\":{\"order\":\"desc\"}}]}'", "'正常查询-查询问题'", "'{\"templateId\": \"5\", \"keyword\": \"瘦脸针要打几针\", \"keyName\": \"question\", \"curPage\": 1, \"pageSize\": 10}'" ]
-      } ],
-      "uid" : "ee331fd813cab6fb1f9a53f083efaf9d"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('{\"resultlist\": [{\"id\": \"97460599576952833\", \"answer\": \"\\\\u7626\\\\u8138\\\\u9488\\\\u4e00\\\\u822c\\\\u51e0\\\\u9488--\\\\u56de\\\\u7...odifyTime\": \"2020-09-03 11:09:44\"}], \"totalrecord\": 12, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 2, \"beginIndex\": 0}', '{\"resultlist\": [{\"id\": \"97760279195123712\", \"answer\": \"\\\\u7626\\\\u8138\\\\u9488\\\\u8981\\\\u6253\\\\u51e0\\\\u9488--\\\\u56de\\\\u7...odifyTime\": \"2020-09-02 18:09:22\"}], \"totalrecord\": 16, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 2, \"beginIndex\": 0}')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "正常查询-查询答案",
-        "uid" : "23925b62a59d40fd",
-        "parentUid" : "1c0e11d9534b8f084fdc5fc06fa67af0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424602506,
-          "stop" : 1600424602692,
-          "duration" : 186
-        },
-        "flaky" : false,
-        "parameters" : [ "'esanswer--template_faq_answer--{\"query\":{\"bool\":{\"must\":[{\"match\":{\"templateId\":5}},{\"match\":{\"content\":\"瘦脸针要\"}}]}},\"size\":10,\"from\":0,\"sort\":[{\"_score\":{\"order\":\"desc\"}}]}'", "'正常查询-查询答案'", "'{\"templateId\": \"5\", \"keyword\": \"瘦脸针\", \"keyName\": \"answer\", \"curPage\": 1, \"pageSize\": 10}'" ]
-      } ],
-      "uid" : "1c0e11d9534b8f084fdc5fc06fa67af0"
-    }, {
-      "name" : "AssertionError: assert None\n +  where None = <function Assert.get_result at 0x0000018B4AF03510>('1101', '8')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "正常添加-仅添加问题及答案",
-        "uid" : "5351451e4d4f09c",
-        "parentUid" : "4386b29f78d9876dc88030438857717b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424602842,
-          "stop" : 1600424602884,
-          "duration" : 42
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-8'", "'正常添加-仅添加问题及答案'", "'{\"data\":{\"question\":\"zl-test分类测试问题1\",\"categoryId\":\"904\",\"similarQuestionforms\":[{\"question\":\"\"}],\"answerForms\":[{\"content\":\"<div>zl-test分类测试回答1</div>\"}],\"effectiveType\":0,\"sourceType\":0,\"enable\":true,\"userId\":\"11\",\"robotId\":\"877\"}}'" ]
-      }, {
-        "name" : "正常添加-添加相似问题及答案，且答案设置触发条件",
-        "uid" : "7434e37677ab5e0b",
-        "parentUid" : "4386b29f78d9876dc88030438857717b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424602896,
-          "stop" : 1600424602942,
-          "duration" : 46
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-8'", "'正常添加-添加相似问题及答案，且答案设置触发条件'", "'{\"data\":{\"question\": \"zl-test分类测试问题2\", \"categoryId\": \"904\",\"similarQuestionforms\": [{\"question\": \"zl-test分类测试问题2-1\"}],\"answerForms\": [{\"content\": \"<div>zl-test分类测试回答2</div>\",\"condition\": \"[{\\\"action\\\":\\\"include\\\",\\\"type\\\":\\\"input\\\",\\\"content\\\":\\\"分类测试\\\"}]\"}], \"effectiveType\": 0, \"sourceType\": 0, \"enable\": \"true\", \"userId\": \"11\",\"robotId\": \"877\"}}'" ]
-      }, {
-        "name" : "正常添加-添加相似问题及答案，且答案不设置触发条件",
-        "uid" : "c0dc39d974f40b20",
-        "parentUid" : "4386b29f78d9876dc88030438857717b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424602954,
-          "stop" : 1600424602998,
-          "duration" : 44
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-8'", "'正常添加-添加相似问题及答案，且答案不设置触发条件'", "'{\"data\":{\"question\":\"zl-test分类测试问题3\",\"categoryId\":\"904\",\"similarQuestionforms\":[{\"question\":\"zl-test分类测试问题3-1\"}],\"answerForms\":[{\"content\":\"<div>zl-test分类测试回答3</div>\"}],\"effectiveType\":0,\"sourceType\":0,\"enable\":true,\"userId\":\"11\",\"robotId\":\"877\"}}'" ]
-      }, {
-        "name" : "直接引用",
-        "uid" : "f4a9aa72cbfe46ca",
-        "parentUid" : "4386b29f78d9876dc88030438857717b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424603163,
-          "stop" : 1600424603206,
-          "duration" : 43
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-8'", "'直接引用'", "'{\"data\":{\"question\":\"zl-test分类测试问题1\",\"categoryId\":\"904\",\"similarQuestionforms\":[{\"question\":\"\"}],\"answerForms\":[{\"content\":\"<div>zl-test分类测试回答1</div>\"}],\"effectiveType\":0,\"sourceType\":0,\"enable\":true,\"userId\":\"11\",\"robotId\":\"877\"}}'" ]
-      }, {
-        "name" : "编辑引用",
-        "uid" : "216fad6cb1251912",
-        "parentUid" : "4386b29f78d9876dc88030438857717b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424603221,
-          "stop" : 1600424603267,
-          "duration" : 46
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-8'", "'编辑引用'", "'{\"data\": {\"id\":\"95648847035760640\",\"question\":\"   发热该怎么办\",\"categoryId\":\"0\",\"answerIds\":\"[\\\"96812832609370112\\\"]\",\"addTime\":\"2020-09-02 18:06:22\",\"modifyTime\":\"2020-09-05 21:23:14\",\"templateId\":5,\"answerForms\":[{\"content\":\"您有发热，建议您测量一下体温，如果体温大于37度三，建议您到医院完善血常规，c反应蛋白等相关检查。建议您多喝点温开水，注意休息，做好自我防护，出门时一定要戴口罩，注意勤洗手，室内要通风换气，保持清新。\",\"parentFAQId\":\"95648847035760640\",\"categoryId\":\"0\",\"addTime\":\"2020-09-05 21:23:14\",\"modifyTime\":\"2020-09-05 21:23:14\",\"templateId\":\"5\"}],\"key\":\"95648847035760640\",\"similarQuestionforms\":[{\"question\":\"\"}],\"effectiveType\":0,\"enable\":true,\"sourceType\":1,\"userId\":\"11\",\"robotId\":\"877\"}}'" ]
-      } ],
-      "uid" : "4386b29f78d9876dc88030438857717b"
-    }, {
-      "name" : "AssertionError: assert False\n +  where False = <function Assert.get_result at 0x0000018B4AF03510>('1101', '1253')\n +    where <function Assert.get_result at 0x0000018B4AF03510> = Assert.get_result",
-      "children" : [ {
-        "name" : "重复添加",
-        "uid" : "7cc5e9c31073dc52",
-        "parentUid" : "9477f34d5f5eaa47c3431f7903c4cade",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424603011,
-          "stop" : 1600424603054,
-          "duration" : 43
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1253'", "'重复添加'", "'{\"data\":{\"question\": \"zl-test分类测试问题2\", \"categoryId\": \"904\",\"similarQuestionforms\": [{\"question\": \"zl-test分类测试问题2-1\"}],\"answerForms\": [{\"content\": \"<div>zl-test分类测试回答2</div>\",\"condition\": \"[{\\\"action\\\":\\\"include\\\",\\\"type\\\":\\\"input\\\",\\\"content\\\":\\\"分类测试\\\"}]\"}], \"effectiveType\": 0, \"sourceType\": 0, \"enable\": \"true\", \"userId\": \"11\",\"robotId\": \"877\"}}'" ]
-      }, {
-        "name" : "重复引用",
-        "uid" : "b67765f93cfef452",
-        "parentUid" : "9477f34d5f5eaa47c3431f7903c4cade",
-        "status" : "failed",
-        "time" : {
-          "start" : 1600424603280,
-          "stop" : 1600424603326,
-          "duration" : 46
-        },
-        "flaky" : false,
-        "parameters" : [ "'code-1253'", "'重复引用'", "'{\"data\":{\"question\":\"zl-test分类测试问题1\",\"categoryId\":\"904\",\"similarQuestionforms\":[{\"question\":\"\"}],\"answerForms\":[{\"content\":\"<div>zl-test分类测试回答1</div>\"}],\"effectiveType\":0,\"sourceType\":0,\"enable\":true,\"userId\":\"11\",\"robotId\":\"877\"}}'" ]
-      } ],
-      "uid" : "9477f34d5f5eaa47c3431f7903c4cade"
+      "uid" : "19d9b8e9700bebb35787a0b7e28c58be"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

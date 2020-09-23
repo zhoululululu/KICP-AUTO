@@ -1,0 +1,105 @@
+{
+  "uid" : "47340d27350f170e",
+  "name" : "正常编辑",
+  "fullName" : "pytest.test_robot_manage.TestRobotManage#test_robot_edit",
+  "historyId" : "591863aa08073e27bf7f3cc2b7c91913",
+  "time" : {
+    "start" : 1600862950666,
+    "stop" : 1600862950709,
+    "duration" : 43
+  },
+  "description" : "\n        编辑robot\n        ",
+  "descriptionHtml" : "<pre><code>    编辑robot\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600862949173,
+      "stop" : 1600862949173,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600862953187,
+      "stop" : 1600862953187,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "机器人管理"
+  }, {
+    "name" : "story",
+    "value" : "编辑机器人"
+  }, {
+    "name" : "tag",
+    "value" : "robot_manage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_manage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotManage"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_manage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常编辑'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"358\",\"robotName\":\"zl-专用查询机器人管理及为空配置\",\"nickNameInsite\":\"zl-专用查询机器人管理及为空配置\",\"nickNameOutsite\":\"zl-专用查询机器人管理及为空配置\",\"signature\":\"zl-专用查询机器人管理及为空配置\",\"robotPackage\":1,\"robotTemplate\":3,\"robotStatus\":1,\"addTime\":\"2020-09-07 20:32:13\",\"userId\":\"11\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_manage" ]
+  },
+  "source" : "47340d27350f170e.json",
+  "parameterValues" : [ "'code-8'", "'正常编辑'", "'{\"robotId\":\"358\",\"robotName\":\"zl-专用查询机器人管理及为空配置\",\"nickNameInsite\":\"zl-专用查询机器人管理及为空配置\",\"nickNameOutsite\":\"zl-专用查询机器人管理及为空配置\",\"signature\":\"zl-专用查询机器人管理及为空配置\",\"robotPackage\":1,\"robotTemplate\":3,\"robotStatus\":1,\"addTime\":\"2020-09-07 20:32:13\",\"userId\":\"11\"}'" ]
+}

@@ -28,47 +28,21 @@ class RobotLogin:
                 return re_code, except_data
 
             if "sql" in assert_value and "bean" in result:
-                re_user_id, re_username, re_add_time, re_modify_time, re_data_status, = result["bean"]["userInfo"][
-                                                                                            "userId"], \
-                                                                                        result["bean"]["userInfo"][
-                                                                                            "userName"], \
-                                                                                        result["bean"]["userInfo"][
-                                                                                            "addTime"], \
-                                                                                        result["bean"]["userInfo"][
-                                                                                            "modifyTime"], \
-                                                                                        result["bean"]["userInfo"][
-                                                                                            "dataStatus"]
-                re_typeid, re_typename, re_add_time, re_modify_time, re_data_status = result["bean"]["robotType"][0][
-                                                                                          "typeId"], \
-                                                                                      result["bean"]["robotType"][0][
-                                                                                          "typeName"], \
-                                                                                      result["bean"]["robotType"][0][
-                                                                                          "addTime"], \
-                                                                                      result["bean"]["robotType"][0][
-                                                                                          "modifyTime"], \
-                                                                                      result["bean"]["robotType"][0][
-                                                                                          "dataStatus"]
-                user_id, username, add_time, modify_time, data_status, typeid, typename, add_time, modify_time, data_status = list(
+                re_user_id, re_username = result["bean"]["userInfo"]["userId"], result["bean"]["userInfo"]["userName"]
+                user_id, username = list(
                     SqlConnect(
-                        "kicp_robot_config").exec_sql(
+                        "kicp_user_manage").exec_sql(
                         assert_value.split("-")[1])[0])
-                return [re_user_id, re_username, re_add_time, re_modify_time, re_data_status, re_typeid, re_typename,
-                        re_add_time, re_modify_time, re_data_status], [str(user_id), username, str(add_time),
-                                                                       str(modify_time),
-                                                                       True if data_status == 1 else False,
-                                                                       typeid,
-                                                                       typename, str(add_time), str(modify_time),
-                                                                       True if data_status == 1 else False]
+                return [re_user_id, re_username], [str(user_id), username]
             else:
                 return result, assert_value
         except Exception:
             raise Exception
 
-
-if __name__ == '__main__':
-    actual_result, except_result = RobotLogin().login_robot("https://tkf-kicp.kuaishang.cn",
-                                                            json.dumps({"username": "zl-test", "password": "admin"}),
-                                                            "sql-select DISTINCT rb.userId,rb.userName,rb.addTime,rb.modifyTime,rb.dataStatus,ra.robotType,ry.typeName,ry.addTime,ry.modifyTime,ry.dataStatus from kicp_robot_config.robot_basic_info ra,kicp_user_manage.`user` rb,kicp_basic_data.robot_type ry where ra.userId=11 and ra.userId =rb.userId and ra.robotType=ry.typeId")
-    print(actual_result)
-    print(except_result)
-    assert Assert.get_result(actual_result, except_result)
+# if __name__ == '__main__':
+#     actual_result, except_result = RobotLogin().login_robot("https://tkf-kicp.kuaishang.cn",
+#                                                             json.dumps({"username": "zl-test", "password": "admin"}),
+#                                                             'sql-select DISTINCT userId,userName from kicp_user_manage.`user` where userId=11')
+#     print(actual_result)
+#     print(except_result)
+#     assert Assert.get_result(actual_result, except_result)

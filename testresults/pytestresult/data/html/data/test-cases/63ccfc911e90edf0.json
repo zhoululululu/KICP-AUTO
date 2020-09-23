@@ -1,0 +1,105 @@
+{
+  "uid" : "63ccfc911e90edf0",
+  "name" : "缺参-id缺失",
+  "fullName" : "pytest.test_robot_faq.TestRobotFaq#test_query_faq_by_id",
+  "historyId" : "6c5521649e3fa846315b52b05bee90b0",
+  "time" : {
+    "start" : 1600862947421,
+    "stop" : 1600862947456,
+    "duration" : 35
+  },
+  "description" : "\n        预置回答问答对配置信息--根据ID查询\n        ",
+  "descriptionHtml" : "<pre><code>    预置回答问答对配置信息--根据ID查询\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600862938984,
+      "stop" : 1600862938984,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600862947464,
+      "stop" : 1600862947464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "预置回答问答对配置信息--根据ID查询"
+  }, {
+    "name" : "tag",
+    "value" : "robot_template_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1214'"
+  }, {
+    "name" : "desc",
+    "value" : "'缺参-id缺失'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"key\":\"111\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_template_faq" ]
+  },
+  "source" : "63ccfc911e90edf0.json",
+  "parameterValues" : [ "'code-1214'", "'缺参-id缺失'", "'{\"key\":\"111\"}'" ]
+}

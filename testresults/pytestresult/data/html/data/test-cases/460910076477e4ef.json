@@ -1,0 +1,105 @@
+{
+  "uid" : "460910076477e4ef",
+  "name" : "正常保存-访客端转人工，累计未识别问题转人工，累积未解决问题转人工均关闭",
+  "fullName" : "pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save",
+  "historyId" : "0dcaad78f26e6d9988543a572f1b0d61",
+  "time" : {
+    "start" : 1600862934291,
+    "stop" : 1600862934340,
+    "duration" : 49
+  },
+  "description" : "\n        机器人转人工设置保存\n        ",
+  "descriptionHtml" : "<pre><code>    机器人转人工设置保存\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600862925579,
+      "stop" : 1600862925579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600862938974,
+      "stop" : 1600862938974,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "机器人转人工设置保存"
+  }, {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常保存-访客端转人工，累计未识别问题转人工，累积未解决问题转人工均关闭'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"358\",\"guestDisplayEnable\":\"false\",\"guestDisplayWord\":\"\",\"unknowQuestionDisplayEnable\":\"false\",\"unkonwQuestionCountTimes\":\"\",\"unknowQuestionDisplayWord\":\"\",\"unsolveQuestionDisplayEnable\":\"false\",\"unsolveQuestionCountTimes\":\"\",\"unsolveQuestionDisplayWord\":\"\",\"keywordDisplayEnable\":\"false\",\"keywordContent\":\"\",\"keywordExactEnable\":\"false\",\"keywordDisplayWord\":\"\",\"loaded\":\"true\",\"userId\":\"11\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "460910076477e4ef.json",
+  "parameterValues" : [ "'code-8'", "'正常保存-访客端转人工，累计未识别问题转人工，累积未解决问题转人工均关闭'", "'{\"robotId\":\"358\",\"guestDisplayEnable\":\"false\",\"guestDisplayWord\":\"\",\"unknowQuestionDisplayEnable\":\"false\",\"unkonwQuestionCountTimes\":\"\",\"unknowQuestionDisplayWord\":\"\",\"unsolveQuestionDisplayEnable\":\"false\",\"unsolveQuestionCountTimes\":\"\",\"unsolveQuestionDisplayWord\":\"\",\"keywordDisplayEnable\":\"false\",\"keywordContent\":\"\",\"keywordExactEnable\":\"false\",\"keywordDisplayWord\":\"\",\"loaded\":\"true\",\"userId\":\"11\"}'" ]
+}

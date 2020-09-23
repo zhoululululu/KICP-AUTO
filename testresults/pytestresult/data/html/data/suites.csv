@@ -1,1288 +1,1228 @@
 "Status","Name","Duration in ms","Description"
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","45","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_query","41","
-        机器人机器人访客端查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","38","
-        新增robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","39","
-        机器人转人工设置保存
-        "
-"failed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[错参-responseContent为空-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","53","
-        机器人未知问题保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_delete","41","
-        删除robot
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq","42","
-        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
-        "
-"failed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","168","
-        常规问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_template_category","68","
-        预置问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","44","
-        机器人暖场语查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","59","
-        机器人高级设置保存
-        "
-"failed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","53","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","63","
-        机器人欢迎语查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","41","
-        机器人欢迎语查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_query","42","
-        机器人高级设置查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","61","
-        机器人未知问题回复查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_delete_faq","55","
-        常规问答问答对配置信息--删除
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[错参-guideResponseEnable为空-{""robotId"":""877"",""guideResponseEnable"":"""",""guideWordList"":","43","
-        机器人引导语保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_delete","42","
-        删除robot
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no","44","
-        常规问答问答对分类信息--修改排序
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status[单个设置-停用-{""ids"": ""","51","
-        常规问答问答对配置信息--批量修改状态
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page[正常查询-搜索问题+无分类+分页（设置每页2行）+翻页第二页-{""userId"": ""11"", ""robotId"": ""877"",""keyName"": ""question"",""curPage"": ""2"",""pageSize"": ""2""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}}]}},""sort"":","65","
-        常规问答问答对配置信息--模糊查询分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","39","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","38","
-        机器人猜你想问保存
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","40","
-        常规问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","41","
-        机器人阈值范围保存
-        "
-"failed","pytest.test_robot_faq.TestRobotFaq#test_search_page[正常查询-搜索问题+分类-{""userId"": ""11"",""robotId"": ""877"",""keyName"": ""question"",""keyword"": ""分类"",""curPage"": ""1"",""pageSize"": ""10""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}},{""match"":{""question"":""分类""}}]}},""sort"":","68","
-        常规问答问答对配置信息--模糊查询分页数据
-        "
-"failed","pytest.test_robot_manage.TestRobotManage#test_robot_add","90","
-        新增robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[错参-robotId缺失-{""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","36","
-        机器人暖场语保存
-        "
-"failed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","51","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_by_id","115","
-        预置回答问答对配置信息--根据ID查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","44","
-        机器人阈值范围保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","46","
-        开启/停用robot
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","40","
-        登录robot
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","40","
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","41","
         编辑robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","54","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","41","
-        新增robot
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status[批量设置-启用-{""ids"": ""","54","
-        常规问答问答对配置信息--批量修改状态
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","41","
-        机器人猜你想问保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_related_related_question_query","40","
-        机器人关联问题查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","36","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[错参-robotId为空-{""robotId"":"""",""guideResponseEnable"":""true"",""guideWordList"":","39","
-        机器人引导语保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_query","41","
-        查询robot
-        "
-"failed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","222","
-        常规问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_query","42","
-        机器人机器人访客端查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_query","44","
-        机器人高级设置查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query","41","
-        机器人猜你想问查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","68","
-        机器人暖场语查询
-        "
-"failed","pytest.test_robot_faq.TestRobotFaq#test_check_question","144","
-        常规问答问答对配置信息--相似性判断--标准问题
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query","63","
-        机器人猜你想问查询
-        "
-"failed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","42","
-        常规问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status[单个设置-启用-{""ids"": ""","50","
-        常规问答问答对配置信息--批量修改状态
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[错参-hotQuestionEnable为空-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":"""",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""热点问题"",""hotQuestionList"":","37","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[正常保存-开启热点问题，关联问题，猜你想问均开启-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""测试热点问题"",""hotQuestionList"":","71","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[缺参-hotQuestionEnable缺少-{""robotId"":""877"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","41","
-        机器人热点问题保存
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_check_question","40","
-        预置问答问答对配置信息--验证标准问题
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category[单个转移-{""ids"":"" ","53","
-        常规问答问答对配置信息--批量修改分类
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","38","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category[批量转移-{""ids"":""","56","
-        常规问答问答对配置信息--批量修改分类
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","46","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","40","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_query","39","
-        机器人转人工设置查询
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_cite_faq","68","
-        预置问答问答对配置信息--引用
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no","47","
-        常规问答问答对分类信息--修改排序
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参问题缺少-{""data"":{""categoryId"": ""895"",""similarQuestionforms"": [{""question"": ""ZL-测试配置问答对信息3-1""}],""answerForms"": ","42","
-        常规问答问答对配置信息--保存
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_save_faq[正常添加-仅添加问题及答案-{""data"":{""question"":""zl-test分类测试问题1"",""categoryId"":""904"",""similarQuestionforms"":[{""question"":""""}],""answerForms"":","42","
-        预置问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_hot_question_query","63","
-        机器人热点问题查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq[正常查询-仅必参userId和robotId，搜索全部分类的全部信息-{""userId"": ""11"",""robotId"": ""877""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}}]}},""sort"":","152","
-        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[缺参-relatedQuestionEnable为空-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","40","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_hot_question_query","39","
-        机器人热点问题查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page[正常查询答案-{""userId"": ""11"", ""robotId"": ""877"",""keyName"": ""answer"",""curPage"": ""1"",""pageSize"": ""10""}-es-robot_faq_answer-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}}]}},""sort"":","252","
-        常规问答问答对配置信息--模糊查询分页数据
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_template_category","52","
-        预置问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[缺参-robotId缺失-{""guideResponseEnable"":""true"",""guideWordList"":","53","
-        机器人引导语保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page","40","
-        常规问答问答对配置信息--模糊查询分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","40","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq","41","
-        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_check_question","43","
-        预置问答问答对配置信息--验证标准问题
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_delete_faq","52","
-        常规问答问答对配置信息--删除
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[异常保存-intervalSeconds缺失-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","39","
-        机器人暖场语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","58","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_query","72","
-        机器人高级设置查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","45","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","69","
-        开启/停用robot
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_by_id","134","
-        预置回答问答对配置信息--根据ID查询
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_save_faq","41","
-        预置问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page[正常查询相似问题-{""userId"": ""11"", ""robotId"": ""877"", ""keyName"": ""similarQuestion"", ""curPage"": ""1"", ""pageSize"": ""10""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}}],""must_not"":[{""match"":{""parentId"":0}}]}},""sort"":","193","
-        常规问答问答对配置信息--模糊查询分页数据
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page","40","
-        常规问答问答对配置信息--模糊查询分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","49","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[错参-userId为空-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","34","
-        机器人引导语保存
-        "
-"failed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","199","
-        常规问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_query","41","
-        机器人高级设置查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq[正常查询-仅userId和robotId+categoryId+curPage+pageSize+effectiveType，搜索某个分类下的信息，分页，永久有效-{""userId"": ""11"",""robotId"": ""877"",""categoryId"":""904"",""curPage"": ""1"",""pageSize"":""2"",""effectiveType"":0}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}},{""match"":{""categoryId"":904}},{""match"":{""effectiveType"":0}}]}},""sort"":","82","
-        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","73","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","40","
-        新增robot
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_by_id","43","
-        预置回答问答对配置信息--根据ID查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","38","
-        编辑robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","46","
-        机器人引导语查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[错参-robotId为空-{""robotId"":"""",""unknowResponseEnable"":""true"",""unknowResponseList"":","39","
-        机器人未知问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","40","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-答案缺少-{""data"":{""question"": ""ZL-测试配置问答对信息1"", ""categoryId"": ""895"", ""similarQuestionforms"": ","46","
-        常规问答问答对配置信息--保存
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","41","
-        常规问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_delete_category","40","
-        常规问答问答对分类信息--删除
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","50","
-        新增robot
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category","41","
-        常规问答问答对配置信息--批量修改分类
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_check_question","46","
-        预置问答问答对配置信息--验证标准问题
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[正常保存-开启暖场语(增加一条暖场语）-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","53","
-        机器人暖场语保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category","43","
-        常规问答问答对配置信息--批量修改分类
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[缺参-robotId缺少-{""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","47","
-        机器人热点问题保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-未配置问题-{""data"":{""question"": """", ""categoryId"": ""895"",""similarQuestionforms"": [{""question"": ""ZL-测试配置问答对信息3-1""}],""answerForms"": ","44","
-        常规问答问答对配置信息--保存
-        "
-"failed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_delete_category","120","
-        常规问答问答对分类信息--删除
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_check_question","59","
-        预置问答问答对配置信息--验证标准问题
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_query","90","
-        机器人阈值范围查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status","44","
-        常规问答问答对配置信息--批量修改状态
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","46","
-        常规问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[正常保存-开启引导语(问候语为空）-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","74","
-        机器人引导语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_hot_question_query","42","
-        机器人热点问题查询
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_search_standard_questions[正常查询-查询答案-{""templateId"": ""5"", ""keyword"": ""瘦脸针"", ""keyName"": ""answer"", ""curPage"": 1, ""pageSize"": 10}-esanswer--template_faq_answer--{""query"":{""bool"":{""must"":[{""match"":{""templateId"":5}},{""match"":{""content"":""瘦脸针要""}}]}},""size"":10,""from"":0,""sort"":","186","
-        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_template_query_page","43","
-        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","47","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[正常保存-开启暖场语(暖场语为空）-{""robotId"":""358"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","47","
-        机器人暖场语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[正常保存-开启保存热点问题，新增一条-{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","66","
-        机器人热点问题保存
-        "
-"failed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","56","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","38","
-        机器人猜你想问保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query","43","
-        机器人猜你想问查询
-        "
-"failed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","45","
-        常规问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","43","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","41","
-        机器人未知问题回复查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","38","
-        新增robot
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_save_faq[正常添加-添加相似问题及答案，且答案不设置触发条件-{""data"":{""question"":""zl-test分类测试问题3"",""categoryId"":""904"",""similarQuestionforms"":[{""question"":""zl-test分类测试问题3-1""}],""answerForms"":","44","
-        预置问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","41","
-        机器人未知问题回复查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_query","63","
-        查询robot
-        "
-"failed","pytest.test_robot_manage.TestRobotManage#test_robot_login","86","
-        登录robot
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[重复保存-配置信息-{""data"":{""question"": ""ZL-接口测试222"", ""categoryId"": ""0"",""similarQuestionforms"": [{""question"": ""ZL-接口测试2222-1""}],""answerForms"": ","61","
-        常规问答问答对配置信息--保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","39","
-        登录robot
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_cite_faq[编辑引用-{""data"": {""id"":""95648847035760640"",""question"":""   发热该怎么办"",""categoryId"":""0"",""answerIds"":""[\""96812832609370112\""]"",""addTime"":""2020-09-02 18:06:22"",""modifyTime"":""2020-09-05 21:23:14"",""templateId"":5,""answerForms"":[{""content"":""您有发热，建议您测量一下体温，如果体温大于37度三，建议您到医院完善血常规，c反应蛋白等相关检查。建议您多喝点温开水，注意休息，做好自我防护，出门时一定要戴口罩，注意勤洗手，室内要通风换气，保持清新。"",""parentFAQId"":""95648847035760640"",""categoryId"":""0"",""addTime"":""2020-09-05 21:23:14"",""modifyTime"":""2020-09-05 21:23:14"",""templateId"":""5""}],""key"":""95648847035760640"",""similarQuestionforms"":","46","
-        预置问答问答对配置信息--引用
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_check_question","42","
-        常规问答问答对配置信息--相似性判断--标准问题
-        "
-"failed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[缺参-responseContent为空-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","48","
-        机器人未知问题保存
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_template_category[正常查询-更改modify时间-{""templateId"":""5"",""keyName"":""answer"",""keyword"":""瘦脸针"",""modifyTimeFrom"":""2020-08-01 23:36:52"",""modifyTimeTo"":""2020-09-05 23:36:52""}-es--template_faq_answer--{""query"":{""bool"":{""must"":","55","
-        预置问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[缺参-userId为空-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","42","
-        机器人未知问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query","41","
-        机器人猜你想问查询
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_search_standard_questions","41","
-        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","48","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","52","
-        机器人暖场语查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_delete","40","
-        删除robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_related_related_question_query","59","
-        机器人关联问题查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status[批量设置-停用-{""ids"": ""","52","
-        常规问答问答对配置信息--批量修改状态
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","94","
-        机器人引导语查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_query","39","
-        查询robot
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_search_standard_questions[正常查询-查询问题-{""templateId"": ""5"", ""keyword"": ""瘦脸针要打几针"", ""keyName"": ""question"", ""curPage"": 1, ""pageSize"": 10}-esanswer--template_faq--{""query"":{""bool"":{""must"":[{""match"":{""templateId"":5}},{""match"":{""question"":""瘦脸针要打几针""}}]}},""size"":10,""from"":0,""sort"":","297","
-        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_query","5071","
-        机器人转人工设置查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[正常保存-仅开启猜你想问-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","50","
-        机器人访客端保存
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_by_id","48","
-        预置回答问答对配置信息--根据ID查询
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_by_id","152","
-        预置回答问答对配置信息--根据ID查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","46","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_delete_faq[正常删除-{ ""ids"":""","692","
-        常规问答问答对配置信息--删除
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","48","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_detail","46","
-        详情robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[错参-warmResponseEnable为空-{""robotId"":""877"",""warmResponseEnable"":"""",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","41","
-        机器人暖场语保存
-        "
-"failed","pytest.test_robot_manage.TestRobotManage#test_robot_add","51","
-        新增robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_hot_question_query","41","
-        机器人热点问题查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","38","
-        开启/停用robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","38","
-        机器人猜你想问保存
-        "
-"failed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[异常保存-delaySecondsTo为负数-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","128","
-        机器人未知问题保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page","40","
-        常规问答问答对配置信息--模糊查询分页数据
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_template_query_page[正常查询-查询第二页-{""templateId"": 5,""curPage"":2,""pageSize"": 10,""categoryId"":0,""orderName"":""modifyTime"",""orderBy"":""desc""}-es--template_faq--{""query"":{""bool"":{""must"":[{""match"":{""categoryId"":0}},{""match"":{""templateId"":5}}]}},""size"":10,""from"":10,""sort"":","243","
-        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-userId缺少-{""data"":{""question"": ""ZL-测试配置问答对信息1"", ""categoryId"": ""895"",""similarQuestionforms"": [{""question"": ""ZL-测试配置问答对信息1-1""}],""answerForms"": ","42","
-        常规问答问答对配置信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_hot_question_query","40","
-        机器人热点问题查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","40","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","50","
-        机器人引导语查询
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_save_faq[正常添加-添加相似问题及答案，且答案设置触发条件-{""data"":{""question"": ""zl-test分类测试问题2"", ""categoryId"": ""904"",""similarQuestionforms"": [{""question"": ""zl-test分类测试问题2-1""}],""answerForms"": [{""content"": ""<div>zl-test分类测试回答2</div>"",""condition"": ""","46","
-        预置问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","37","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","49","
-        机器人猜你想问保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","39","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_template_list","136","
-        templateList-无参数直接校验
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_query","39","
-        查询robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","72","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page","38","
-        常规问答问答对配置信息--模糊查询分页数据
-        "
-"failed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","46","
-        机器人猜你想问保存
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_check_question","62","
-        预置问答问答对配置信息--验证标准问题
-        "
-"failed","pytest.test_robot_manage.TestRobotManage#test_robot_detail","55","
-        详情robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","41","
-        机器人欢迎语查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","43","
-        开启/停用robot
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category","41","
-        常规问答问答对配置信息--批量修改分类
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","37","
-        常规问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","50","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[错参-wantToAskEnable为空-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","41","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_check_question","45","
-        常规问答问答对配置信息--相似性判断--标准问题
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","40","
-        机器人阈值范围保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","45","
-        机器人阈值范围保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","48","
-        机器人阈值范围保存
-        "
-"failed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","44","
-        机器人转人工设置保存
-        "
-"failed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","65","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_search_standard_questions","41","
-        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[正常保存-关闭保存-{""robotId"":""877"",""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","95","
-        机器人热点问题保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","40","
-        新增robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","47","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-未配置答案-{""data"":{""question"": ""ZL-测试配置问答对信息1"", ""categoryId"": ""895"", ""similarQuestionforms"": [],""answerForms"": ","49","
-        常规问答问答对配置信息--保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","49","
-        编辑robot
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","46","
-        开启/停用robot
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_search_standard_questions[正常查询-查询keyName = question-{""templateId"": ""5"",""keyName"":""question"",""curPage"":1,""pageSize"":10}-esquestion--template_faq--{""query"":{""bool"":{""must"":[{""match"":{""categoryId"":0}},{""match"":{""templateId"":5}}]}},""size"":10,""from"":0,""sort"":[{""modifyTime"":{""order"":""desc""}}],""_source"":","294","
-        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[错参-userId为空-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","44","
-        机器人暖场语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","40","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[异常保存-faqId为空-{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","53","
-        机器人热点问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","49","
-        机器人未知问题回复查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status","40","
-        常规问答问答对配置信息--批量修改状态
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","42","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","39","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","70","
-        机器人未知问题回复查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","44","
-        机器人阈值范围保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","42","
-        机器人暖场语查询
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no","46","
-        常规问答问答对分类信息--修改排序
-        "
-"failed","pytest.test_robot_faq.TestRobotFaq#test_check_question","139","
-        常规问答问答对配置信息--相似性判断--标准问题
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","45","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","46","
-        机器人欢迎语保存
-        "
-"failed","pytest.test_robot_manage.TestRobotManage#test_robot_add","48","
-        新增robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[错参-robotId为空-{""robotId"":"""",""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","40","
-        机器人热点问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","39","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","41","
-        机器人暖场语查询
-        "
-"failed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","42","
-        常规问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[异常保存-hotQuestionEnable为空-{""robotId"":""877"",""hotQuestionEnable"":"""",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","43","
-        机器人热点问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_related_related_question_query","77","
-        机器人关联问题查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_query","91","
-        机器人阈值范围查询
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","42","
-        常规问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[正常保存-开启引导语(问候语非空）-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","54","
-        机器人引导语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[异常保存-intervalSeconds为负数-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","39","
-        机器人暖场语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[正常保存-热点问题，关联问题，猜你想问均关闭-{""robotId"":""358"",""hotQuestion"":{""robotId"":""358"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","52","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","70","
-        机器人阈值范围保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_query","106","
-        机器人机器人访客端查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","39","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[错参-userId缺失-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","39","
-        机器人暖场语保存
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_cite_faq[重复引用-{""data"":{""question"":""zl-test分类测试问题1"",""categoryId"":""904"",""similarQuestionforms"":[{""question"":""""}],""answerForms"":","46","
-        预置问答问答对配置信息--引用
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","47","
-        常规问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","39","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","37","
-        常规问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_related_related_question_query","42","
-        机器人关联问题查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","38","
-        机器人猜你想问保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[异常保存-responseContent缺失-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","40","
-        机器人引导语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_query","56","
-        机器人阈值范围查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","35","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq[正常查询-仅userId和robotId+categoryId，搜索某个分类下的信息-{""userId"": ""11"",""robotId"": ""877"",""categoryId"":""904""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}},{""match"":{""categoryId"":904}}]}},""sort"":","72","
-        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_query","47","
-        机器人转人工设置查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_query","51","
-        机器人机器人访客端查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","46","
-        登录robot
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_detail","44","
-        详情robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","41","
-        机器人阈值范围保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_delete","40","
-        删除robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","44","
-        机器人阈值范围保存
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_by_id","145","
-        预置回答问答对配置信息--根据ID查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category","43","
-        常规问答问答对配置信息--批量修改分类
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_cite_faq","45","
-        预置问答问答对配置信息--引用
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq","44","
-        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","46","
-        机器人引导语查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","43","
-        开启/停用robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[错参-warmResponseEnable缺失-{""robotId"":""877"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","41","
-        机器人暖场语保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","47","
-        编辑robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[错参-robotId为空-{""robotId"":"""",""hotQuestion"":{""robotId"":""358"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","42","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page","40","
-        常规问答问答对配置信息--模糊查询分页数据
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page[正常查询-搜索问题+无分类-{""userId"": ""11"", ""robotId"": ""877"",""keyName"": ""question"",""curPage"": ""1"",""pageSize"": ""10""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}}]}},""sort"":","68","
-        常规问答问答对配置信息--模糊查询分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","45","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","40","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_check_question","42","
-        常规问答问答对配置信息--相似性判断--标准问题
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[错参-userId为空-{""robotId"":""877"",""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","39","
-        机器人热点问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[异常保存-仅开启猜你想问，并设置showNumberLimit条数为负数-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","88","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_plan_list","60","
-        planList-无参数直接校验
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_cite_faq[直接引用-{""data"":{""question"":""zl-test分类测试问题1"",""categoryId"":""904"",""similarQuestionforms"":[{""question"":""""}],""answerForms"":","43","
-        预置问答问答对配置信息--引用
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save","43","
-        机器人未知问题保存
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","39","
-        常规问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","75","
-        机器人猜你想问保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","40","
-        机器人引导语查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_detail","41","
-        详情robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","31","
-        机器人猜你想问保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","47","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","40","
-        机器人未知问题回复查询
         "
 "passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","43","
         机器人阈值范围保存
         "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","40","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","37","
-        新增robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","41","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[缺参-wantToAskEnable为空-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","38","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[正常保存-保存两条问候语-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","57","
-        机器人引导语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[正常保存-开启暖场语(增加两条暖场语）-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","56","
-        机器人暖场语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query","57","
-        机器人猜你想问查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","45","
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","56","
         编辑robot
         "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_delete_category","42","
-        常规问答问答对分类信息--删除
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_check_question","58","
-        预置问答问答对配置信息--验证标准问题
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[缺参-userId缺少-{""robotId"":""877"",""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","49","
-        机器人热点问题保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","64","
-        开启/停用robot
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","50","
-        常规问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_query","61","
-        机器人机器人访客端查询
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_template_query_page[正常查询-全参-{""templateId"": 5,""curPage"": 1,""pageSize"": 10,""categoryId"":0,""orderName"":""modifyTime"",""orderBy"":""desc""}-es--template_faq--{""query"":{""bool"":{""must"":[{""match"":{""categoryId"":0}},{""match"":{""templateId"":5}}]}},""size"":10,""from"":0,""sort"":","279","
-        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[正常保存-开启未知问题回复，并增加1条回复-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","51","
-        机器人未知问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","40","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_query","40","
-        机器人转人工设置查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status","45","
-        常规问答问答对配置信息--批量修改状态
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_query","43","
-        机器人高级设置查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","41","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","41","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[缺参-robotId为空-{""hotQuestion"":{""robotId"":""358"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","39","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_query","51","
-        机器人阈值范围查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[正常保存-关闭暖场语(问候语为空）-{""robotId"":""358"",""warmResponseEnable"":""false"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","47","
-        机器人暖场语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_hot_question_query","74","
-        机器人热点问题查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_query","41","
-        查询robot
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_template_query_page","43","
-        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save","43","
-        机器人未知问题保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[正常保存-配置信息（包含相似问题），状态为开启-{""data"":{""question"": ""ZL-接口测试222"", ""categoryId"": ""0"",""similarQuestionforms"": [{""question"": ""ZL-接口测试2222-1""}],""answerForms"": ","247","
-        常规问答问答对配置信息--保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","40","
-        编辑robot
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_template_query_page","50","
-        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
-        "
-"failed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","46","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","49","
-        机器人引导语查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","39","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status","43","
-        常规问答问答对配置信息--批量修改状态
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_query","46","
-        机器人转人工设置查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","40","
-        机器人引导语查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_related_related_question_query","44","
-        机器人关联问题查询
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_template_query_page[正常查询-仅templateId+curPage+pageSize-{""templateId"": 5,""curPage"": 1,""pageSize"": 10}-es--template_faq--{""query"":{""bool"":{""must"":[{""match"":{""categoryId"":0}},{""match"":{""templateId"":5}}]}},""size"":10,""from"":0,""sort"":","258","
-        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-userId为空-{""data"":{""question"": ""ZL-测试配置问答对信息1"", ""categoryId"": ""895"",""similarQuestionforms"": [{""question"": ""ZL-测试配置问答对信息1-1""}],""answerForms"": ","45","
-        常规问答问答对配置信息--保存
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no","42","
-        常规问答问答对分类信息--修改排序
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_template_category","48","
-        预置问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_check_question","45","
-        预置问答问答对配置信息--验证标准问题
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","43","
-        机器人阈值范围保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","42","
-        编辑robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","59","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","68","
-        开启/停用robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[缺参-robotId为空-{""unknowResponseEnable"":""true"",""unknowResponseList"":","37","
-        机器人未知问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","39","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","40","
-        机器人欢迎语查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq","39","
-        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_template_category","116","
-        预置问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_delete","63","
-        删除robot
-        "
-"failed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","46","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[缺参-hotDataMode缺少-{""robotId"":""877"",""hotQuestionEnable"":""true"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","38","
-        机器人热点问题保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq[正常查询-仅userId和robotId+categoryId+curPage+pageSize，搜索某个分类下的信息，分页-{""userId"": ""11"",""robotId"": ""877"",""categoryId"":""904"",""curPage"": ""1"",""pageSize"":""2""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}},{""match"":{""categoryId"":904}}]}},""sort"":","70","
-        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[错参-userId为空-{""robotId"":""358"",""hotQuestion"":{""robotId"":""358"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","38","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[正常保存-仅开启关联问题-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","54","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","41","
-        机器人暖场语查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","47","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[异常保存-hotDataMode为空-{""robotId"":""877"",""hotQuestionEnable"":""true"",""hotDataMode"":"""",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","43","
-        机器人热点问题保存
-        "
-"failed","pytest.test_robot_faq.TestRobotFaq#test_check_question","117","
+"failed","pytest.test_robot_faq.TestRobotFaq#test_check_question","118","
         常规问答问答对配置信息--相似性判断--标准问题
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","99","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","74","
-        机器人转人工设置保存
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_template_query_page[空查询-templateId为空-{""templateId"": """",""curPage"": 1,""pageSize"": 10}-bean-{""resultlist"": ","138","
-        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[异常保存-intervalSeconds为负数-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","38","
-        机器人引导语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","40","
-        机器人猜你想问保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","40","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","46","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[错参-robotId为空-{""robotId"":"""",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","39","
-        机器人暖场语保存
-        "
-"failed","pytest.test_robot_faq.TestRobotFaq#test_delete_faq[重复删除-{ ""ids"":""","236","
-        常规问答问答对配置信息--删除
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[缺参-hotQuestionEnable为空-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""热点问题"",""hotQuestionList"":","39","
-        机器人访客端保存
-        "
-"failed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[异常保存-delaySecondsFrom为负数-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","51","
-        机器人未知问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","40","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_query","56","
-        机器人高级设置查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[正常保存-配置信息（不包含相似问题）,状态为开启-{""data"":{""question"": ""ZL-接口测试111"", ""categoryId"": ""0"",""similarQuestionforms"": [],""answerForms"": ","182","
-        常规问答问答对配置信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","42","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq[正常查询-仅userId和robotId+categoryId+curPage+pageSize+effectiveType+orderby，搜索某个分类下的信息，分页，永久有效,根据robotId降序排序-{""userId"": ""11"",""robotId"": ""877"",""categoryId"":""904"",""curPage"": ""1"",""pageSize"":""2"",""effectiveType"":0}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}},{""match"":{""categoryId"":904}},{""match"":{""effectiveType"":0}}]}},""sort"":","78","
-        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page","39","
-        常规问答问答对配置信息--模糊查询分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","41","
-        机器人未知问题回复查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[错参-userId为空-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","40","
-        机器人未知问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","45","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[正常保存-仅开启热点问题-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""热点问题"",""hotQuestionList"":","73","
-        机器人访客端保存
-        "
-"failed","pytest.test_robot_manage.TestRobotManage#test_robot_query","56","
-        查询robot
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","99","
-        登录robot
-        "
-"failed","pytest.test_robot_faq.TestRobotFaq#test_check_question","56","
-        常规问答问答对配置信息--相似性判断--标准问题
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","40","
-        机器人阈值范围保存
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","44","
-        登录robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","38","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","47","
-        机器人转人工设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","53","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_query","61","
-        机器人阈值范围查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","41","
-        机器人猜你想问保存
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_template_category","41","
-        预置问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[缺参-userId缺失-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","39","
-        机器人引导语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[正常保存-保存一条问候语-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","53","
-        机器人引导语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","45","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_template_category[正常查询-查询question-{""templateId"":""5"",""keyName"":""question"",""keyword"":""瘦脸针""}-es--template_faq--{""query"":{""bool"":{""must"":","61","
-        预置问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[正常保存-开启暖场语(增加两条暖场语）-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","54","
-        机器人暖场语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","108","
-        机器人猜你想问保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[错参-relatedQuestionEnable为空-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":"""",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","40","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_template_query_page[空查询-查询不存在的faq-{""templateId"": 5,""pageSize"": 10,""categoryId"":111}-bean-{""resultlist"": ","52","
-        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-robotId缺少-{""data"":{""question"": ""ZL-测试配置问答对信息1"", ""categoryId"": ""895"",""similarQuestionforms"": [{""question"": ""ZL-测试配置问答对信息1-1""}],""answerForms"": ","42","
-        常规问答问答对配置信息--保存
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_search_standard_questions[正常查询-查询keyName = answer，翻页第二页查询-{""templateId"": ""5"",""keyName"":""answer"",""curPage"":2,""pageSize"":10}-esanswer--template_faq_answer--{""query"":{""match"":{""templateId"":5}},""sort"":[{""modifyTime"":{""order"":""desc""}}],""size"":10,""from"":10,""_source"":","187","
-        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","30","
-        登录robot
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status","39","
-        常规问答问答对配置信息--批量修改状态
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_detail","64","
-        详情robot
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no","43","
-        常规问答问答对分类信息--修改排序
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","43","
-        新增robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","41","
-        机器人欢迎语查询
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no","45","
-        常规问答问答对分类信息--修改排序
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_query","38","
-        机器人转人工设置查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_check_question","45","
-        常规问答问答对配置信息--相似性判断--标准问题
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_template_category[正常查询-查询answer-{""templateId"":""5"",""keyName"":""answer"",""keyword"":""瘦脸针""}-es--template_faq_answer--{""query"":{""bool"":{""must"":","67","
-        预置问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category","120","
-        常规问答问答对配置信息--批量修改分类
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_search_standard_questions[正常查询-查询keyName = answer-{""templateId"": ""5"",""keyName"":""answer"",""curPage"":1,""pageSize"":10}-esanswer--template_faq_answer--{""query"":{""match"":{""templateId"":5}},""sort"":[{""modifyTime"":{""order"":""desc""}}],""size"":10,""from"":0,""_source"":","179","
-        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","48","
-        机器人欢迎语查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[缺参-guideResponseEnable缺失-{""robotId"":""877"",""guideWordList"":","40","
-        机器人引导语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[缺参-userId为空-{""robotId"":""358"",""hotQuestion"":{""robotId"":""358"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","37","
-        机器人访客端保存
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_search_standard_questions","38","
-        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","46","
-        常规问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_check_question","44","
-        预置问答问答对配置信息--验证标准问题
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[正常保存-关闭引导语-{""robotId"":""877"",""guideResponseEnable"":""false"",""guideWordList"":","54","
-        机器人引导语保存
-        "
-"failed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_save_faq[重复添加-{""data"":{""question"": ""zl-test分类测试问题2"", ""categoryId"": ""904"",""similarQuestionforms"": [{""question"": ""zl-test分类测试问题2-1""}],""answerForms"": [{""content"": ""<div>zl-test分类测试回答2</div>"",""condition"": ""","43","
-        预置问答问答对分类信息--保存
-        "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","39","
-        常规问答问答对分类信息--查询
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[异常保存-intervalSeconds缺失-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","41","
-        机器人引导语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","38","
-        机器人欢迎语保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","39","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_query","47","
-        机器人机器人访客端查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[正常保存-配置信息（包含相似问题），状态为关闭-{""data"":{""question"": ""ZL-接口测试333"", ""categoryId"": ""0"",""similarQuestionforms"": [{""question"": ""ZL-接口测试3-1""}],""answerForms"": ","211","
-        常规问答问答对配置信息--保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","45","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_check_question","43","
-        常规问答问答对配置信息--相似性判断--标准问题
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_detail","66","
-        详情robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[正常保存-开启未知问题回复，并增加2条回复-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","51","
-        机器人未知问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","45","
-        机器人高级设置保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_query","41","
-        机器人阈值范围查询
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","40","
-        编辑robot
         "
 "passed","pytest.test_robot_config.TestRobotConfig#test_related_related_question_query","38","
         机器人关联问题查询
         "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_template_query_page[空查询-templateId错误-{""templateId"": 10000,""curPage"": 1,""pageSize"": 10,""categoryId"":793,""orderName"":"""",""orderBy"":""""}-bean-{""resultlist"": ","55","
-        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_delete","167","
-        删除robot
-        "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","42","
-        编辑robot
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","38","
-        机器人关联问题保存
-        "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query","43","
-        机器人猜你想问查询
-        "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page[正常查询-搜索问题+无分类+分页（设置每页2行）-{""userId"": ""11"", ""robotId"": ""877"",""keyName"": ""question"",""curPage"": ""1"",""pageSize"": ""2""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}}]}},""sort"":","68","
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page","39","
         常规问答问答对配置信息--模糊查询分页数据
         "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","39","
-        新增robot
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_detail","114","
+        详情robot
         "
-"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_delete_category","115","
-        常规问答问答对分类信息--删除
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category","41","
+        常规问答问答对配置信息--批量修改分类
         "
-"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-robotId为空-{""data"":{""question"": ""ZL-测试配置问答对信息1"", ""categoryId"": ""895"",""similarQuestionforms"": [{""question"": ""ZL-测试配置问答对信息1-1""}],""answerForms"": ","43","
+"passed","pytest.test_robot_faq.TestRobotFaq#test_check_question","45","
+        常规问答问答对配置信息--相似性判断--标准问题
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_delete_faq","44","
+        常规问答问答对配置信息--删除
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","43","
+        登录robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_check_question","44","
+        常规问答问答对配置信息--相似性判断--标准问题
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-userId为空-{""data"":{""question"": ""ZL-测试配置问答对信息1"", ""categoryId"": ""895"",""similarQuestionforms"": [{""question"": ""ZL-测试配置问答对信息1-1""}],""answerForms"": ","42","
         常规问答问答对配置信息--保存
         "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[正常保存-开启关联问题+猜你想问-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","55","
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[异常保存-intervalSeconds缺失-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","51","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","40","
+        机器人转人工设置保存
+        "
+"failed","pytest.test_robot_faq.TestRobotFaq#test_query_template_query_page","53","
+        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","43","
+        机器人未知问题回复查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_query","43","
+        机器人阈值范围查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","44","
+        开启/停用robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category[批量转移-{""ids"":""","62","
+        常规问答问答对配置信息--批量修改分类
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","45","
+        机器人阈值范围保存
+        "
+"failed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","52","
+        常规问答问答对分类信息--保存
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","51","
+        常规问答问答对分类信息--保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","73","
+        机器人暖场语查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status","45","
+        常规问答问答对配置信息--批量修改状态
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","48","
+        机器人猜你想问保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","43","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","50","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_delete","354","
+        删除robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_query","92","
+        机器人高级设置查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_query","63","
+        查询robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_query","50","
+        机器人阈值范围查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[异常保存-hotQuestionEnable为空-{""robotId"":""877"",""hotQuestionEnable"":"""",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","42","
+        机器人热点问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","50","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_related_related_question_query","43","
+        机器人关联问题查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq_by_id","149","
+        预置回答问答对配置信息--根据ID查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","43","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq_by_id","35","
+        预置回答问答对配置信息--根据ID查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_query","51","
+        机器人高级设置查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq_template_category","65","
+        预置问答问答对分类信息--查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[错参-userId为空-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","34","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","52","
+        新增robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_query","62","
+        机器人机器人访客端查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_query","43","
+        机器人机器人访客端查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[缺参-hotQuestionEnable缺少-{""robotId"":""877"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","48","
+        机器人热点问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","42","
+        机器人引导语查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_standard_questions","50","
+        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_delete","151","
+        删除robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_template_query_page[正常查询-仅templateId+curPage+pageSize-{""templateId"": 5,""curPage"": 1,""pageSize"": 10}-es--template_faq--{""query"":{""bool"":{""must"":[{""match"":{""categoryId"":0}},{""match"":{""templateId"":5}}]}},""size"":10,""from"":0,""sort"":","306","
+        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","42","
+        常规问答问答对分类信息--保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq_template_category[正常查询-查询question-{""templateId"":""5"",""keyName"":""question"",""keyword"":""瘦脸针""}-es--template_faq--{""query"":{""bool"":{""must"":","56","
+        预置问答问答对分类信息--查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_query","39","
+        查询robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","42","
+        机器人阈值范围保存
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","42","
+        常规问答问答对分类信息--查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq[正常查询-仅userId和robotId+categoryId+curPage+pageSize+effectiveType+orderby，搜索某个分类下的信息，分页，永久有效,根据robotId降序排序-{""userId"": ""11"",""robotId"": ""877"",""categoryId"":""904"",""curPage"": ""1"",""pageSize"":""2"",""effectiveType"":0}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}},{""match"":{""categoryId"":904}},{""match"":{""effectiveType"":0}}]}},""sort"":","70","
+        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","51","
+        开启/停用robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_query","42","
+        机器人转人工设置查询
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","85","
+        常规问答问答对分类信息--查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","43","
+        机器人引导语查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[缺参-relatedQuestionEnable为空-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","41","
         机器人访客端保存
         "
-"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","43","
-        编辑robot
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","43","
+        机器人关联问题保存
         "
-"passed","pytest.test_robot_template_category.TestRobotTemplateCategory#test_save_faq","41","
-        预置问答问答对分类信息--保存
+"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-robotId为空-{""data"":{""question"": ""ZL-测试配置问答对信息1"", ""categoryId"": ""895"",""similarQuestionforms"": [{""question"": ""ZL-测试配置问答对信息1-1""}],""answerForms"": ","42","
+        常规问答问答对配置信息--保存
         "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","41","
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_standard_questions[正常查询-查询keyName = question-{""templateId"": ""5"",""keyName"":""question"",""curPage"":1,""pageSize"":10}-esquestion--template_faq--{""query"":{""bool"":{""must"":[{""match"":{""categoryId"":0}},{""match"":{""templateId"":5}}]}},""size"":10,""from"":0,""sort"":[{""modifyTime"":{""order"":""desc""}}],""_source"":","143","
+        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[缺参-hotDataMode缺少-{""robotId"":""877"",""hotQuestionEnable"":""true"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","53","
+        机器人热点问题保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","40","
+        新增robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","44","
+        机器人阈值范围保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_query","43","
+        机器人高级设置查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_query","141","
+        机器人机器人访客端查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_query","34","
+        查询robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_check_question","44","
+        常规问答问答对配置信息--相似性判断--标准问题
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","92","
+        常规问答问答对分类信息--查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","45","
+        开启/停用robot
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_detail","45","
+        详情robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_cite_faq[编辑引用-{""data"":{""id"":""95651149138231296"",""question"":""病毒是来源于野生动物吗"",""categoryId"":""0"",""answerIds"":""[\""96812806839566336\""]"",""addTime"":""2020-09-02 18:15:18"",""modifyTime"":""2020-09-05 21:23:08"",""templateId"":5,""answerForms"":[{""content"":""嗯嗯，针对新型冠状病毒感染的肺炎来源，有关专家22日确认，病毒来源就是海鲜市场销售的野生动物。"",""parentFAQId"":""95651149138231296"",""categoryId"":""0"",""addTime"":""2020-09-05 21:23:08"",""modifyTime"":""2020-09-05 21:23:08"",""templateId"":""5""}],""key"":""95651149138231296"",""similarQuestionforms"":","151","
+        预置问答问答对配置信息--引用
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","42","
+        新增robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","74","
+        机器人阈值范围保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","45","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_template_query_page[空查询-查询不存在的faq-{""templateId"": 5,""pageSize"": 10,""categoryId"":111}-bean-{""resultlist"": ","52","
+        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","72","
+        新增robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[错参-relatedQuestionEnable为空-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":"""",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","42","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[缺参-robotId缺少-{""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","50","
+        机器人热点问题保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_standard_questions[正常查询-查询问题-{""templateId"": ""5"", ""keyword"": ""瘦脸针要打几针"", ""keyName"": ""question"", ""curPage"": 1, ""pageSize"": 10}-esanswer--template_faq--{""query"":{""bool"":{""must"":[{""match"":{""templateId"":5}},{""match"":{""question"":""瘦脸针要打几针""}}]}},""size"":10,""from"":0,""sort"":","155","
+        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-userId缺少-{""data"":{""question"": ""ZL-测试配置问答对信息1"", ""categoryId"": ""895"",""similarQuestionforms"": [{""question"": ""ZL-测试配置问答对信息1-1""}],""answerForms"": ","43","
+        常规问答问答对配置信息--保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_delete","81","
+        删除robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_query","32","
+        机器人高级设置查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[异常保存-intervalSeconds为负数-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","41","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","42","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","51","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","68","
+        开启/停用robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[异常保存-hotDataMode为空-{""robotId"":""877"",""hotQuestionEnable"":""true"",""hotDataMode"":"""",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","41","
+        机器人热点问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","47","
+        机器人引导语查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page[正常查询-搜索问题+无分类+分页（设置每页2行）-{""userId"": ""11"", ""robotId"": ""877"",""keyName"": ""question"",""curPage"": ""1"",""pageSize"": ""2""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}}]}},""sort"":","57","
+        常规问答问答对配置信息--模糊查询分页数据
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq","40","
+        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq_template_category","36","
+        预置问答问答对分类信息--查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[正常保存-开启未知问题回复，并增加2条回复-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","49","
+        机器人未知问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[错参-responseContent为空-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","39","
+        机器人未知问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","44","
+        机器人关联问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[错参-userId为空-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","40","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","46","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","71","
+        机器人引导语查询
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no","42","
+        常规问答问答对分类信息--修改排序
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status","44","
+        常规问答问答对配置信息--批量修改状态
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query","39","
+        机器人猜你想问查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","41","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","40","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq","41","
+        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_cite_faq","43","
+        预置问答问答对配置信息--引用
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","41","
+        机器人猜你想问保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","49","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq[正常查询-仅userId和robotId+categoryId+curPage+pageSize，搜索某个分类下的信息，分页-{""userId"": ""11"",""robotId"": ""877"",""categoryId"":""904"",""curPage"": ""1"",""pageSize"":""2""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}},{""match"":{""categoryId"":904}}]}},""sort"":","71","
+        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","59","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","43","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[错参-robotId为空-{""robotId"":"""",""hotQuestion"":{""robotId"":""358"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","48","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq_by_id","134","
+        预置回答问答对配置信息--根据ID查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_related_related_question_query","45","
+        机器人关联问题查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_hot_question_query","45","
+        机器人热点问题查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","45","
+        机器人阈值范围保存
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","44","
+        常规问答问答对分类信息--保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[错参-userId缺失-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","38","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_query","43","
+        机器人转人工设置查询
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no","44","
+        常规问答问答对分类信息--修改排序
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_detail","65","
+        详情robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq[正常查询-仅userId和robotId+categoryId+curPage+pageSize+effectiveType，搜索某个分类下的信息，分页，永久有效-{""userId"": ""11"",""robotId"": ""877"",""categoryId"":""904"",""curPage"": ""1"",""pageSize"":""2"",""effectiveType"":0}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}},{""match"":{""categoryId"":904}},{""match"":{""effectiveType"":0}}]}},""sort"":","56","
+        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[正常保存-仅开启热点问题-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""热点问题"",""hotQuestionList"":","87","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_hot_question_query","44","
+        机器人热点问题查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_delete","72","
+        删除robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","41","
+        机器人猜你想问保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[正常保存-开启暖场语(增加两条暖场语）-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","63","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","49","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq_template_category","45","
+        预置问答问答对分类信息--查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","48","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[缺参-robotId缺失-{""guideResponseEnable"":""true"",""guideWordList"":","40","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","46","
+        机器人暖场语查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_plan_list","49","
+        planList-无参数直接校验
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_query","40","
+        机器人阈值范围查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq_by_id","160","
+        预置回答问答对配置信息--根据ID查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_check_question","45","
+        常规问答问答对配置信息--相似性判断--标准问题
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","45","
+        机器人未知问题回复查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","38","
+        机器人阈值范围保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[异常保存-intervalSeconds为负数-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","42","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_cite_faq[直接引用-{""data"":{""id"":""95976306872795136"",""question"":""年龄大了能够做这些项目吗？"",""categoryId"":0,""answerIds"":""[\""96813317940674560\""]"",""addTime"":""2020-09-03 15:17:05"",""modifyTime"":""2020-09-05 21:25:07"",""templateId"":""5"",""answerForms"":","158","
+        预置问答问答对配置信息--引用
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","44","
+        机器人阈值范围保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page","39","
+        常规问答问答对配置信息--模糊查询分页数据
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_template_query_page[空查询-templateId错误-{""templateId"": 10000,""curPage"": 1,""pageSize"": 10,""categoryId"":793,""orderName"":"""",""orderBy"":""""}-bean-{""resultlist"": ","56","
+        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","40","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","36","
+        机器人猜你想问保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[异常保存-delaySecondsFrom为负数-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","38","
+        机器人未知问题保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-未配置问题-{""data"":{""question"": """", ""categoryId"": ""895"",""similarQuestionforms"": [{""question"": ""ZL-测试配置问答对信息3-1""}],""answerForms"": ","43","
+        常规问答问答对配置信息--保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","56","
+        新增robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","41","
+        机器人猜你想问保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_template_query_page[正常查询-查询第二页-{""templateId"": 5,""curPage"":2,""pageSize"": 10,""categoryId"":0,""orderName"":""modifyTime"",""orderBy"":""desc""}-es--template_faq--{""query"":{""bool"":{""must"":[{""match"":{""categoryId"":0}},{""match"":{""templateId"":5}}]}},""size"":10,""from"":10,""sort"":","238","
+        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_template_query_page","39","
+        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save","45","
+        机器人未知问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[正常保存-开启关联问题+猜你想问-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","57","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","48","
+        常规问答问答对分类信息--保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","40","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","137","
+        机器人猜你想问保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_check_question","57","
+        常规问答问答对配置信息--相似性判断--标准问题
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","51","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[错参-robotId为空-{""robotId"":"""",""guideResponseEnable"":""true"",""guideWordList"":","41","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-未配置答案-{""data"":{""question"": ""ZL-测试配置问答对信息1"", ""categoryId"": ""895"", ""similarQuestionforms"": [],""answerForms"": ","47","
+        常规问答问答对配置信息--保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status[单个设置-启用-{""ids"": ""","52","
+        常规问答问答对配置信息--批量修改状态
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","73","
+        机器人未知问题回复查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[正常保存-开启暖场语(暖场语为空）-{""robotId"":""358"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","54","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[异常保存-faqId为空-{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","56","
+        机器人热点问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","40","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no","47","
+        常规问答问答对分类信息--修改排序
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","70","
+        机器人猜你想问保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","48","
+        机器人关联问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[错参-robotId为空-{""robotId"":"""",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","43","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[缺参-guideResponseEnable缺失-{""robotId"":""877"",""guideWordList"":","42","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","46","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page","41","
+        常规问答问答对配置信息--模糊查询分页数据
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_delete_category","45","
+        常规问答问答对分类信息--删除
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","43","
+        开启/停用robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category","46","
+        常规问答问答对配置信息--批量修改分类
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page[正常查询相似问题-{""userId"": ""11"", ""robotId"": ""877"", ""keyName"": ""similarQuestion"", ""curPage"": ""1"", ""pageSize"": ""10""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}}],""must_not"":[{""match"":{""parentId"":0}}]}},""sort"":","117","
+        常规问答问答对配置信息--模糊查询分页数据
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_check_question","49","
+        常规问答问答对配置信息--相似性判断--标准问题
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","81","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[正常保存-保存两条问候语-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","66","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","41","
+        机器人猜你想问保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query","60","
+        机器人猜你想问查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_template_list","110","
+        templateList-无参数直接校验
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","50","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_delete_category","43","
+        常规问答问答对分类信息--删除
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[异常保存-delaySecondsTo为负数-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","41","
+        机器人未知问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[正常保存-开启热点问题，关联问题，猜你想问均开启-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","77","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_delete_category","103","
+        常规问答问答对分类信息--删除
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[正常保存-仅开启猜你想问-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","57","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","67","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","44","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","46","
+        登录robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","52","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[异常保存-intervalSeconds缺失-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","40","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","46","
+        机器人未知问题回复查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[错参-guideResponseEnable为空-{""robotId"":""877"",""guideResponseEnable"":"""",""guideWordList"":","39","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","83","
+        机器人关联问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","39","
+        机器人猜你想问保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[错参-warmResponseEnable缺失-{""robotId"":""877"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","42","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","46","
+        常规问答问答对分类信息--保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","42","
         机器人欢迎语查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","69","
+        机器人未知问题回复查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[正常保存-开启引导语(问候语为空）-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","79","
+        机器人引导语保存
         "
 "passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","39","
         机器人转人工设置保存
         "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[缺参-faqId缺少-{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","55","
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","42","
+        机器人阈值范围保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","43","
+        机器人引导语查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_cite_faq","43","
+        预置问答问答对配置信息--引用
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no","45","
+        常规问答问答对分类信息--修改排序
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","46","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq[正常查询-仅userId和robotId+categoryId，搜索某个分类下的信息-{""userId"": ""11"",""robotId"": ""877"",""categoryId"":""904""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}},{""match"":{""categoryId"":904}}]}},""sort"":","71","
+        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_delete","48","
+        删除robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","44","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","43","
+        新增robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","40","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","41","
+        新增robot
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","40","
+        编辑robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[异常保存-responseContent缺失-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","41","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","44","
+        机器人阈值范围保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","73","
+        机器人暖场语查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category[单个转移-{""ids"":"" ","53","
+        常规问答问答对配置信息--批量修改分类
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_query","69","
+        机器人阈值范围查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","46","
+        机器人阈值范围保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[错参-userId为空-{""robotId"":""877"",""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","38","
         机器人热点问题保存
         "
-"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","60","
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","43","
+        机器人引导语查询
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","72","
+        常规问答问答对分类信息--保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[错参-robotId为空-{""robotId"":"""",""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","36","
+        机器人热点问题保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","48","
+        编辑robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq_template_category[正常查询-查询answer-{""templateId"":""5"",""keyName"":""answer"",""keyword"":""瘦脸针""}-es--template_faq_answer--{""query"":{""bool"":{""must"":","72","
+        预置问答问答对分类信息--查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","48","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[正常保存-关闭暖场语(问候语为空）-{""robotId"":""358"",""warmResponseEnable"":""false"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","47","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[错参-robotId缺失-{""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","33","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","44","
+        机器人关联问题保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq","40","
+        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_related_related_question_query","45","
+        机器人关联问题查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[缺参-faqId缺少-{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","59","
+        机器人热点问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_query","62","
+        机器人引导语查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参问题缺少-{""data"":{""categoryId"": ""895"",""similarQuestionforms"": [{""question"": ""ZL-测试配置问答对信息3-1""}],""answerForms"": ","40","
+        常规问答问答对配置信息--保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_query","43","
+        查询robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query","50","
+        机器人猜你想问查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[正常保存-开启暖场语(增加一条暖场语）-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","58","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","53","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_query","49","
+        机器人机器人访客端查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save","46","
+        机器人未知问题保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_standard_questions[正常查询-查询keyName = answer-{""templateId"": ""5"",""keyName"":""answer"",""curPage"":1,""pageSize"":10}-esanswer--template_faq_answer--{""query"":{""match"":{""templateId"":5}},""sort"":[{""modifyTime"":{""order"":""desc""}}],""size"":10,""from"":0,""_source"":","72","
+        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_query","65","
+        机器人转人工设置查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_delete_faq","41","
+        常规问答问答对配置信息--删除
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","38","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[缺参-userId缺少-{""robotId"":""877"",""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","43","
+        机器人热点问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","41","
+        机器人关联问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[缺参-robotId为空-{""hotQuestion"":{""robotId"":""358"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","38","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","47","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","49","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","54","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category","43","
+        常规问答问答对配置信息--批量修改分类
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","49","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_query","50","
+        机器人高级设置查询
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","41","
+        常规问答问答对分类信息--查询
+        "
+"failed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","49","
+        常规问答问答对分类信息--保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[正常保存-开启暖场语(增加两条暖场语）-{""robotId"":""877"",""warmResponseEnable"":""true"",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","52","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","38","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","43","
+        机器人欢迎语查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","50","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[正常保存-配置信息（包含相似问题），状态为关闭-{""data"":{""question"": ""ZL-接口测试333"", ""categoryId"": ""0"",""similarQuestionforms"": [{""question"": ""ZL-接口测试3-1""}],""answerForms"": ","194","
+        常规问答问答对配置信息--保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status[批量设置-启用-{""ids"": ""","51","
+        常规问答问答对配置信息--批量修改状态
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","40","
+        新增robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query","40","
+        机器人猜你想问查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","35","
+        机器人猜你想问保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_standard_questions[正常查询-查询keyName = answer，翻页第二页查询-{""templateId"": ""5"",""keyName"":""answer"",""curPage"":2,""pageSize"":10}-esanswer--template_faq_answer--{""query"":{""match"":{""templateId"":5}},""sort"":[{""modifyTime"":{""order"":""desc""}}],""size"":10,""from"":10,""_source"":","116","
+        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_hot_question_query","86","
+        机器人热点问题查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page","40","
+        常规问答问答对配置信息--模糊查询分页数据
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_query","38","
+        查询robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_standard_questions","53","
+        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_standard_questions[正常查询-查询答案-{""templateId"": ""5"", ""keyword"": ""瘦脸针"", ""keyName"": ""answer"", ""curPage"": 1, ""pageSize"": 10}-esanswer--template_faq_answer--{""query"":{""bool"":{""must"":[{""match"":{""templateId"":5}},{""match"":{""content"":""瘦脸针""}}]}},""size"":10,""from"":0,""sort"":","106","
+        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","59","
+        机器人欢迎语查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","116","
+        机器人猜你想问保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_query","49","
+        机器人高级设置查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq_by_id","106","
+        预置回答问答对配置信息--根据ID查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[缺参-userId为空-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","39","
+        机器人未知问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","42","
+        机器人关联问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_query","142","
+        机器人阈值范围查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[正常保存-热点问题，关联问题，猜你想问均关闭-{""robotId"":""358"",""hotQuestion"":{""robotId"":""358"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","57","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","54","
+        常规问答问答对分类信息--保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_hot_question_query","62","
+        机器人热点问题查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[正常保存-开启未知问题回复，并增加1条回复-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","119","
+        机器人未知问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","67","
+        机器人欢迎语查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","62","
+        开启/停用robot
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","39","
+        编辑robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category","45","
+        常规问答问答对配置信息--批量修改分类
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[错参-hotQuestionEnable为空-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":"""",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""热点问题"",""hotQuestionList"":","40","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_delete_faq[正常删除-{ ""ids"":""","597","
+        常规问答问答对配置信息--删除
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status[批量设置-停用-{""ids"": ""","54","
+        常规问答问答对配置信息--批量修改状态
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_detail","41","
+        详情robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status","45","
+        常规问答问答对配置信息--批量修改状态
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[正常保存-开启保存热点问题，新增一条-{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","73","
+        机器人热点问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_save","66","
+        机器人猜你想问保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","48","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page[正常查询答案-{""userId"": ""11"", ""robotId"": ""877"",""keyName"": ""answer"",""curPage"": ""1"",""pageSize"": ""10""}-es-robot_faq_answer-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}}]}},""sort"":","133","
+        常规问答问答对配置信息--模糊查询分页数据
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no","48","
+        常规问答问答对分类信息--修改排序
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[缺参-robotId为空-{""unknowResponseEnable"":""true"",""unknowResponseList"":","40","
+        机器人未知问题保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status[单个设置-停用-{""ids"": ""","54","
+        常规问答问答对配置信息--批量修改状态
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[错参-robotId为空-{""robotId"":"""",""unknowResponseEnable"":""true"",""unknowResponseList"":","40","
+        机器人未知问题保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page[正常查询-搜索问题+分类-{""userId"": ""11"",""robotId"": ""877"",""keyName"": ""question"",""keyword"": ""分类"",""curPage"": ""1"",""pageSize"": ""10""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}},{""match"":{""question"":""分类""}}]}},""sort"":","60","
+        常规问答问答对配置信息--模糊查询分页数据
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-答案缺少-{""data"":{""question"": ""ZL-测试配置问答对信息1"", ""categoryId"": ""895"", ""similarQuestionforms"": ","47","
+        常规问答问答对配置信息--保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[缺参-responseContent为空-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","36","
+        机器人未知问题保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","45","
+        编辑robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[缺参-userId缺失-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","39","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","47","
+        机器人欢迎语查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","41","
+        编辑robot
+        "
+"failed","pytest.test_robot_faq.TestRobotFaq#test_check_question","118","
+        常规问答问答对配置信息--相似性判断--标准问题
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","47","
         机器人暖场语查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq[正常查询-仅必参userId和robotId，搜索全部分类的全部信息-{""userId"": ""11"",""robotId"": ""877""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}}]}},""sort"":","144","
+        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[正常保存-开启引导语(问候语非空）-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","55","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","52","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","41","
+        机器人欢迎语查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status","47","
+        常规问答问答对配置信息--批量修改状态
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_hot_question_query","42","
+        机器人热点问题查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_hot_question_query","44","
+        机器人热点问题查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","39","
+        新增robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[错参-wantToAskEnable为空-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","40","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[错参-warmResponseEnable为空-{""robotId"":""877"",""warmResponseEnable"":"""",""getContactDontSendEnable"":true,""warmSendLimitEnable"":true,""warmSendLimitNums"":5,""warmWordList"":","41","
+        机器人暖场语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_query","45","
+        机器人转人工设置查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_query","59","
+        查询robot
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","44","
+        编辑robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[正常保存-关闭保存-{""robotId"":""877"",""hotQuestionEnable"":""true"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""通过热点接口添加-热点问题"",""hotQuestionList"":","97","
+        机器人热点问题保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","40","
+        编辑robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_query","45","
+        机器人转人工设置查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[正常保存-关闭引导语-{""robotId"":""877"",""guideResponseEnable"":""false"",""guideWordList"":","60","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[异常保存-仅开启猜你想问，并设置showNumberLimit条数为负数-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","78","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[错参-userId为空-{""robotId"":""358"",""hotQuestion"":{""robotId"":""358"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","42","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_delete","51","
+        删除robot
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","44","
+        新增robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_related_related_question_query","59","
+        机器人关联问题查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","42","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[正常保存-配置信息（不包含相似问题）,状态为开启-{""data"":{""question"": ""ZL-接口测试111"", ""categoryId"": ""0"",""similarQuestionforms"": [],""answerForms"": ","158","
+        常规问答问答对配置信息--保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","43","
+        机器人关联问题保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[错参-robotId缺少-{""data"":{""question"": ""ZL-测试配置问答对信息1"", ""categoryId"": ""895"",""similarQuestionforms"": [{""question"": ""ZL-测试配置问答对信息1-1""}],""answerForms"": ","43","
+        常规问答问答对配置信息--保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","66","
+        开启/停用robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","63","
+        机器人暖场语查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","151","
+        新增robot
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category","52","
+        常规问答问答对分类信息--保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","42","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","45","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[正常保存-配置信息（包含相似问题），状态为开启-{""data"":{""question"": ""ZL-接口测试222"", ""categoryId"": ""0"",""similarQuestionforms"": [{""question"": ""ZL-接口测试2222-1""}],""answerForms"": ","208","
+        常规问答问答对配置信息--保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","42","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","40","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","51","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_standard_questions","54","
+        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_query","44","
+        机器人机器人访客端查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page","110","
+        常规问答问答对配置信息--模糊查询分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","43","
+        机器人暖场语查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_set_status","44","
+        开启/停用robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page","41","
+        常规问答问答对配置信息--模糊查询分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","48","
+        机器人关联问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","57","
+        机器人未知问题回复查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[缺参-wantToAskEnable为空-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","40","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_save","41","
+        机器人阈值范围保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","42","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_detail","70","
+        详情robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_category","42","
+        常规问答问答对配置信息--批量修改分类
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guide_save[正常保存-保存一条问候语-{""robotId"":""877"",""guideResponseEnable"":""true"",""guideWordList"":","58","
+        机器人引导语保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","42","
+        登录robot
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_template_query_page","42","
+        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_add","42","
+        新增robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","38","
+        机器人关联问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","43","
+        机器人关联问题保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_edit","43","
+        编辑robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","53","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","87","
+        常规问答问答对分类信息--查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_un_problem_query","55","
+        机器人未知问题回复查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query","47","
+        机器人猜你想问查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","46","
+        登录robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","72","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page[正常查询-搜索问题+无分类-{""userId"": ""11"", ""robotId"": ""877"",""keyName"": ""question"",""curPage"": ""1"",""pageSize"": ""10""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}}]}},""sort"":","61","
+        常规问答问答对配置信息--模糊查询分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[正常保存-仅开启关联问题-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","63","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","52","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query","69","
+        机器人猜你想问查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_advance_settings_save","40","
+        机器人高级设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_query","65","
+        机器人转人工设置查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","45","
+        登录robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_query","44","
+        机器人欢迎语查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_detail","48","
+        详情robot
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","42","
+        常规问答问答对分类信息--查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_unproblem_save[错参-userId为空-{""robotId"":""877"",""unknowResponseEnable"":""true"",""unknowResponseList"":","40","
+        机器人未知问题保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","40","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_related_related_question_query","68","
+        机器人关联问题查询
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","45","
+        登录robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","42","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_query","38","
+        机器人机器人访客端查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","41","
+        机器人关联问题保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq_template_category[正常查询-更改modify时间-{""templateId"":""5"",""keyName"":""answer"",""keyword"":""瘦脸针"",""modifyTimeFrom"":""2020-08-01 23:36:52"",""modifyTimeTo"":""2020-09-05 23:36:52""}-es--template_faq_answer--{""query"":{""bool"":{""must"":","71","
+        预置问答问答对分类信息--查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_faq","42","
+        常规问答问答对配置信息--根据分类和机器人Id查询问题分页数据
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_save_faq[重复保存-配置信息-{""data"":{""question"": ""嘻嘻哈哈"", ""categoryId"": ""0"",""similarQuestionforms"": [{""question"": ""ZL-接口测试2222-1""}],""answerForms"": ","53","
+        常规问答问答对配置信息--保存
+        "
+"failed","pytest.test_robot_faq.TestRobotFaq#test_query_faq_by_id","47","
+        预置回答问答对配置信息--根据ID查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_threshold_query","51","
+        机器人阈值范围查询
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_change_status","45","
+        常规问答问答对配置信息--批量修改状态
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_query_template_query_page[正常查询-全参-{""templateId"": 5,""curPage"": 1,""pageSize"": 10,""categoryId"":0,""orderName"":""modifyTime"",""orderBy"":""desc""}-es--template_faq--{""query"":{""bool"":{""must"":[{""match"":{""categoryId"":0}},{""match"":{""templateId"":5}}]}},""size"":10,""from"":0,""sort"":","291","
+        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","45","
+        机器人转人工设置保存
+        "
+"failed","pytest.test_robot_faq.TestRobotFaq#test_check_question","59","
+        常规问答问答对配置信息--相似性判断--标准问题
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save","39","
+        机器人转人工设置保存
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_query_category","127","
+        常规问答问答对分类信息--查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","51","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save","40","
+        机器人欢迎语保存
+        "
+"passed","pytest.test_robot_manage.TestRobotManage#test_robot_login","72","
+        登录robot
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_query","37","
+        机器人暖场语查询
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[缺参-userId为空-{""robotId"":""358"",""hotQuestion"":{""robotId"":""358"",""hotQuestionEnable"":""false"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":"""",""hotQuestionList"":","41","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_faq.TestRobotFaq#test_search_page[正常查询-搜索问题+无分类+分页（设置每页2行）+翻页第二页-{""userId"": ""11"", ""robotId"": ""877"",""keyName"": ""question"",""curPage"": ""2"",""pageSize"": ""2""}-es-robot_faq-{""query"":{""bool"":{""must"":[{""match"":{""userId"":11}},{""match"":{""robotId"":877}},{""match"":{""parentId"":0}}]}},""sort"":","70","
+        常规问答问答对配置信息--模糊查询分页数据
+        "
+"passed","pytest.test_robot_faq_category.TestRobotFaqCategory#test_update_index_no","44","
+        常规问答问答对分类信息--修改排序
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[缺参-hotQuestionEnable为空-{""robotId"":""877"",""hotQuestion"":{""robotId"":""877"",""hotDataMode"":""MANUAL_ADD"",""guideWord"":""热点问题"",""hotQuestionList"":","42","
+        机器人访客端保存
+        "
+"passed","pytest.test_robot_config.TestRobotConfig#test_robot_related_question_save","41","
+        机器人关联问题保存
         "

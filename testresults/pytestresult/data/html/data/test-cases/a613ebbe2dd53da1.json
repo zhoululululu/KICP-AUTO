@@ -1,0 +1,105 @@
+{
+  "uid" : "a613ebbe2dd53da1",
+  "name" : "错参查询-templateId为空",
+  "fullName" : "pytest.test_robot_faq.TestRobotFaq#test_search_standard_questions",
+  "historyId" : "9a26dd6262a79aa11d71479c58823e7e",
+  "time" : {
+    "start" : 1600862946710,
+    "stop" : 1600862946764,
+    "duration" : 54
+  },
+  "description" : "\n        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据\n        ",
+  "descriptionHtml" : "<pre><code>    预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600862938984,
+      "stop" : 1600862938984,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600862947464,
+      "stop" : 1600862947464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据"
+  }, {
+    "name" : "tag",
+    "value" : "robot_template_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1214'"
+  }, {
+    "name" : "desc",
+    "value" : "'错参查询-templateId为空'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"templateId\": \"\",\"keyword\": \"医院\",\"keyName\":\"question\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_template_faq" ]
+  },
+  "source" : "a613ebbe2dd53da1.json",
+  "parameterValues" : [ "'code-1214'", "'错参查询-templateId为空'", "'{\"templateId\": \"\",\"keyword\": \"医院\",\"keyName\":\"question\"}'" ]
+}

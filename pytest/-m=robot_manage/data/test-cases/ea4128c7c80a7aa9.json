@@ -1,0 +1,105 @@
+{
+  "uid" : "ea4128c7c80a7aa9",
+  "name" : "正常添加分类-（准备数据）",
+  "fullName" : "pytest.test_robot_faq_category.TestRobotFaqCategory#test_save_category",
+  "historyId" : "59ebd438622d7e4f042107c554c969b7",
+  "time" : {
+    "start" : 1600832103754,
+    "stop" : 1600832103807,
+    "duration" : 53
+  },
+  "description" : "\n        常规问答问答对分类信息--保存\n        ",
+  "descriptionHtml" : "<pre><code>    常规问答问答对分类信息--保存\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600832102822,
+      "stop" : 1600832102822,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600832104659,
+      "stop" : 1600832104659,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "常规问答问答对分类信息--保存"
+  }, {
+    "name" : "feature",
+    "value" : "常规问答问答对分类信息"
+  }, {
+    "name" : "tag",
+    "value" : "category_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq_category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaqCategory"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "6220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq_category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常添加分类-（准备数据）'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"parantId\": \"0\",\"robotId\": \"877\",\"userId\": \"11\",\"categoryName\":\"3333\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "category_faq" ]
+  },
+  "source" : "ea4128c7c80a7aa9.json",
+  "parameterValues" : [ "'code-8'", "'正常添加分类-（准备数据）'", "'{\"parantId\": \"0\",\"robotId\": \"877\",\"userId\": \"11\",\"categoryName\":\"3333\"}'" ]
+}

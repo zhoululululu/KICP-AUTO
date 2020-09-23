@@ -4,12 +4,12 @@
     "uid" : "1391e8d00208145d2c262e76f0a53c75",
     "name" : "pytest",
     "statistic" : {
-      "failed" : 46,
+      "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 383,
+      "passed" : 402,
       "unknown" : 0,
-      "total" : 429
+      "total" : 409
     }
   } ]
 }

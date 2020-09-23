@@ -1,0 +1,105 @@
+{
+  "uid" : "c0f460eb247e17bf",
+  "name" : "错参-userId为空",
+  "fullName" : "pytest.test_robot_config.TestRobotConfig#test_robot_artificial_settings_save",
+  "historyId" : "fbf7c9b6561073afe0e13a09ab55ef4b",
+  "time" : {
+    "start" : 1600832092551,
+    "stop" : 1600832092591,
+    "duration" : 40
+  },
+  "description" : "\n        机器人转人工设置保存\n        ",
+  "descriptionHtml" : "<pre><code>    机器人转人工设置保存\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600832083565,
+      "stop" : 1600832083565,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600832097920,
+      "stop" : 1600832097920,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "story",
+    "value" : "机器人转人工设置保存"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "6220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1213'"
+  }, {
+    "name" : "desc",
+    "value" : "'错参-userId为空'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"358\",\"guestDisplayEnable\":\"false\",\"guestDisplayWord\":\"\",\"unknowQuestionDisplayEnable\":\"false\",\"unkonwQuestionCountTimes\":\"\",\"unknowQuestionDisplayWord\":\"\",\"unsolveQuestionDisplayEnable\":\"false\",\"unsolveQuestionCountTimes\":\"\",\"unsolveQuestionDisplayWord\":\"\",\"keywordDisplayEnable\":\"false\",\"keywordContent\":\"\",\"keywordExactEnable\":\"false\",\"keywordDisplayWord\":\"\",\"loaded\":\"true\",\"userId\":\"\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "c0f460eb247e17bf.json",
+  "parameterValues" : [ "'code-1213'", "'错参-userId为空'", "'{\"robotId\":\"358\",\"guestDisplayEnable\":\"false\",\"guestDisplayWord\":\"\",\"unknowQuestionDisplayEnable\":\"false\",\"unkonwQuestionCountTimes\":\"\",\"unknowQuestionDisplayWord\":\"\",\"unsolveQuestionDisplayEnable\":\"false\",\"unsolveQuestionCountTimes\":\"\",\"unsolveQuestionDisplayWord\":\"\",\"keywordDisplayEnable\":\"false\",\"keywordContent\":\"\",\"keywordExactEnable\":\"false\",\"keywordDisplayWord\":\"\",\"loaded\":\"true\",\"userId\":\"\"}'" ]
+}

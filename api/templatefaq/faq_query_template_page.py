@@ -107,12 +107,12 @@ class FaqQueryTemplatePage:
 
 
 # #
-if __name__ == '__main__':
-    actual_result, expect_result = FaqQueryTemplatePage().query_template_page(
-        "https://tkf-kicp.kuaishang.cn", json.dumps(
-            {"templateId": "5", "curPage": 1, "pageSize": 10, "keyword": "瘦脸针", "keyName": "question",
-             "orderName": "modifyTime", "orderBy": "desc"}),
-        'es--template_faq--{"query":{"bool":{"must":[{"match":{"categoryId":0}},{"match":{"templateId":5}},{"match":{"question":"瘦脸针"}}]}},"size":10,"from":0,"sort":[{"modifyTime":{"order":"desc"}}]}')
-    print(actual_result)
-    print(expect_result)
-    assert Assert.get_result(actual_result, expect_result)
+# if __name__ == '__main__':
+#     actual_result, expect_result = FaqQueryTemplatePage().query_template_page(
+#         "https://tkf-kicp.kuaishang.cn", json.dumps(
+#             {"templateId": "5", "curPage": 1, "pageSize": 10, "keyword": "瘦脸针", "keyName": "question",
+#              "orderName": "modifyTime", "orderBy": "desc"}),
+#         'es--template_faq--{"query":{"bool":{"must":[{"match":{"categoryId":0}},{"match":{"templateId":5}},{"match":{"question":"瘦脸针"}}]}},"size":10,"from":0,"sort":[{"modifyTime":{"order":"desc"}}]}')
+#     print(actual_result)
+#     print(expect_result)
+#     assert Assert.get_result(actual_result, expect_result)

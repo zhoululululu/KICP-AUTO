@@ -36,12 +36,12 @@ class FaqUpdateIndexNo:
 
 
 #
-if __name__ == '__main__':
-    actual_result, expect_result = FaqUpdateIndexNo().update_index_no_faq(
-        "https://tkf-kicp.kuaishang.cn",
-        json.dumps({"sourceId": "904"}
-                   ),
-        'code-8')
-    print(actual_result)
-    print(expect_result)
-    assert Assert.get_result(actual_result, expect_result)
+# if __name__ == '__main__':
+#     actual_result, expect_result = FaqUpdateIndexNo().update_index_no_faq(
+#         "https://tkf-kicp.kuaishang.cn",
+#         json.dumps({"sourceId": "904"}
+#                    ),
+#         'code-8')
+#     print(actual_result)
+#     print(expect_result)
+#     assert Assert.get_result(actual_result, expect_result)

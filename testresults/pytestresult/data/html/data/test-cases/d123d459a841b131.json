@@ -1,0 +1,75 @@
+{
+  "uid" : "d123d459a841b131",
+  "name" : "正常保存-编辑关键词问候语为空，关闭关键词问候语",
+  "fullName" : "pytest.test_robot_config.TestRobotConfig#test_robot_greeting_save",
+  "historyId" : "ed25dfe4f93288618929dedb4361afcc",
+  "time" : {
+    "start" : 1600862928391,
+    "stop" : 1600862928442,
+    "duration" : 51
+  },
+  "description" : "\n        机器人欢迎语保存\n        ",
+  "descriptionHtml" : "<pre><code>    机器人欢迎语保存\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "机器人欢迎语保存"
+  }, {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常保存-编辑关键词问候语为空，关闭关键词问候语'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"877\",\"normalGreetingEnable\":\"false\",\"normalGreetingContent\":\"<div>zl-专用查询机器人配置（非空）-通用问候语内容A</div>\",\"keywordGreetingEnable\":\"false\",\"keywordGreetingContent\":\"\",\"userId\":\"11\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "d123d459a841b131.json",
+  "parameterValues" : [ "'code-8'", "'正常保存-编辑关键词问候语为空，关闭关键词问候语'", "'{\"robotId\":\"877\",\"normalGreetingEnable\":\"false\",\"normalGreetingContent\":\"<div>zl-专用查询机器人配置（非空）-通用问候语内容A</div>\",\"keywordGreetingEnable\":\"false\",\"keywordGreetingContent\":\"\",\"userId\":\"11\"}'" ]
+}

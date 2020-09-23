@@ -1,0 +1,111 @@
+{
+  "uid" : "3a7edc8c65f8f560",
+  "name" : "异常保存-仅开启猜你想问，并设置showNumberLimit条数为负数",
+  "fullName" : "pytest.test_robot_config.TestRobotConfig#test_robot_guest_settings_save[异常保存-仅开启猜你想问，并设置showNumberLimit条数为负数-{\"robotId\":\"877\",\"hotQuestion\":{\"robotId\":\"877\",\"hotQuestionEnable\":\"false\",\"hotDataMode\":\"MANUAL_ADD\",\"guideWord\":\"\",\"hotQuestionList\":",
+  "historyId" : "84a213bed3d8fdaa7e1617567df1f0e4",
+  "time" : {
+    "start" : 1600832090405,
+    "stop" : 1600832090472,
+    "duration" : 67
+  },
+  "description" : "\n        机器人访客端保存\n        ",
+  "descriptionHtml" : "<pre><code>    机器人访客端保存\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert None\n +  where None = <function Assert.get_result at 0x0000026B172E7510>('1213', '8')\n +    where <function Assert.get_result at 0x0000026B172E7510> = Assert.get_result",
+  "statusTrace" : "self = <test_robot_config.TestRobotConfig object at 0x0000026B17F84D68>\ndesc = '异常保存-仅开启猜你想问，并设置showNumberLimit条数为负数'\nparams = '{\"robotId\":\"877\",\"hotQuestion\":{\"robotId\":\"877\",\"hotQuestionEnable\":\"false\",\"hotDataMode\":\"MANUAL_ADD\",\"guideWord\":\"\"...\"877\",\"relatedQuestionEnable\":\"false\",\"guideWord\":\"\",\"showNumberLimit\":8,\"userId\":\"11\"},\"userId\":\"11\",\"loaded\":\"true\"}'\nassert_value = 'code-8'\n\n    @pytest.mark.parametrize('desc,params,assert_value', guest_settings_save_data)  # 用例参数化\n    @allure.feature(\"机器人配置\")\n    @allure.story('机器人访客端保存')  # 描述\n    @allure.title('{desc}')  # title\n    @pytest.mark.flaky(returns=0)  # 标记失败后重新运行次数\n    @pytest.mark.robot_config\n    def test_robot_guest_settings_save(self, desc, params, assert_value):\n        \"\"\"\n        机器人访客端保存\n        \"\"\"\n        actual_result, except_result = RobotGuestSettingsSave.guest_settings_save(self.url, params, assert_value)\n>       assert Assert.get_result(actual_result, except_result)\nE       AssertionError: assert None\nE        +  where None = <function Assert.get_result at 0x0000026B172E7510>('1213', '8')\nE        +    where <function Assert.get_result at 0x0000026B172E7510> = Assert.get_result\n\ntest_robot_config.py:269: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600832083565,
+      "stop" : 1600832083565,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600832097920,
+      "stop" : 1600832097920,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "story",
+    "value" : "机器人访客端保存"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "6220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'异常保存-仅开启猜你想问，并设置showNumberLimit条数为负数'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"877\",\"hotQuestion\":{\"robotId\":\"877\",\"hotQuestionEnable\":\"false\",\"hotDataMode\":\"MANUAL_ADD\",\"guideWord\":\"\",\"hotQuestionList\":[],\"userId\":\"11\"},\"wantToask\":{\"robotId\":\"877\",\"wantToAskEnable\":\"true\",\"guideWord\":\"zl测试猜你想问\",\"showNumberLimit\":-3,\"userId\":\"11\"},\"relatedQuestion\":{\"robotId\":\"877\",\"relatedQuestionEnable\":\"false\",\"guideWord\":\"\",\"showNumberLimit\":8,\"userId\":\"11\"},\"userId\":\"11\",\"loaded\":\"true\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "3a7edc8c65f8f560.json",
+  "parameterValues" : [ "'code-8'", "'异常保存-仅开启猜你想问，并设置showNumberLimit条数为负数'", "'{\"robotId\":\"877\",\"hotQuestion\":{\"robotId\":\"877\",\"hotQuestionEnable\":\"false\",\"hotDataMode\":\"MANUAL_ADD\",\"guideWord\":\"\",\"hotQuestionList\":[],\"userId\":\"11\"},\"wantToask\":{\"robotId\":\"877\",\"wantToAskEnable\":\"true\",\"guideWord\":\"zl测试猜你想问\",\"showNumberLimit\":-3,\"userId\":\"11\"},\"relatedQuestion\":{\"robotId\":\"877\",\"relatedQuestionEnable\":\"false\",\"guideWord\":\"\",\"showNumberLimit\":8,\"userId\":\"11\"},\"userId\":\"11\",\"loaded\":\"true\"}'" ]
+}

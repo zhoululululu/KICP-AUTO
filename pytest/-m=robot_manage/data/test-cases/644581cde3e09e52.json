@@ -1,0 +1,105 @@
+{
+  "uid" : "644581cde3e09e52",
+  "name" : "正常查询-更改modify时间",
+  "fullName" : "pytest.test_robot_template_category.TestRobotTemplateCategory#test_query_faq_template_category[正常查询-更改modify时间-{\"templateId\":\"5\",\"keyName\":\"answer\",\"keyword\":\"瘦脸针\",\"modifyTimeFrom\":\"2020-08-01 23:36:52\",\"modifyTimeTo\":\"2020-09-05 23:36:52\"}-es--template_faq_answer--{\"query\":{\"bool\":{\"must\":",
+  "historyId" : "769503e1d2f67b58b2ae394016142b2a",
+  "time" : {
+    "start" : 1600832108317,
+    "stop" : 1600832108377,
+    "duration" : 60
+  },
+  "description" : "\n        预置问答问答对分类信息--查询\n        ",
+  "descriptionHtml" : "<pre><code>    预置问答问答对分类信息--查询\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600832108081,
+      "stop" : 1600832108081,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600832113055,
+      "stop" : 1600832113055,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "预置问答问答对分类信息--查询"
+  }, {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "tag",
+    "value" : "faq_template"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_template_category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotTemplateCategory"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "6220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_template_category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'es--template_faq_answer--{\"query\":{\"bool\":{\"must\":[{\"match\":{\"categoryId\":0}},{\"match\":{\"templateId\":5}},{\"match\":{\"content\":\"瘦脸针\"}},{\"range\":{\"modifyTime\":{\"gt\":\"2020-08-01T23:36:52\",\"lt\":\"2020-09-05T23:36:52\"}}}]}}}'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常查询-更改modify时间'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"templateId\":\"5\",\"keyName\":\"answer\",\"keyword\":\"瘦脸针\",\"modifyTimeFrom\":\"2020-08-01 23:36:52\",\"modifyTimeTo\":\"2020-09-05 23:36:52\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "faq_template" ]
+  },
+  "source" : "644581cde3e09e52.json",
+  "parameterValues" : [ "'es--template_faq_answer--{\"query\":{\"bool\":{\"must\":[{\"match\":{\"categoryId\":0}},{\"match\":{\"templateId\":5}},{\"match\":{\"content\":\"瘦脸针\"}},{\"range\":{\"modifyTime\":{\"gt\":\"2020-08-01T23:36:52\",\"lt\":\"2020-09-05T23:36:52\"}}}]}}}'", "'正常查询-更改modify时间'", "'{\"templateId\":\"5\",\"keyName\":\"answer\",\"keyword\":\"瘦脸针\",\"modifyTimeFrom\":\"2020-08-01 23:36:52\",\"modifyTimeTo\":\"2020-09-05 23:36:52\"}'" ]
+}

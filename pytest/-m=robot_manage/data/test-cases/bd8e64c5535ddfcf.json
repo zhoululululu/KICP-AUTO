@@ -1,0 +1,105 @@
+{
+  "uid" : "bd8e64c5535ddfcf",
+  "name" : "错参-robotId为空",
+  "fullName" : "pytest.test_robot_faq.TestRobotFaq#test_check_question",
+  "historyId" : "058dab440300a7c12eb891a204ea91c1",
+  "time" : {
+    "start" : 1600832100346,
+    "stop" : 1600832100394,
+    "duration" : 48
+  },
+  "description" : "\n        常规问答问答对配置信息--相似性判断--标准问题\n        ",
+  "descriptionHtml" : "<pre><code>    常规问答问答对配置信息--相似性判断--标准问题\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600832097928,
+      "stop" : 1600832097928,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600832102817,
+      "stop" : 1600832102817,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "常规问答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "常规问答问答对配置信息--相似性判断--标准问题"
+  }, {
+    "name" : "tag",
+    "value" : "robot_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "6220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-1100'"
+  }, {
+    "name" : "desc",
+    "value" : "'错参-robotId为空'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\": \"\", \"userId\": \"11\",\"question\": \"没有相似问题\",\"size\": 1}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_faq" ]
+  },
+  "source" : "bd8e64c5535ddfcf.json",
+  "parameterValues" : [ "'code-1100'", "'错参-robotId为空'", "'{\"robotId\": \"\", \"userId\": \"11\",\"question\": \"没有相似问题\",\"size\": 1}'" ]
+}

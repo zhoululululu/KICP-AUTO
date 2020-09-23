@@ -1,0 +1,105 @@
+{
+  "uid" : "12620b9c97f5e81d",
+  "name" : "正常查询-非空查询",
+  "fullName" : "pytest.test_robot_config.TestRobotConfig#test_robot_want_toask_query",
+  "historyId" : "6b4214b0c191a83e4972a7a836af21e1",
+  "time" : {
+    "start" : 1600832094662,
+    "stop" : 1600832094726,
+    "duration" : 64
+  },
+  "description" : "\n        机器人猜你想问查询\n        ",
+  "descriptionHtml" : "<pre><code>    机器人猜你想问查询\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600832083565,
+      "stop" : 1600832083565,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600832097920,
+      "stop" : 1600832097920,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "机器人猜你想问查询"
+  }, {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "6220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'sql-select robotId,wantToAskEnable,guideWord,showNumberLimit,userId from robot_want_toask where robotId=877 and userId = 11'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常查询-非空查询'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"877\",\"userId\":\"11\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "12620b9c97f5e81d.json",
+  "parameterValues" : [ "'sql-select robotId,wantToAskEnable,guideWord,showNumberLimit,userId from robot_want_toask where robotId=877 and userId = 11'", "'正常查询-非空查询'", "'{\"robotId\":\"877\",\"userId\":\"11\"}'" ]
+}

@@ -1,0 +1,111 @@
+{
+  "uid" : "339316712b296b43",
+  "name" : "正常查询",
+  "fullName" : "pytest.test_robot_template_category.TestRobotTemplateCategory#test_check_question",
+  "historyId" : "ff33fb425a76aec7e28ed671dee0df8c",
+  "time" : {
+    "start" : 1600832112585,
+    "stop" : 1600832112674,
+    "duration" : 89
+  },
+  "description" : "\n        预置问答问答对配置信息--验证标准问题\n        ",
+  "descriptionHtml" : "<pre><code>    预置问答问答对配置信息--验证标准问题\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert None\n +  where None = <function Assert.get_result at 0x0000026B172E7510>('1101', '8')\n +    where <function Assert.get_result at 0x0000026B172E7510> = Assert.get_result",
+  "statusTrace" : "self = <test_robot_template_category.TestRobotTemplateCategory object at 0x0000026B180F4C18>\ndesc = '正常查询'\nparams = '{\"userId\": \"11\",\"robotId\": \"877\",\"question\": \"瘦脸针\",\"size\": 10}'\nassert_value = 'code-8'\n\n    @pytest.mark.parametrize('desc,params,assert_value', check_question)  # 用例参数化\n    @allure.feature(\"预置回答问答对配置信息\")\n    @allure.story('预置问答问答对配置信息--验证标准问题')  # 描述\n    @allure.title('{desc}')  # title\n    @pytest.mark.flaky(returns=0)  # 标记失败后重新运行次数\n    @pytest.mark.faq_template\n    def test_check_question(self, desc, params, assert_value):\n        \"\"\"\n        预置问答问答对配置信息--验证标准问题\n        \"\"\"\n        actual_result, expect_result = FaqCheckQuestion.check_question_faq(self.url, params, assert_value)\n>       assert Assert.get_result(actual_result, expect_result)\nE       AssertionError: assert None\nE        +  where None = <function Assert.get_result at 0x0000026B172E7510>('1101', '8')\nE        +    where <function Assert.get_result at 0x0000026B172E7510> = Assert.get_result\n\ntest_robot_template_category.py:137: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600832108081,
+      "stop" : 1600832108081,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600832113055,
+      "stop" : 1600832113055,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "预置问答问答对配置信息--验证标准问题"
+  }, {
+    "name" : "tag",
+    "value" : "faq_template"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_template_category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotTemplateCategory"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "6220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_template_category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常查询'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"userId\": \"11\",\"robotId\": \"877\",\"question\": \"瘦脸针\",\"size\": 10}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "faq_template" ]
+  },
+  "source" : "339316712b296b43.json",
+  "parameterValues" : [ "'code-8'", "'正常查询'", "'{\"userId\": \"11\",\"robotId\": \"877\",\"question\": \"瘦脸针\",\"size\": 10}'" ]
+}

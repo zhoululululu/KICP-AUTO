@@ -22,24 +22,12 @@ class RobotQuery:
         try:
             result = requests.post(url=url + path, data=json.loads(params)).json()
             if "sql" in assert_value and "bean" in result:
-                re_robot_id, re_robot_name, re_nick_name_insite, re_robot_type, re_robot_package, \
-                re_robot_template, re_robot_status, re_add_time, re_user_id = \
-                    result["bean"]["robotId"], result["bean"]["robotName"], result["bean"]["nickNameInsite"], \
-                    result["bean"]["robotType"], result["bean"]["robotPackage"], result["bean"]["robotTemplate"], \
-                    result["bean"]["robotStatus"], result["bean"]["addTime"], result["bean"]["userId"]
-                robot_id, robot_name, nick_name_insite, robot_type, robot_package, robot_template, \
-                robot_status, add_time, user_id = list(
+                re_robot_id, re_robot_name = result["bean"]["robotId"], result["bean"]["robotName"]
+                robot_id, robot_name = list(
                     SqlConnect(
                         "kicp_robot_config").exec_sql(
                         assert_value.split("-")[1])[0])
-                return [re_robot_id, re_robot_name, re_nick_name_insite, re_robot_type, re_robot_package,
-                        re_robot_template, re_robot_status, re_add_time, re_user_id], [str(robot_id), robot_name,
-                                                                                       nick_name_insite,
-                                                                                       robot_type, robot_package,
-                                                                                       robot_template,
-                                                                                       robot_status,
-                                                                                       str(add_time),
-                                                                                       str(user_id)]
+                return [re_robot_id, re_robot_name], [str(robot_id), robot_name]
             elif "message" in assert_value and "message" in result:
                 message = result["message"]
                 except_data = assert_value.split("-")[1]

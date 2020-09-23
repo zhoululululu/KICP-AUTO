@@ -67,12 +67,12 @@ class FaqDeleteCategory:
 
 
 #
-if __name__ == '__main__':
-    actual_result, expect_result = FaqDeleteCategory().delete_category_faq(
-        "https://tkf-kicp.kuaishang.cn",
-        json.dumps({"id": "898"}
-                   ),
-        'code-8')
-    print(actual_result)
-    print(expect_result)
-    assert Assert.get_result(actual_result, expect_result)
+# if __name__ == '__main__':
+#     actual_result, expect_result = FaqDeleteCategory().delete_category_faq(
+#         "https://tkf-kicp.kuaishang.cn",
+#         json.dumps({"id": "898"}
+#                    ),
+#         'code-8')
+#     print(actual_result)
+#     print(expect_result)
+#     assert Assert.get_result(actual_result, expect_result)

@@ -39,6 +39,7 @@ class TestRobotFaqCategory:
     @allure.title('{desc}')  # title
     @pytest.mark.flaky(returns=0)  # 标记失败后重新运行次数
     @pytest.mark.category_faq
+    @pytest.mark.run(order=1)
     def test_query_category(self, desc, params, assert_value):
         """
         常规问答问答对分类信息--查询
@@ -50,8 +51,9 @@ class TestRobotFaqCategory:
     @allure.feature("常规问答问答对分类信息")
     @allure.story('常规问答问答对分类信息--保存')  # 描述
     @allure.title('{desc}')  # title
-    @pytest.mark.flaky(returns=0)  # 标记失败后重新运行次数
+    @pytest.mark.flaky(returns=1)  # 标记失败后重新运行次数
     @pytest.mark.category_faq
+    @pytest.mark.run(order=3)
     def test_save_category(self, desc, params, assert_value):
         """
         常规问答问答对分类信息--保存
@@ -66,6 +68,7 @@ class TestRobotFaqCategory:
     @allure.title('{desc}')  # title
     @pytest.mark.flaky(returns=0)  # 标记失败后重新运行次数
     @pytest.mark.category_faq
+    @pytest.mark.run(order=2)
     def test_delete_category(self, desc, params, assert_value):
         """
         常规问答问答对分类信息--删除
@@ -81,6 +84,7 @@ class TestRobotFaqCategory:
     @allure.title('{desc}')  # title
     @pytest.mark.flaky(returns=0)  # 标记失败后重新运行次数
     @pytest.mark.category_faq
+    @pytest.mark.run(order=4)
     def test_update_index_no(self, desc, params, assert_value):
         """
         常规问答问答对分类信息--修改排序

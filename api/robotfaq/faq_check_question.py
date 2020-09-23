@@ -43,12 +43,12 @@ class FaqCheckQuestion:
 
 
 #
-if __name__ == '__main__':
-    actual_result, expect_result = FaqCheckQuestion().faq_check_question(
-        "https://tkf-kicp.kuaishang.cn",
-        json.dumps({"robotId": "877", "userId": "11", "question": "111", "size": "1"})
-        ,
-        'code-8')
-    print(actual_result)
-    print(expect_result)
-    assert Assert.get_result(actual_result, expect_result)
+# if __name__ == '__main__':
+#     actual_result, expect_result = FaqCheckQuestion().faq_check_question(
+#         "https://tkf-kicp.kuaishang.cn",
+#         json.dumps({"robotId": "877", "userId": "11", "question": "111", "size": "1"})
+#         ,
+#         'code-8')
+#     print(actual_result)
+#     print(expect_result)
+#     assert Assert.get_result(actual_result, expect_result)

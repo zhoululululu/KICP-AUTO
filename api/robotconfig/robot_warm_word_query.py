@@ -72,10 +72,10 @@ class RobotWarmWordQuery:
             raise Exception
 
 #
-if __name__ == '__main__':
-    actual_result, except_result = RobotWarmWordQuery().warm_word_query("https://tkf-kicp.kuaishang.cn", json.dumps(
-        {"robotId": "877", "userId": "11"}),
-                                                                        "sql-select ww.robotId,ww.warmResponseEnable,ww.getContactDontSendEnable,ww.warmResponseEnable,ww.warmSendLimitNums,wwl.recordId,wwl.robotId,wwl.intervalSeconds,wwl.responseContent,wwl.indexNo,ww.userId from robot_warm_word ww,robot_warm_word_list wwl where ww.robotId =877 and ww.userId = 11 and ww.userId = wwl.userId and wwl.robotId = ww.robotId")
-    print(actual_result)
-    print(except_result)
+# if __name__ == '__main__':
+#     actual_result, except_result = RobotWarmWordQuery().warm_word_query("https://tkf-kicp.kuaishang.cn", json.dumps(
+#         {"robotId": "877", "userId": "11"}),
+#                                                                         "sql-select ww.robotId,ww.warmResponseEnable,ww.getContactDontSendEnable,ww.warmResponseEnable,ww.warmSendLimitNums,wwl.recordId,wwl.robotId,wwl.intervalSeconds,wwl.responseContent,wwl.indexNo,ww.userId from robot_warm_word ww,robot_warm_word_list wwl where ww.robotId =877 and ww.userId = 11 and ww.userId = wwl.userId and wwl.robotId = ww.robotId")
+#     print(actual_result)
+#     print(except_result)
     # assert Assert.get_result(actual_result, except_result)

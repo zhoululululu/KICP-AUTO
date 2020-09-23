@@ -1,0 +1,105 @@
+{
+  "uid" : "be27477307441f36",
+  "name" : "正常保存-开启暖场语(暖场语为空）",
+  "fullName" : "pytest.test_robot_config.TestRobotConfig#test_robot_warm_word_save[正常保存-开启暖场语(暖场语为空）-{\"robotId\":\"358\",\"warmResponseEnable\":\"true\",\"getContactDontSendEnable\":true,\"warmSendLimitEnable\":true,\"warmSendLimitNums\":5,\"warmWordList\":",
+  "historyId" : "582888f9e24c2fb03029245e49d8298e",
+  "time" : {
+    "start" : 1600832088189,
+    "stop" : 1600832088236,
+    "duration" : 47
+  },
+  "description" : "\n        机器人暖场语保存\n        ",
+  "descriptionHtml" : "<pre><code>    机器人暖场语保存\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600832083565,
+      "stop" : 1600832083565,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600832097920,
+      "stop" : 1600832097920,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "机器人暖场语保存"
+  }, {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "6220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常保存-开启暖场语(暖场语为空）'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"358\",\"warmResponseEnable\":\"true\",\"getContactDontSendEnable\":true,\"warmSendLimitEnable\":true,\"warmSendLimitNums\":5,\"warmWordList\":[],\"userId\":\"11\",\"loaded\":true}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "be27477307441f36.json",
+  "parameterValues" : [ "'code-8'", "'正常保存-开启暖场语(暖场语为空）'", "'{\"robotId\":\"358\",\"warmResponseEnable\":\"true\",\"getContactDontSendEnable\":true,\"warmSendLimitEnable\":true,\"warmSendLimitNums\":5,\"warmWordList\":[],\"userId\":\"11\",\"loaded\":true}'" ]
+}

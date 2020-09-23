@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "03ef4dc3fbfc9728ed9288d04fd2a938",
+    "name" : "预置回答问答对配置信息",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "d89f4d0ae4665d5b617417ea9d5a5b51",
+    "name" : "机器人配置",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 22
+    }
+  }, {
+    "uid" : "58726fbd1864f5d2c9d2fa1b96d5edd0",
+    "name" : "常规问答问答对配置信息",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "629c1badb22292792d04106b34484590",
+    "name" : "常规问答问答对分类信息",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "95aeb49be23509cd6421d358062e7500",
+    "name" : "机器人管理",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 9
+    }
+  } ]
+}

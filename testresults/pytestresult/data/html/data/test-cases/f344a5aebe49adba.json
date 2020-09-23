@@ -1,0 +1,105 @@
+{
+  "uid" : "f344a5aebe49adba",
+  "name" : "正常保存-关闭保存",
+  "fullName" : "pytest.test_robot_config.TestRobotConfig#test_robot_hot_question_save[正常保存-关闭保存-{\"robotId\":\"877\",\"hotQuestionEnable\":\"true\",\"hotDataMode\":\"MANUAL_ADD\",\"guideWord\":\"通过热点接口添加-热点问题\",\"hotQuestionList\":",
+  "historyId" : "e770ac04d08c71ffec8ee2c358195b12",
+  "time" : {
+    "start" : 1600862938242,
+    "stop" : 1600862938339,
+    "duration" : 97
+  },
+  "description" : "\n        机器人热点问题保存\n        ",
+  "descriptionHtml" : "<pre><code>    机器人热点问题保存\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600862925579,
+      "stop" : 1600862925579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600862938974,
+      "stop" : 1600862938974,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "机器人配置"
+  }, {
+    "name" : "story",
+    "value" : "机器人热点问题保存"
+  }, {
+    "name" : "tag",
+    "value" : "robot_config"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_config"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotConfig"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_config"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'code-8'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常保存-关闭保存'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"robotId\":\"877\",\"hotQuestionEnable\":\"true\",\"hotDataMode\":\"MANUAL_ADD\",\"guideWord\":\"通过热点接口添加-热点问题\",\"hotQuestionList\":[{\"id\":\"101305407436324864\",\"question\":\"zl-test分类测试问题2\",\"similarQuestionCount\":1,\"effectiveType\":0,\"userId\":\"11\",\"robotId\":\"877\",\"modifyTime\":\"2020-09-17 23:56:43\",\"key\":\"101305407436324864\",\"isFind\":true,\"faqId\":\"101305407436324864\",\"hotDataMode\":\"MANUAL_ADD\"}],\"userId\":\"11\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_config" ]
+  },
+  "source" : "f344a5aebe49adba.json",
+  "parameterValues" : [ "'code-8'", "'正常保存-关闭保存'", "'{\"robotId\":\"877\",\"hotQuestionEnable\":\"true\",\"hotDataMode\":\"MANUAL_ADD\",\"guideWord\":\"通过热点接口添加-热点问题\",\"hotQuestionList\":[{\"id\":\"101305407436324864\",\"question\":\"zl-test分类测试问题2\",\"similarQuestionCount\":1,\"effectiveType\":0,\"userId\":\"11\",\"robotId\":\"877\",\"modifyTime\":\"2020-09-17 23:56:43\",\"key\":\"101305407436324864\",\"isFind\":true,\"faqId\":\"101305407436324864\",\"hotDataMode\":\"MANUAL_ADD\"}],\"userId\":\"11\"}'" ]
+}

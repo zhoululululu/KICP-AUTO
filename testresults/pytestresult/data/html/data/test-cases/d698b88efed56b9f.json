@@ -1,0 +1,105 @@
+{
+  "uid" : "d698b88efed56b9f",
+  "name" : "正常查询-查询keyName = answer",
+  "fullName" : "pytest.test_robot_faq.TestRobotFaq#test_search_standard_questions[正常查询-查询keyName = answer-{\"templateId\": \"5\",\"keyName\":\"answer\",\"curPage\":1,\"pageSize\":10}-esanswer--template_faq_answer--{\"query\":{\"match\":{\"templateId\":5}},\"sort\":[{\"modifyTime\":{\"order\":\"desc\"}}],\"size\":10,\"from\":0,\"_source\":",
+  "historyId" : "8221dce468bd7b6dc3c3074724bc6dba",
+  "time" : {
+    "start" : 1600862946102,
+    "stop" : 1600862946174,
+    "duration" : 72
+  },
+  "description" : "\n        预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据\n        ",
+  "descriptionHtml" : "<pre><code>    预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600862938984,
+      "stop" : 1600862938984,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600862947464,
+      "stop" : 1600862947464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "预置回答问答对配置信息--根据分类和模板Id，模糊查询问题/答案分页数据"
+  }, {
+    "name" : "tag",
+    "value" : "robot_template_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'esanswer--template_faq_answer--{\"query\":{\"match\":{\"templateId\":5}},\"sort\":[{\"modifyTime\":{\"order\":\"desc\"}}],\"size\":10,\"from\":0,\"_source\":[\"id\",\"content\",\"parentFAQId\",\"templateId\",\"modifyTime\"]}'"
+  }, {
+    "name" : "desc",
+    "value" : "'正常查询-查询keyName = answer'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"templateId\": \"5\",\"keyName\":\"answer\",\"curPage\":1,\"pageSize\":10}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_template_faq" ]
+  },
+  "source" : "d698b88efed56b9f.json",
+  "parameterValues" : [ "'esanswer--template_faq_answer--{\"query\":{\"match\":{\"templateId\":5}},\"sort\":[{\"modifyTime\":{\"order\":\"desc\"}}],\"size\":10,\"from\":0,\"_source\":[\"id\",\"content\",\"parentFAQId\",\"templateId\",\"modifyTime\"]}'", "'正常查询-查询keyName = answer'", "'{\"templateId\": \"5\",\"keyName\":\"answer\",\"curPage\":1,\"pageSize\":10}'" ]
+}

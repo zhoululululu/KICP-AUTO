@@ -1,0 +1,105 @@
+{
+  "uid" : "cbccb461acebeab",
+  "name" : "空查询-查询不存在的faq",
+  "fullName" : "pytest.test_robot_faq.TestRobotFaq#test_query_template_query_page[空查询-查询不存在的faq-{\"templateId\": 5,\"pageSize\": 10,\"categoryId\":111}-bean-{\"resultlist\": ",
+  "historyId" : "3acce88d3061b9e8fb15499c2ff296aa",
+  "time" : {
+    "start" : 1600862945667,
+    "stop" : 1600862945719,
+    "duration" : 52
+  },
+  "description" : "\n        预置回答问答对配置信息--根据分类和模板Id查询问题分页数据\n        ",
+  "descriptionHtml" : "<pre><code>    预置回答问答对配置信息--根据分类和模板Id查询问题分页数据\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600862938984,
+      "stop" : 1600862938984,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600862947464,
+      "stop" : 1600862947464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "预置回答问答对配置信息"
+  }, {
+    "name" : "story",
+    "value" : "预置回答问答对配置信息--根据分类和模板Id查询问题分页数据"
+  }, {
+    "name" : "tag",
+    "value" : "robot_template_faq"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest"
+  }, {
+    "name" : "suite",
+    "value" : "test_robot_faq"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRobotFaq"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.test_robot_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_value",
+    "value" : "'bean-{\"resultlist\": [], \"totalrecord\": 0, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 1, \"beginIndex\": 0}'"
+  }, {
+    "name" : "desc",
+    "value" : "'空查询-查询不存在的faq'"
+  }, {
+    "name" : "params",
+    "value" : "'{\"templateId\": 5,\"pageSize\": 10,\"categoryId\":111}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "robot_template_faq" ]
+  },
+  "source" : "cbccb461acebeab.json",
+  "parameterValues" : [ "'bean-{\"resultlist\": [], \"totalrecord\": 0, \"curPage\": 1, \"pageSize\": 10, \"totalPage\": 1, \"beginIndex\": 0}'", "'空查询-查询不存在的faq'", "'{\"templateId\": 5,\"pageSize\": 10,\"categoryId\":111}'" ]
+}

@@ -32,7 +32,6 @@ class FaqChangeStatus:
             else:
                 return result, assert_value
         except Exception:
-            print(Exception)
             raise Exception
 
 
